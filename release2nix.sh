@@ -264,9 +264,12 @@ reformat_nix() {
   if [ -n "${2:-}" ]; then
       mv "$1" "$2"
       shift
+  else 
+      echo "none"
   fi
-  nixfmt "$1" >& /dev/null || true
   >&2 echo "Wrote $1"
+  # nixfmt "$1" >& /dev/null || true
+  # >&2 echo "Wrote $1"
 }
 
 generate_hashes_release() {
