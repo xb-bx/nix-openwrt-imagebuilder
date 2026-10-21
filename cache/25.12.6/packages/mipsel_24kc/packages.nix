@@ -4,21 +4,21 @@ version = "20230206.0-r3";
 filename = "UDPspeeder-20230206.0-r3.apk";
 depends = [ "libatomic1" "libc" "librt" "libstdcpp6" ];
 provides = [ "UDPspeeder-any" ];
-sha256 = "4b8e022c8afdea13e7b88c38da0451554ed29f5885084270e8f0e0e2f0d2f01a";
+sha256 = "057939f4d77467afbee1254e38ca5ddb54c122c7309804ba494efc691bde333f";
 };
 aardvark-dns = {
 version = "1.12.2-r1";
 filename = "aardvark-dns-1.12.2-r1.apk";
 depends = [ "libc" ];
 provides = [ "aardvark-dns-any" ];
-sha256 = "9259d1f296d3673f4fa0144ef5c79461cfae7b4a50f47817a411b492453c1736";
+sha256 = "9d895122b4e678fe58b8079c9e892ab0d5640eefd3a1b98e5fb822cb2d8b1931";
 };
 abseil-cpp = {
 version = "20240722.1-r1";
 filename = "abseil-cpp-20240722.1-r1.apk";
 depends = [ "libc" "libpthread" "libstdcpp6" ];
 provides = [ "abseil-cpp-any" ];
-sha256 = "72ea68ffdcad7bc396e022a50245145fa05afe46de627eb52d6e42d27d8f0d39";
+sha256 = "60d77c4c8a29e8f71a4f8bde42d411e779ff5fb892b3aae295a2d31fadb07d4f";
 };
 ack = {
 version = "3.9.0.5.40-r1";
@@ -53,7 +53,7 @@ version = "1.5.3";
 filename = "acme-common-1.5.3.apk";
 depends = [ "libc" ];
 provides = [ "acme-common-any" ];
-sha256 = "3a6f839db602934525101babf70a5b8b2dc0958eb721f18ebfb192c47fa0ece5";
+sha256 = "2b8ea36fbc8e74bbcaec26e87a0555845169324f92fc9dcc29d5e0b7b305f662";
 };
 acpid = {
 version = "2.0.34-r1";
@@ -74,14 +74,14 @@ version = "4.5.9-r4";
 filename = "adblock-4.5.9-r4.apk";
 depends = [ "ca-bundle" "coreutils" "coreutils-sort" "firewall4" "gawk" "jshn" "jsonfilter" "libc" "rpcd" "rpcd-mod-rpcsys" ];
 provides = [ "adblock-any" ];
-sha256 = "002386aec0486e3d3a4a99ca0ad9756b69dcd191ab93cf3d04cc5844c39a874d";
+sha256 = "f70cbcaae2f6a6fd1d648c5bb744422854fe776bcdf372986efef62e43d88b31";
 };
 adblock-fast = {
 version = "1.2.4-r4";
 filename = "adblock-fast-1.2.4-r4.apk";
 depends = [ "curl" "libc" "resolveip" "ucode" "ucode-mod-fs" "ucode-mod-ubus" "ucode-mod-uci" "ucode-mod-uloop" ];
 provides = [ "adblock-fast-any" ];
-sha256 = "73bca111c2db1e507b6650dd8949d793fb7801b9fdd7171e01a490a929b36f3b";
+sha256 = "617da64601867e54b558108f1bbd5be35d02d3f0ea2903b15091bf0d1ceac7e8";
 };
 addrwatch = {
 version = "1.0.2-r3";
@@ -116,7 +116,7 @@ version = "0.107.79-r1";
 filename = "adguardhome-0.107.79-r1.apk";
 depends = [ "ca-bundle" "libc" ];
 provides = [ "adguardhome-any" ];
-sha256 = "b24e1a07f35a75e697bbf065019fc3eeff73ed51e8b1becf8026de05a6f228f6";
+sha256 = "ab3c3858baf89f7d50a289ae8c704de264bcf4e02e3e7bf601bce3b02cf9628b";
 };
 afuse = {
 version = "0.4.1-r1";
@@ -151,21 +151,21 @@ version = "1-r1";
 filename = "airos-dfs-reset-1-r1.apk";
 depends = [ "dropbear" "libc" ];
 provides = [ "airos-dfs-reset-any" ];
-sha256 = "981cad4739c34c9457d9e9a8f16286620907b26818fe8533cdd2d50a9167b3bb";
+sha256 = "611c5236aec36b9670ddf7d30b2cc548d50fba969959ff2d4b3e92bee8c09833";
 };
 aliyun-cli = {
 version = "3.4.0-r1";
 filename = "aliyun-cli-3.4.0-r1.apk";
 depends = [ "ca-bundle" "libc" ];
 provides = [ "aliyun-cli-any" ];
-sha256 = "9863ef6308e1b14aa7c4066d273df4ef8833588caeb70c97bc03faccc9fdf56c";
+sha256 = "63ea49585bee93f8fa0aa76ad750510750890f3e02fc297ac97a1167201e0d02";
 };
 alpine = {
 version = "2.25-r5";
 filename = "alpine-2.25-r5.apk";
 depends = [ "libc" "libncurses6" "libopenssl3" "libpam" "libpthread" ];
 provides = [ "alpine-any" ];
-sha256 = "30967c130e5a15c7259a4cbeb97457d65c3bf70bf85afdccf2a2ac6b0b1c59e7";
+sha256 = "2854c8978af4c8918a7b4608eb591c400df3f17faedbae1a90f93ed1cb5dad8a";
 };
 alsa-lib = {
 version = "1.2.11-r1";
@@ -298,7 +298,7 @@ version = "8.4.21-r1";
 filename = "apache-mod-php8-8.4.21-r1.apk";
 depends = [ "apache" "libc" "libpcre2" "libstdcpp6" "php8" "zlib" ];
 provides = [ "apache-mod-php8-any" ];
-sha256 = "24d1e02b256df33e1b3d6a92f1be75d1ec82e624e397d8e6ff6670ec9cd00611";
+sha256 = "0901f72261a2f962d69931cbc1bc071184f976370bb2b20b53ab5dfecf835b54";
 };
 apache-mod-proxy = {
 version = "2.4.65-r1";
@@ -410,7 +410,7 @@ version = "1.37.0-r3";
 filename = "aria2-1.37.0-r3.apk";
 depends = [ "aria2-openssl" "libc" "libstdcpp6" "zlib" ];
 provides = [ "aria2-any" ];
-sha256 = "4da63e06c24266154a7f160c6bda552895165b01230a6ecb26932e8a634cfc20";
+sha256 = "0b6104a22b4a91610f3c83002629c738ef667863794d6252f35929794b306ab9";
 };
 aria2-openssl = {
 version = "1.37.0-r3";
@@ -494,14 +494,14 @@ version = "2.12.0-r1";
 filename = "atop-2.12.0-r1.apk";
 depends = [ "glib2" "libc" "libncurses6" "zlib" ];
 provides = [ "atop-any" ];
-sha256 = "8c2dd9d0245907490670bcb107a651740bb920c46c82f35919b9cead408cd68e";
+sha256 = "4587bd73040666e3184b3599a100d8029ddb67e62517dd6b1cce114da6670e1d";
 };
 attendedsysupgrade-common = {
 version = "10";
 filename = "attendedsysupgrade-common-10.apk";
 depends = [ "libc" "rpcd" "rpcd-mod-rpcsys" ];
 provides = [ "attendedsysupgrade-common-any" ];
-sha256 = "5a1b02296ea707074937eefea4cc9229b70e4fe95629341ede1b4b15a5d087cd";
+sha256 = "64c664f81ed69b6383ec80987e6ce23e9ddf6d386685a41f9f928a96e84da694";
 };
 attr = {
 version = "2.5.2-r3";
@@ -515,7 +515,7 @@ version = "1.14.1-r1";
 filename = "augeas-1.14.1-r1.apk";
 depends = [ "libc" "libncurses6" "libreadline8" "libxml2-16" ];
 provides = [ "augeas-any" ];
-sha256 = "18f4e56d428b0570feff4d1db0b3d7ac154afb31f1e369fe4108c60f642b2eb0";
+sha256 = "e8c3beb22fb6847c075377f63c27541fa64459ed4978181dca94f125aae54d06";
 };
 augeas-lenses = {
 version = "1.14.1-r1";
@@ -550,7 +550,7 @@ version = "1.0-r1";
 filename = "autopart-1.0-r1.apk";
 depends = [ "libc" "lvm2" "partx-utils" "sfdisk" ];
 provides = [ "autopart-any" ];
-sha256 = "bc08585b6542cd074646d3ebc3732773ddedc1567796442d3bd0b8449e6d8122";
+sha256 = "38f79e135a230bda912e74016778ef20edbd40f214b7d74db577299f4c99ee27";
 };
 autossh = {
 version = "1.4g-r5";
@@ -627,7 +627,7 @@ version = "1.9.1-r2";
 filename = "banip-1.9.1-r2.apk";
 depends = [ "ca-bundle" "firewall4" "gawk" "jshn" "jsonfilter" "libc" "rpcd" "rpcd-mod-rpcsys" ];
 provides = [ "banip-any" ];
-sha256 = "4bec71374c19e950b20ca63a09db273a059f4da61df5ac966249e5b84bdbf3fc";
+sha256 = "3d61483f4bb7b7e24b92d8b3ee5b3ea37d117ff9077d7a46fc591b18e55f788b";
 };
 base16384 = {
 version = "2.3.2-r1";
@@ -662,7 +662,7 @@ version = "5-r12";
 filename = "bcp38-5-r12.apk";
 depends = [ "libc" ];
 provides = [ "bcp38-any" ];
-sha256 = "cce92b05fb3cc54f551c50417d49fa51a362cd937692099a699987bb4c1080fe";
+sha256 = "06169df7672a4dcfe218dd2ccba5a2e7665319e66ebedbcbcb42a9e9f6f95c2a";
 };
 beanstalkd = {
 version = "1.13-r1";
@@ -781,7 +781,7 @@ version = "9.20.29-r1";
 filename = "bind-server-9.20.29-r1.apk";
 depends = [ "bind-libs" "bind-rndc" "libc" "libcap" ];
 provides = [ "bind-server-any" ];
-sha256 = "dc53476b73c98047095d656bd927381a44001f7e3367cb359c33fc2c7eec4bc0";
+sha256 = "b337f2d107c6a100c05acfafd93f9609b13b229c8d15a9daf3971da0d635a4b0";
 };
 bind-server-filter-aaaa = {
 version = "9.20.29-r1";
@@ -809,7 +809,7 @@ version = "3.6-r1";
 filename = "bitlbee-3.6-r1.apk";
 depends = [ "glib2" "libc" "libopenssl3" ];
 provides = [ "bitlbee-any" ];
-sha256 = "76b1e1eca6ab2e03d7f4fac2c9095c7c2bdf513616fe3967dfb6bab338d5e34c";
+sha256 = "6b05aae27ff47693742be1b75442f6c72cb9f8c6fc43720ec9c1b69468aee31c";
 };
 bluelog = {
 version = "1.1.2-r5";
@@ -830,7 +830,7 @@ version = "5.83-r1";
 filename = "bluez-daemon-5.83-r1.apk";
 depends = [ "bluez-libs" "bluez-utils" "bluez-utils-extra" "dbus" "glib2" "libc" "libical" "libncurses6" "libreadline8" ];
 provides = [ "bluez-daemon-any" ];
-sha256 = "9d43085f671120af318de99d9af69843fab0162d96eb0f517d00255b066ef76b";
+sha256 = "331b2a44a3bf7fc7a48663ce25c6f4f8ceca447c065d7c1dc7d52e53d24b5d82";
 };
 bluez-libs = {
 version = "5.83-r1";
@@ -858,14 +858,14 @@ version = "5.83-r1";
 filename = "bluez-utils-btmon-5.83-r1.apk";
 depends = [ "bluez-libs" "glib2" "libc" ];
 provides = [ "bluez-utils-btmon-any" ];
-sha256 = "fa7057d5de250012b1561ce023d78083844d18e25c0ebbe7edda28cddd62c0c9";
+sha256 = "5ca01f540f045e2c635bb746070667a1fd2b72555478cead8b3119b9786f621d";
 };
 bluez-utils-extra = {
 version = "5.83-r1";
 filename = "bluez-utils-extra-5.83-r1.apk";
 depends = [ "bluez-libs" "dbus" "glib2" "libc" "libncurses6" "libpthread" "libreadline8" "librt" ];
 provides = [ "bluez-utils-extra-any" ];
-sha256 = "270a42867f4af7eddac7cb814e6e3f96d163bdcadb5661fe403b1c1f8bf3dd9e";
+sha256 = "f5b5c0e3226e21c199fc75fffc90dac68b2f8b123da399e82dc499c439a85312";
 };
 bluld = {
 version = "1.1.3-r1";
@@ -886,7 +886,7 @@ version = "0.1-r3";
 filename = "bmx7-dnsupdate-0.1-r3.apk";
 depends = [ "bmx7" "bmx7-json" "inotifywait" "jshn" "libc" ];
 provides = [ "bmx7-dnsupdate-any" ];
-sha256 = "6df443b5a6880f44a16a21098762d74227f65814b9e3a6be2cc9897cfec6165d";
+sha256 = "80a372e70321e3bb097d1270f31f2cdc1aad534f9c3b1b023f4051cc06eba179";
 };
 bogofilter = {
 version = "1.3.0_rc1-r1";
@@ -907,7 +907,7 @@ version = "26018-r1";
 filename = "boinc-wrapper-26018-r1.apk";
 depends = [ "libc" "libstdcpp6" ];
 provides = [ "boinc-wrapper-any" ];
-sha256 = "26e807a883ce763ed8bb10a5686eff8a3c5060e45295437ce6363cfe396ea2e6";
+sha256 = "4eeea884654bf7b964cde7340be381dc08dc3a30572a884b679c9eb428531c13";
 };
 bonniexx = {
 version = "2.00a-r1";
@@ -1152,7 +1152,7 @@ version = "1.4.3-r1";
 filename = "borgbackup-1.4.3-r1.apk";
 depends = [ "libacl" "libc" "liblz4-1" "libopenssl3" "libxxhash" "libzstd" "python3-codecs" "python3-email" "python3-light" "python3-logging" "python3-lzma" "python3-msgpack" "python3-openssl" "python3-packaging" "python3-readline" "python3-unittest" "python3-urllib" "python3-uuid" ];
 provides = [ "borgbackup-any" ];
-sha256 = "85466a9dcec5596d2daa9752d1d814cab9f26962b515f2875247945e10539105";
+sha256 = "2b7335a9fe22e71ef9d4751f7785cde1324bac3995ea1b71575397e9250f7098";
 };
 borgbackup-src = {
 version = "1.4.3-r1";
@@ -1201,14 +1201,14 @@ version = "6";
 filename = "bsbf-autoconf-cellular-6.apk";
 depends = [ "libc" ];
 provides = [ "bsbf-autoconf-cellular-any" ];
-sha256 = "eca41b41831aa3d2a39197de1c7df40f4e404c822ce265f0b3b636c038dd3905";
+sha256 = "e67f25ef70d8244b737ca92623167603d4c33f3b81fc91d635e22b92f20ddd06";
 };
 bsbf-autoconf-dhcp = {
 version = "6";
 filename = "bsbf-autoconf-dhcp-6.apk";
 depends = [ "libc" ];
 provides = [ "bsbf-autoconf-dhcp-any" ];
-sha256 = "ce808a59aee329f86c3832b72bb5fc1b2130ea12190ed3c3e677c5d90aef84b1";
+sha256 = "27b78cda4d7f22c3e456f30f1b3bf2d777165093706a07a0362d417caea558b1";
 };
 bsbf-bonding = {
 version = "2026.08.29~60f0d20f-r1";
@@ -1327,21 +1327,21 @@ version = "2.4.0-r1";
 filename = "cache-domains-mbedtls-2.4.0-r1.apk";
 depends = [ "bash" "ca-bundle" "dnsmasq" "jq" "libc" "libustream-mbedtls20201210" ];
 provides = [ "cache-domains-mbedtls-any" ];
-sha256 = "72614bc9b850ff13ffc510d9ed988ee765614fec47efe64989247c26521c751c";
+sha256 = "f5c7a28a7958e02f74aa0c860b6e91a01d9fa7611c7c81db6d9433bd7a7ecd2c";
 };
 cache-domains-openssl = {
 version = "2.4.0-r1";
 filename = "cache-domains-openssl-2.4.0-r1.apk";
 depends = [ "bash" "ca-bundle" "dnsmasq" "jq" "libc" "libustream-openssl20201210" ];
 provides = [ "cache-domains-openssl-any" ];
-sha256 = "b5929b9ffb007b588be0103fc6a0de28b9c2679c96371c16f8b1db7c6fd7252b";
+sha256 = "800e99e5393c727f2b0fe682e3ea1e8a9cdca3cdb02e10f6286f2964476347e0";
 };
 cache-domains-wolfssl = {
 version = "2.4.0-r1";
 filename = "cache-domains-wolfssl-2.4.0-r1.apk";
 depends = [ "bash" "ca-bundle" "dnsmasq" "jq" "libc" "libustream-wolfssl20201210" ];
 provides = [ "cache-domains-wolfssl-any" ];
-sha256 = "c1ee4c0b0956d0816884f5b8a91e4a83f3fe070c2a3e4fcbd3c00e790ed5bb01";
+sha256 = "325328afa6ee80a4b30fd03b32ade6826c4e8ef6de5d497bf9abe6882e0f8755";
 };
 canutils = {
 version = "2025.01-r1";
@@ -1663,7 +1663,7 @@ version = "5.2.0-r2";
 filename = "chicken-scheme-full11-5.2.0-r2.apk";
 depends = [ "coreutils-install" "gcc" "libc" ];
 provides = [ "chicken-scheme-full" "chicken-scheme-full-any" ];
-sha256 = "5e5b3ce31dc7953206ae49e1f1b65d06850a7742ab5c1d6835c0afe9276d2855";
+sha256 = "9e31dd4c535a659fb80580faf3a6dbd01e781e1a3fba3f1666e02924f660cadd";
 };
 chicken-scheme-interpreter11 = {
 version = "5.2.0-r2";
@@ -1677,7 +1677,7 @@ version = "4.8-r2";
 filename = "chrony-4.8-r2.apk";
 depends = [ "libc" "libcap" "libpthread" ];
 provides = [ "chrony-any" ];
-sha256 = "9ea2f4c2812bd00188828bec291ce87d16dddd604fe0fe664fae10f3a673b141";
+sha256 = "79c133790058a726a19cf12fef17b0afbed154abbdc614af35ba7129fc1604a3";
 };
 chrony-nts = {
 version = "4.8-r2";
@@ -1705,14 +1705,14 @@ version = "7.6.0-r1";
 filename = "cligen-7.6.0-r1.apk";
 depends = [ "libc" "libxml2-16" ];
 provides = [ "cligen-any" ];
-sha256 = "87cd5e16708817963fac59d401eb7fce8d939df48de3de0dbd40a4ec2770e732";
+sha256 = "3e225acc8204490a2ad8d1299802d73eba4461bd8f9543c2fc5fc9e79f4c9b85";
 };
 clixon = {
 version = "7.6.0-r1";
 filename = "clixon-7.6.0-r1.apk";
 depends = [ "cligen" "libc" "libcurl4" "libnghttp2-14" "libopenssl3" ];
 provides = [ "clixon-any" ];
-sha256 = "12547969fca66046821b1421120db3faba9f5b50b9a678734beb8d000afffd53";
+sha256 = "f2314ddea3a6644543e8c5c6f6503485e1363b426a91ed9c5d62bf4681f7a35b";
 };
 clocate = {
 version = "2023.01.20~510cc944-r1";
@@ -1726,35 +1726,35 @@ version = "2026.8.3-r1";
 filename = "cloudflared-2026.8.3-r1.apk";
 depends = [ "ca-bundle" "libc" ];
 provides = [ "cloudflared-any" ];
-sha256 = "2f40f9942dc0e9e332c2bd748d8dbf6672106c2c8abb5b4fe7c2088a3662ef6a";
+sha256 = "2a5b4bafbc45865d73083b49dbfddf086317f692f66e0ce11369817869873efc";
 };
 cni = {
 version = "1.1.2-r1";
 filename = "cni-1.1.2-r1.apk";
 depends = [ "libc" ];
 provides = [ "cni-any" ];
-sha256 = "74eaf04c942200365f091aca1d801b71f87da299ff77057b665e47d8e03878a2";
+sha256 = "0524c4a2d82e46313ebde1d4d3c93b932fa58d3d091d1084ce5e0a5ba5821632";
 };
 cni-plugins = {
 version = "1.1.1-r2";
 filename = "cni-plugins-1.1.1-r2.apk";
 depends = [ "ip-full" "kmod-veth" "libc" ];
 provides = [ "cni-plugins-any" ];
-sha256 = "d904a1aa30100b29891234fc6505ebb6184a1cbed3e2b59a211cbe538413d39d";
+sha256 = "9ce9fc340e5519cd5f54730a3e541e29040569849736eac7e044dd6063518ae4";
 };
 cni-plugins-nft = {
 version = "1.0.12-r2";
 filename = "cni-plugins-nft-1.0.12-r2.apk";
 depends = [ "libc" "nftables" ];
 provides = [ "cni-plugins-nft-any" ];
-sha256 = "0be59e27c0b6805720fc2fe2f9b125fe0339dd875b1efb081bb6fb55211c8bf3";
+sha256 = "46c4f2193df2ec4188807ffc3d3ed9ede847921bb527c4a4240d0dca9d108fc6";
 };
 cni-route-override = {
 version = "0.1-r2";
 filename = "cni-route-override-0.1-r2.apk";
 depends = [ "libc" ];
 provides = [ "cni-route-override-any" ];
-sha256 = "2d72abf815613dbe08ff9c8d6823d8a714800247c3a08f5fb02a75ec32217dbe";
+sha256 = "c32bc7a185eaf63ea0ebc5f7a8a26c6232bc420eecaa3dc8567bee7032b44d53";
 };
 coap-client = {
 version = "4.3.0-r2";
@@ -2321,7 +2321,7 @@ version = "2.1.12-r1";
 filename = "conmon-2.1.12-r1.apk";
 depends = [ "glib2" "libc" ];
 provides = [ "conmon-any" ];
-sha256 = "a2992d4f649d7675e842dd60f46ad625adbac64d826363c6362f080c3dc511c2";
+sha256 = "98c2101031c9f13915745162d40948217c0ca3699f9a148b18e436db8a5baffc";
 };
 conntrack = {
 version = "1.4.8-r1";
@@ -3105,14 +3105,14 @@ version = "6.12.112-r1";
 filename = "cpupower-6.12.112-r1.apk";
 depends = [ "libc" "libpci" ];
 provides = [ "cpupower-any" ];
-sha256 = "06fb5e92d040de50d55aeee0cd18cf48f36394c9017bc44472a3f9af7d96e8e5";
+sha256 = "de939a6508b3f86b877e7de6ca86a08ea769138f9097ad24f0d80cad6c88528c";
 };
 cpusage = {
 version = "1";
 filename = "cpusage-1.apk";
 depends = [ "libc" ];
 provides = [ "cpusage-any" ];
-sha256 = "534bc66b5e711d64924fbfe2ceedb422051707e76489908b5899c4c11b7da6c8";
+sha256 = "db2746f704a3f0a6dadc712b2b358c548b0726d9a56f4a604d5ecce210c2278b";
 };
 cqueues = {
 version = "20200726-r2";
@@ -3154,21 +3154,21 @@ version = "10.3.1-r1";
 filename = "croc-10.3.1-r1.apk";
 depends = [ "libc" ];
 provides = [ "croc-any" ];
-sha256 = "46de476eab1d3a91765f2cf7b542cedd7ddd33b7000f3b85f60c29937b926186";
+sha256 = "52308598ec3796a26023c989e5135b398bc8fba6c3ceb50746f88cb94cd7d67e";
 };
 crowdsec = {
 version = "1.6.2-r1";
 filename = "crowdsec-1.6.2-r1.apk";
 depends = [ "libc" ];
 provides = [ "crowdsec-any" ];
-sha256 = "12dcb72e0d44b6f1c2af5442175d3df5ab9d019d0bbe4d5ddfe7821eb0beb47e";
+sha256 = "69b4bc1a537eec634e1a606d61fc9bdad5eff7594c78b11f1d8fe45d02aa048d";
 };
 crowdsec-firewall-bouncer = {
 version = "0.0.34-r1";
 filename = "crowdsec-firewall-bouncer-0.0.34-r1.apk";
 depends = [ "libc" ];
 provides = [ "crowdsec-firewall-bouncer-any" ];
-sha256 = "280c99cb9c13a612977bc1678f446b2e0d5b4d17371ac5aa45bcc3de8cee20f6";
+sha256 = "286023d1c70b48a1df48f4422e34dbce73a517c8b6c117cc3b1d55d831c77f41";
 };
 crun = {
 version = "1.17-r3";
@@ -3203,14 +3203,14 @@ version = "0.7.7-r1";
 filename = "ctop-0.7.7-r1.apk";
 depends = [ "libc" ];
 provides = [ "ctop-any" ];
-sha256 = "aa7b193af1e32e7b6c9a3a742f1b3b7c316f5f5665c7e9db6810781c741ccf2d";
+sha256 = "f20a93bc959c742b78edbd87f42d0ee13cabd3ed7432b5165a95707dd85c7243";
 };
 curl = {
-version = "8.22.0-r1";
-filename = "curl-8.22.0-r1.apk";
+version = "8.23.0-r1";
+filename = "curl-8.23.0-r1.apk";
 depends = [ "libc" "libcurl4" ];
 provides = [ "curl-any" ];
-sha256 = "c249e13729e400e24299d81f0576e6ca16c545947c829a6707846bb489d2ab62";
+sha256 = "fdca6e53bad99f50c8c4a28ca0f1be3f5dc99b5b1227cfc777b08d9a97c400f6";
 };
 czmq4 = {
 version = "4.2.1-r3";
@@ -3231,7 +3231,7 @@ version = "1.1.11-r1";
 filename = "databag-1.1.11-r1.apk";
 depends = [ "libc" ];
 provides = [ "databag-any" ];
-sha256 = "e84136b5dd3ae5356d0b02bf5f2a298045ac12d931b2559f84f9b1d69e22d1e5";
+sha256 = "baee5bda341cafeae8b247613b4a89f7141f16f92d20a1a7e64c30a404ddced3";
 };
 davfs2 = {
 version = "1.6.1-r2";
@@ -3252,7 +3252,7 @@ version = "2025.11.07~7414c34a-r1";
 filename = "dawn-2025.11.07~7414c34a-r1.apk";
 depends = [ "libblobmsg-json20260213" "libc" "libgcrypt" "libiwinfo20230701" "libubox20260213" "libubus20251202" "libuci20250120" "umdns" ];
 provides = [ "dawn-any" ];
-sha256 = "6d99437bfdc98929fba88ca70e5b2df50065cc39ba2a92ea69c0caf60b5b8b76";
+sha256 = "aab13d70c7b617474d674807cfffe9a0ea7d77d8a91c0e47a842b7236c2f6e50";
 };
 dbus = {
 version = "1.16.2-r4";
@@ -3294,224 +3294,224 @@ version = "2.8.4-r8";
 filename = "ddns-scripts-2.8.4-r8.apk";
 depends = [ "ddns-scripts-services" "ip" "libc" "resolveip" ];
 provides = [ "ddns-scripts-any" ];
-sha256 = "dec7cb5dfb0748d079f6353f0a74b014f3b98a9d8fb037e718cde1b66a0b1e10";
+sha256 = "7e4ede97d24a828d4e20ef1c5ab6965253f609eb5f941db9d2616c3304d1b6c5";
 };
 ddns-scripts-aliyun = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-aliyun-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" "openssl-util" ];
 provides = [ "ddns-scripts-aliyun-any" ];
-sha256 = "0a54df4257664c65b9108e5e7fbeaaa518fb285ddb074543c3c955c6b5c1aa98";
+sha256 = "45415c23058b406b4450847f845ab74f4853b9d73a1ca289a125c5089bf2bdc1";
 };
 ddns-scripts-beget = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-beget-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-beget-any" ];
-sha256 = "257dc031451db13416492047472a4282dd7867d5fbbfd34f3628a064ce44210b";
+sha256 = "a869069cac33f940b10e735d8823dc23c8a3d7477b20f8707a7438d1326e3868";
 };
 ddns-scripts-blazingfast = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-blazingfast-2.8.4-r8.apk";
 depends = [ "ca-bundle" "curl" "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-blazingfast-any" "ddns-scripts_blazingfast.io" ];
-sha256 = "405ca8d312feba8c28efaab86137205f67996adff806e12100577b49a45d8aab";
+sha256 = "9cca38203965210692ddf357bf6a83192091cdd3b661f8987c7c39b991f60620";
 };
 ddns-scripts-cloudflare = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-cloudflare-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-cloudflare-any" "ddns-scripts_cloudflare.com-v4" ];
-sha256 = "7eea0b0eb8e3d05049c228cd05751b57a3f706fd456f4eae17c2abde930f2015";
+sha256 = "162eec66e66b084d85e0ba4f9a5013616d847efe3ea6099bfb08c860b8f192a7";
 };
 ddns-scripts-cnkuai = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-cnkuai-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "giflib-utils" "libc" ];
 provides = [ "ddns-scripts-cnkuai-any" "ddns-scripts_cnkuai_cn" ];
-sha256 = "34812e12b68f64667dad367a5868eea44be4371111130ffbb6e6cb46af704f86";
+sha256 = "6191a1928d04d6d008bed663b10ead71e0f5ca9e38e0f0a87132400b65b1d2b8";
 };
 ddns-scripts-digitalocean = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-digitalocean-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-digitalocean-any" "ddns-scripts_digitalocean.com-v2" ];
-sha256 = "3988458769d69a6628b9bdfc070538c906cb99d0a986d0b830432b82d06e0cd2";
+sha256 = "bfe66312034d4e41410aad2944006a0847077cb5bdee900ca4ef64fe74925a60";
 };
 ddns-scripts-dnspod = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-dnspod-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-dnspod-any" ];
-sha256 = "a8e32b7a5a04041fa283fd133c1bac5993b104950cfd78260736fb3e72b41164";
+sha256 = "969b55ac2ecf76bf46748c87965ff5acf19de0c48007f47464ccccfe9a47258f";
 };
 ddns-scripts-dnspod-v3 = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-dnspod-v3-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" "openssl-util" ];
 provides = [ "ddns-scripts-dnspod-v3-any" ];
-sha256 = "7f6529af261a88566a84680785a69f1b223a24a41692e9f9237714dc3acad6ff";
+sha256 = "a5efbe8e25f26833dcac15edbcb01abc9306d519d733ce462091f13dd15f0078";
 };
 ddns-scripts-freedns = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-freedns-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-freedns-any" "ddns-scripts_freedns_42_pl" ];
-sha256 = "2fafc3b4c4bbf37cd9a1fdfe4271f8a0c18e22954125603a073e6b53d5e56b87";
+sha256 = "4897f403dcc41ecfa4468d709421bcaf4d826d48e0354840cbf72f186a447af4";
 };
 ddns-scripts-gandi = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-gandi-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-gandi-any" ];
-sha256 = "a3d0e7ae3fb3b7dd358fddb4882ff6d2f9f190637c95a60e0e0243cf1a7ca1ce";
+sha256 = "71b3a2a44f8022e804a987fd400d1e6a1e18893ec1e5b0fdee1a38d52f555d95";
 };
 ddns-scripts-gandi-v2 = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-gandi-v2-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-gandi-v2-any" ];
-sha256 = "fe9f8ba1ca051d7eeb555a9840210a71c70b41533d3292379f56d16535149567";
+sha256 = "880ed1921dc6bfdb411a9922c0c35f1e64ab24dbe94879e664131ecaf7a45294";
 };
 ddns-scripts-gcp = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-gcp-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" "openssl-util" ];
 provides = [ "ddns-scripts-gcp-any" ];
-sha256 = "616bc6c199e563f6c204c6af47d86b028778c63bbe9a83b7f6c8acf393674096";
+sha256 = "6f7141cd7616eb7884e915cab59fb31f67762cc2bfe3f006da3317d6b7ea3d0f";
 };
 ddns-scripts-godaddy = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-godaddy-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-godaddy-any" "ddns-scripts_godaddy.com-v1" ];
-sha256 = "f7a50c73022aa818fe9293ae69a8bdbd5a6b83b501d10df6db40910fc9166aee";
+sha256 = "c747db844b4d836fd762a14cf2e69f61e0fe8f2bb7c6b1bb37ae580c0ccb9c91";
 };
 ddns-scripts-hetzner-cloud = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-hetzner-cloud-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-hetzner-cloud-any" "ddns-scripts_hetzner-cloud" ];
-sha256 = "3892a5558f7769c15f4c83060cefb54a230afcec443fa9264457ace49a9df1b7";
+sha256 = "085709aa39ee8b02373888e5d99b17e2515d7645e13d3a3c3df036d8ab934354";
 };
 ddns-scripts-huaweicloud = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-huaweicloud-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" "openssl-util" ];
 provides = [ "ddns-scripts-huaweicloud-any" ];
-sha256 = "181b4e21a8e0eee8e8d886938e97477e82276455bbe1bae5f014e7c3e0990296";
+sha256 = "dd4faff6eaad1f1245e0ef91ce7ad0fb76babf2f8a31a45bf44d52e44646873f";
 };
 ddns-scripts-luadns = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-luadns-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-luadns-any" ];
-sha256 = "9657d4b8be89802c2d4bacbcad1a1f19d3b2d106ae81870cd5d69438970b4ea2";
+sha256 = "5241b2f48871760dc1f135be011e8d39c6b233616521507b7b3d8d3b137da13d";
 };
 ddns-scripts-namesilo = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-namesilo-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-namesilo-any" "ddns-scripts_namesilo.com-v1" ];
-sha256 = "28059e0ecacff633808306fb77c1652d221683b4844f8ec769677628586a4aad";
+sha256 = "66238f1087fbd5a682c759f86d06b87cd38b0ea4090ffdc2c66c61c992f31de9";
 };
 ddns-scripts-netcup-com = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-netcup-com-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-netcup-com-any" "ddns-scripts_netcup-com" ];
-sha256 = "f438ff42c0fdbdfec8145d70248886f20046f9160e8c2ff108baf4399b4191ba";
+sha256 = "d98e6581adc58c95ef6b4d42befe297fe60449d3b5ae488d8231acc5083d5ecc";
 };
 ddns-scripts-noip = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-noip-2.8.4-r8.apk";
 depends = [ "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-noip-any" "ddns-scripts_no-ip_com" ];
-sha256 = "4b8c001dc0cdd97bee37268f1655453d8ab23d94d6e380e9e126ef0080ae0dfa";
+sha256 = "7d8bc6e8e0ed750741b19987493840cc3a945e050ade7d2b47ff13132fa64f06";
 };
 ddns-scripts-ns1 = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-ns1-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-ns1-any" ];
-sha256 = "da14ca1d603250906ad222337326554d73be9987e55e91ef51b1109e4a4723fb";
+sha256 = "8fc65900efe576b32d9f1f155ff2667f85d1823a6bdef9c296a78b554b3cdc25";
 };
 ddns-scripts-nsupdate = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-nsupdate-2.8.4-r8.apk";
 depends = [ "bind-client" "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-nsupdate-any" "ddns-scripts_nsupdate" ];
-sha256 = "bc6d0575304ce79264e26d8e58bb442052d83e45681990b5a487e4cd696d040a";
+sha256 = "62133c36d6686f65b6a1cdbb0a6c37718ab5f23b99002fd3e4b774a492f6d386";
 };
 ddns-scripts-one = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-one-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-one-any" ];
-sha256 = "1f75d7322651ccdfd27e8bc906345eae9ed7d5b12e8bea3e19474937102c5f69";
+sha256 = "4398896a4a2bf349184099911bf7ccd87d7a31730104bbd05ed2bee5611e42b3";
 };
 ddns-scripts-pdns = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-pdns-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-pdns-any" ];
-sha256 = "3d7fd114448519c97103d4bd341fdb30c765c1a16aa742fe4d4b84ed63508321";
+sha256 = "6276bc90acb297856a2c1c1ea3572f6f61ca3681c63deab405c349b8b7de415d";
 };
 ddns-scripts-porkbun = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-porkbun-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-porkbun-any" "ddns-scripts_porkbun.com-v3" ];
-sha256 = "d80f766e9b8dd928062101fbae4bcf3a2018fbe2608c00252470f2dfd4a72bc0";
+sha256 = "f7c75e7fa6448d2ecb8be99c3bcaabeccfeca9ba15fbbbadff55378081060807";
 };
 ddns-scripts-route53 = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-route53-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" "openssl-util" ];
 provides = [ "ddns-scripts-route53-any" "ddns-scripts_route53-v1" ];
-sha256 = "d526143a23c7b96b64cf37b59888c8c7e24050bd16ef3ff73915f22eacec2428";
+sha256 = "ba15b6659d4f584eebf64c4beaad02efd3eb35d403aaf593b745e7db05a5e67b";
 };
 ddns-scripts-scaleway = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-scaleway-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-scaleway-any" ];
-sha256 = "642f1f0baefa89288c1d936830a15b7c6efc2e6220c31a81e1d43a5441909ef4";
+sha256 = "d66859f53d65a6d29de9718d8b1c3434d74a2910c93d2683985b61f13b822fbe";
 };
 ddns-scripts-servercow = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-servercow-2.8.4-r8.apk";
 depends = [ "curl" "ddns-scripts" "libc" "openssl-util" ];
 provides = [ "ddns-scripts-servercow-any" ];
-sha256 = "1f613caff0d0523ae92aa1946709aa529285bb4ed61e95cfea2249735aef6584";
+sha256 = "ec1ffa4dd5a453a0d3c11404f5c5b36d862b707fbb4a61403b73e4c9e5a9560a";
 };
 ddns-scripts-services = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-services-2.8.4-r8.apk";
 depends = [ "libc" ];
 provides = [ "ddns-scripts-services-any" "ddns-scripts_service" ];
-sha256 = "9d04c7e48dfb6e628d3d4e4b2207264223b5867481b0a70bff9ace812d1a3d80";
+sha256 = "b88cb34f0763d51090f441453aab3f2ab5244c86364ae3a4e5d03ba991fae1eb";
 };
 ddns-scripts-transip = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-transip-2.8.4-r8.apk";
 depends = [ "coreutils-mktemp" "curl" "ddns-scripts" "libc" "openssl-util" ];
 provides = [ "ddns-scripts-transip-any" ];
-sha256 = "d2d1f2f69899158674c5254f264e6e47b196f0d77700808f36f1e88115c48efb";
+sha256 = "d40e9a88b4f0215ae9f8415ec8644ab8b422f27bdcc6c5b92464116bfec2b555";
 };
 ddns-scripts-utils = {
 version = "2.8.4-r8";
 filename = "ddns-scripts-utils-2.8.4-r8.apk";
 depends = [ "ddns-scripts" "libc" ];
 provides = [ "ddns-scripts-utils-any" ];
-sha256 = "e6c8e87600f68bd4972ead43ba27dfd30abf6a36223775fc7c3c4bffd97d444d";
+sha256 = "5f25bd095b9fdd7664fc6b4f63cf48229353f78a46a39899359ca2fc3b93fa4e";
 };
 debian-archive-keyring = {
 version = "2025.1-r1";
 filename = "debian-archive-keyring-2025.1-r1.apk";
 depends = [ "libc" ];
 provides = [ "debian-archive-keyring-any" ];
-sha256 = "d8528c36d82ba5ab4f544fe25b42df299e9c7448da63b56d3e5c58e0f091b1ad";
+sha256 = "ea37151f97388a5e237b5db035a7417260e363b37275dda0c0b98e85cf3f7956";
 };
 debootstrap = {
 version = "1.0.143-r1";
@@ -3749,14 +3749,14 @@ version = "2.3.0-r2";
 filename = "dns-over-https-2.3.0-r2.apk";
 depends = [ "libc" ];
 provides = [ "dns-over-https-any" ];
-sha256 = "2c4b86308f88258a2420b37cd755e8494e1b30e89cc8d4d45d63a147383fddc2";
+sha256 = "9ca3ae167426af22f05164c6e42c0dd095d0a497ff606758f2036929f15643aa";
 };
 dnscrypt-proxy = {
 version = "2019.08.20~07ac3825-r3";
 filename = "dnscrypt-proxy-2019.08.20~07ac3825-r3.apk";
 depends = [ "dnscrypt-proxy-resolvers" "libc" "libsodium" ];
 provides = [ "dnscrypt-proxy-any" ];
-sha256 = "7dca76e452a8427c9ef23fefe6e8b02bcf2908a291998dc0481bdd3522f52145";
+sha256 = "84bfb20f338455617fc2ce8f81ba9bf67898165d08ff05232ae93b77962bc029";
 };
 dnscrypt-proxy-resolvers = {
 version = "2019.08.20~07ac3825-r3";
@@ -3770,7 +3770,7 @@ version = "2.1.15-r1";
 filename = "dnscrypt-proxy2-2.1.15-r1.apk";
 depends = [ "ca-bundle" "libc" ];
 provides = [ "dnscrypt-proxy2-any" ];
-sha256 = "58752e213b5a5ab3242d4dd3ff1aac9cb8f3cd7b32e00dd8fb04febf846f3dea";
+sha256 = "c850ba060720dde1a5414e98e58f6917f8b72eb90e242148cfad34ec858f9212";
 };
 dnsdist = {
 version = "2.0.11-r1";
@@ -3791,21 +3791,21 @@ version = "1.12.0-r1";
 filename = "dnslookup-1.12.0-r1.apk";
 depends = [ "ca-bundle" "libc" ];
 provides = [ "dnslookup-any" ];
-sha256 = "7523fdadd2e6c8f151d5db4fbcea0d944a3c40a98b876075c178d168fe08d6db";
+sha256 = "86f2fc1ed26296ee76362b3a39ff3c407758774117dba9eab9951ea68a81e008";
 };
 dnsproxy = {
 version = "0.84.1-r1";
 filename = "dnsproxy-0.84.1-r1.apk";
 depends = [ "ca-bundle" "libc" ];
 provides = [ "dnsproxy-any" ];
-sha256 = "096751f68167b3b623867b7e43d70b2719492e513217112b9ea6eafeafc166cb";
+sha256 = "6f757abc2743ff3580372a6a416144f0f1cc172ab86a6c4671a7049fdeaf3b65";
 };
 dnstap = {
 version = "0.4.0-r1";
 filename = "dnstap-0.4.0-r1.apk";
 depends = [ "libc" ];
 provides = [ "dnstap-any" ];
-sha256 = "917518ba6e7a68faa299086bca5f773211bc965f749054b2cc73a2a24c5a6be5";
+sha256 = "9f8acb4c1107a477b3409cd1f863fabe66efba3ab557b1cca77f79fa5096f6bc";
 };
 dnstop = {
 version = "2018.05.22~a5a5d2e2-r1";
@@ -3903,7 +3903,7 @@ version = "3";
 filename = "dynapoint-3.apk";
 depends = [ "libc" "libubox-lua" "libubus-lua" "libuci-lua" "lua" "luci-lib-nixio" ];
 provides = [ "dynapoint-any" ];
-sha256 = "01549bd6ba685365829ff3c42b60e073ee132b5be1301f6df344a3a7aa53a424";
+sha256 = "a7745d600bbfec0875635349390988dba021088b10eda17d4112414a94daa229";
 };
 earlyoom = {
 version = "1.9.0-r1";
@@ -4001,7 +4001,7 @@ version = "28.0.3-r1";
 filename = "erlang-erl-interface-28.0.3-r1.apk";
 depends = [ "erlang" "libc" ];
 provides = [ "erlang-erl-interface-any" ];
-sha256 = "faa5230eaa13d0429744333af21df01a0519ed5c7511a6e2fa61b0b5b2bb3548";
+sha256 = "ff16b22d0c2199b346126fb8a1f5773a8a5b1efac64b62ddb49855a6ae356951";
 };
 erlang-ftp = {
 version = "28.0.3-r1";
@@ -4176,7 +4176,7 @@ version = "3.2.0-r1";
 filename = "evilginx2-3.2.0-r1.apk";
 depends = [ "libc" ];
 provides = [ "evilginx2-any" ];
-sha256 = "0292fa2313b07f8ddefd3b31a432566656280423eed78cdf43f258090584b5cc";
+sha256 = "d6c7e3804462e335d3f8b6e4c19291278aa0fd2edb13f15d42c7560b3199f985";
 };
 evtest = {
 version = "1.35-r1";
@@ -4204,7 +4204,7 @@ version = "4.100.1-r1";
 filename = "exim-4.100.1-r1.apk";
 depends = [ "libc" "libdb47-5" "libpcre2" ];
 provides = [ "exim-any" ];
-sha256 = "d851ea1bd69fbfd3af6f7447d4b608b5a0c7089794037ce91af264d06325cc3b";
+sha256 = "c6ae51ca41d945b3c323f247afb96981c35c4630dfce5c65cce7eddf30ec3109";
 };
 exim-gnutls = {
 version = "4.100.1-r1";
@@ -4295,7 +4295,7 @@ version = "20231119-r2";
 filename = "external-protocol-20231119-r2.apk";
 depends = [ "ip" "libc" ];
 provides = [ "external-protocol-any" ];
-sha256 = "27c2ca82f1b003309e748daa3e072ab0bc211933461d7ca2f158e9c23088ae7d";
+sha256 = "39022e2d17449bea443ad5eee7faf8457d2451fc794035c1422666f5ed44d206";
 };
 extract = {
 version = "1.13-r2";
@@ -4316,14 +4316,14 @@ version = "2.11.1-r2";
 filename = "faad2-2.11.1-r2.apk";
 depends = [ "libc" "libfaad2" ];
 provides = [ "faad2-any" ];
-sha256 = "e99bdfab4d031fd26a745efff2ef96521152832d1956f506db0bef3d106284ba";
+sha256 = "b6f933bd2ad312ddf149e5480f01bc8e7790c2fd837853aacac71005e24d4cf9";
 };
 fail2ban = {
 version = "1.1.0-r2";
 filename = "fail2ban-1.1.0-r2.apk";
 depends = [ "libc" "nftables" "python3-ctypes" "python3-email" "python3-light" "python3-logging" "python3-pkg-resources" "python3-sqlite3" "python3-urllib" ];
 provides = [ "fail2ban-any" ];
-sha256 = "2bba5a0dbb64eba02e1ce5f4dd9c0e2debc6e0a841ee06d2cd73953d811e3fc1";
+sha256 = "46d019b7fda2a45572cdb04017d1c07e230f2ea8fca5a38f074eda0ae96a1cda";
 };
 fail2ban-src = {
 version = "1.1.0-r2";
@@ -4337,21 +4337,21 @@ version = "2.6-r2";
 filename = "fakeidentd-2.6-r2.apk";
 depends = [ "libc" ];
 provides = [ "fakeidentd-any" ];
-sha256 = "2b9750ed638fb140be6cdad2fb21c2435495c977a82ff55c6cfb9ed117ad29eb";
+sha256 = "bbcba8d4a122b4c53fee5b918095374fab34278051ae06e37fa127f9a444e592";
 };
 fakepop = {
 version = "11-r2";
 filename = "fakepop-11-r2.apk";
 depends = [ "glib2" "libc" "xinetd" ];
 provides = [ "fakepop-any" ];
-sha256 = "bcbc69c5861c65371c60723363bb53735fdd48667b8906fb9cd686ed9c2a43cd";
+sha256 = "df3c613b3dab7837e713c30e3ec6e9c3e579effd0f819cdef85846004c13b27f";
 };
 family-dns = {
 version = "1.0.0-r2";
 filename = "family-dns-1.0.0-r2.apk";
 depends = [ "libc" ];
 provides = [ "family-dns-any" ];
-sha256 = "1e3756a4c1010da565dc0e1493ae80a0bb292384e25d50a0e9942b2849487b49";
+sha256 = "d6a675915d7477f62942b844cd8358d7f5a619b2e6f66d1c92a7bb36b212ad51";
 };
 fastd = {
 version = "23";
@@ -4365,14 +4365,14 @@ version = "2023.06.11~ab78c48f-r2";
 filename = "fatresize-2023.06.11~ab78c48f-r2.apk";
 depends = [ "libc" "libparted" ];
 provides = [ "fatresize-any" ];
-sha256 = "7716d401103172c578351b1a8756cc0077d34507ffb895d1b3af3b7d5e9e9ac1";
+sha256 = "932dbdfbb42dd7601d9be0e9b5398912afd0f630e49f0ed39321eef770f6098e";
 };
 fdk-aac = {
 version = "2.0.1-r5";
 filename = "fdk-aac-2.0.1-r5.apk";
 depends = [ "libc" ];
 provides = [ "fdk-aac-any" ];
-sha256 = "e720f10fa6bf1e5233c3a6b60698ff6b103736d8a02a2e7a5b12b30421d7e6fc";
+sha256 = "36225ff8b598f2d73a5c70ae507c3d543b204db2aaebbee9e866a0322979aed8";
 };
 fdm = {
 version = "2.2-r1";
@@ -4386,14 +4386,14 @@ version = "6.1.4-r1";
 filename = "ffmpeg-6.1.4-r1.apk";
 depends = [ "libatomic1" "libc" "libffmpeg-full" ];
 provides = [ "ffmpeg-any" ];
-sha256 = "9352be9a910ad3479a4138e5196d74793d9d6d2782ddccc45f638805f60b8db7";
+sha256 = "fb461186847da8aa7e6189306973f3b7075a88f1b82dcc699dfc85277102781f";
 };
 ffprobe = {
 version = "6.1.4-r1";
 filename = "ffprobe-6.1.4-r1.apk";
 depends = [ "libatomic1" "libc" "libffmpeg-full" ];
 provides = [ "ffprobe-any" ];
-sha256 = "c7aa1f3b8c8d505d607ba63fd638447e4debb57ef76b1fdfef85e211c74b14dc";
+sha256 = "d1b082a985e35b13f559f7e7c9bd2b4e780af51f24e21d9c741c80efca254931";
 };
 file = {
 version = "5.45-r1";
@@ -4512,14 +4512,14 @@ version = "5.0.8-r3";
 filename = "fluent-bit-5.0.8-r3.apk";
 depends = [ "bison" "flex" "libatomic1" "libc" "libcurl4" "libopenssl3" "libsasl2" "libstdcpp6" "libyaml" "musl-fts" ];
 provides = [ "fluent-bit-any" ];
-sha256 = "8043d2b3df4057d7b89a91f5f79ea0be92eab6326f8818a5582d5a43c7851751";
+sha256 = "ae96115c92341723c9b32b2fe8b7ee4ba138b5835edab936c67da75768f4b571";
 };
 fontconfig = {
 version = "2.15.0-r1";
 filename = "fontconfig-2.15.0-r1.apk";
 depends = [ "libc" "libexpat" "libfreetype" "libpthread" ];
 provides = [ "fontconfig-any" ];
-sha256 = "39ae4dcc75980e7e89a2dc79b3b494f28424942c131b4f130f1fc46d29b91ec8";
+sha256 = "ee72a2ad27022769ace61cf5c35ac999b06dd4446ee7a314b46f73970bdd63b2";
 };
 foolsm = {
 version = "1.0.21-r1";
@@ -4547,7 +4547,7 @@ version = "3.2.10-r2";
 filename = "freeradius3-3.2.10-r2.apk";
 depends = [ "freeradius3-common" "libc" "libopenssl-legacy" "libopenssl3" ];
 provides = [ "freeradius3-any" ];
-sha256 = "d0c67e1938035b13aaa7f7753a93a1bbe1203b312d4024e7fe713b74cff953d8";
+sha256 = "db32efaecbcd67a0a0ff1adcd2f2b5f0d841a039ce17bb71a0139a43784a6917";
 };
 freeradius3-common = {
 version = "3.2.10-r2";
@@ -4568,7 +4568,7 @@ version = "3.2.10-r2";
 filename = "freeradius3-democerts-3.2.10-r2.apk";
 depends = [ "freeradius3" "libc" ];
 provides = [ "freeradius3-democerts-any" ];
-sha256 = "ab922eb71ff9921871b5472050e0168b161b52f6d9e7ee6434ccfd20736e8438";
+sha256 = "386bb9bb7b913c35db1263f5abb04663052b2f9a2dfb1e5c716a067d603ccca1";
 };
 freeradius3-mod-always = {
 version = "3.2.10-r2";
@@ -4876,7 +4876,7 @@ version = "3.2.10-r2";
 filename = "freeradius3-mod-rest-3.2.10-r2.apk";
 depends = [ "freeradius3" "libc" "libcurl4" "libjson-c5" ];
 provides = [ "freeradius3-mod-rest-any" ];
-sha256 = "2e6fbf86c8817ff3f85ced94d2bf1b54692c8d7c9cea68684922da5bc6083547";
+sha256 = "d7162b2a2f87508529476d112086fa29dc1769d3aa2352f994c5bd910e311022";
 };
 freeradius3-mod-soh = {
 version = "3.2.10-r2";
@@ -5002,7 +5002,7 @@ version = "3.2.10-r2";
 filename = "freeradius3-utils-3.2.10-r2.apk";
 depends = [ "freeradius3-common" "libc" "libopenssl-legacy" "libopenssl3" ];
 provides = [ "freeradius3-utils-any" ];
-sha256 = "a559258b12e95cb17a5579f8e8559b3a2c7bd14f14881a8471cdeacbf9cad028";
+sha256 = "9384714646e8e79d1f925e23042dc55635ad491acb9ca41354cbe09b9548e764";
 };
 freshclam = {
 version = "1.4.3-r2";
@@ -5016,14 +5016,14 @@ version = "0.66.0-r1";
 filename = "frpc-0.66.0-r1.apk";
 depends = [ "libc" ];
 provides = [ "frpc-any" ];
-sha256 = "539a968453a50702addb189fb8d18fd838e0eff5fa8ec7e41c2cb49d32535034";
+sha256 = "d473a0680e9783f037c1803fffb0bb68ef2f7397a5c76d90f529254d73439bbd";
 };
 frps = {
 version = "0.66.0-r1";
 filename = "frps-0.66.0-r1.apk";
 depends = [ "libc" ];
 provides = [ "frps-any" ];
-sha256 = "9699b9c0efdb036765a57d94af3157fa56b7026987cb9e8d4d7c423369f534ad";
+sha256 = "430e44ec58a52c51fd9df36e509f337cdf3c7fafceac3152d26ca7c2c915cbe1";
 };
 frr = {
 version = "10.4.1-r1";
@@ -5184,7 +5184,7 @@ version = "0.3.5-r1";
 filename = "fscrypt-0.3.5-r1.apk";
 depends = [ "libc" "libpam" ];
 provides = [ "fscrypt-any" ];
-sha256 = "c336e50ec26be6e4ebb8a57312240ea9440ece73b9786416005687b5b5608cb0";
+sha256 = "981038fd4c9014bf8390d97799a52f0631591aafec3f389638eb7ff2ae4af90f";
 };
 fsh = {
 version = "4.11.0-r2";
@@ -5268,7 +5268,7 @@ version = "39.0.1-r1";
 filename = "fx-39.0.1-r1.apk";
 depends = [ "libc" ];
 provides = [ "fx-any" ];
-sha256 = "1eaa54515fb17aef78195d98fb55d11029c096fec43ac6bf623a1cf5a814e4b8";
+sha256 = "b00b7d1bdc1479fd6c31ceb0b48d1c95b8a1ef332dc6325d2f4904c13214acce";
 };
 gammu = {
 version = "1.42.0-r1";
@@ -5282,7 +5282,7 @@ version = "2.0.10-r1";
 filename = "gateway-go-2.0.10-r1.apk";
 depends = [ "libc" ];
 provides = [ "gateway-go-any" ];
-sha256 = "3d66c671c7ce8408e60ac928d0aa9b70df7f0318a47fff69c347adcc11e23229";
+sha256 = "b726b1aff9c1f963afa4cfe19d23030d245450027d9bf1526d7c9379670fc079";
 };
 gatling = {
 version = "0.16-r3";
@@ -5303,7 +5303,7 @@ version = "14.3.0-r7";
 filename = "gcc-14.3.0-r7.apk";
 depends = [ "binutils" "libc" "libstdcpp6" "libzstd" ];
 provides = [ "gcc-any" ];
-sha256 = "2076601e690be282ff3556ead394251c3e63bcb7ad2b8d58b94fed85ebd757f8";
+sha256 = "997d4042db17c9169844a00512b61a6576fe7d11b06a8a0c419d8755ee9f6689";
 };
 gddrescue = {
 version = "1.27-r1";
@@ -5352,14 +5352,14 @@ version = "8.0.0-r1";
 filename = "geoipupdate-8.0.0-r1.apk";
 depends = [ "libc" ];
 provides = [ "geoipupdate-any" ];
-sha256 = "6be83874cb963e3c5acde4f76a32f9f5d3247bc12beef91949a07087cf344b26";
+sha256 = "26a122ff84adbfeb243d0f4598c972610f131f265ad7b88bcaae7c828f27bc96";
 };
 getdns = {
 version = "1.7.3-r2";
 filename = "getdns-1.7.3-r2.apk";
 depends = [ "libc" "libopenssl3" ];
 provides = [ "getdns-any" ];
-sha256 = "7e1dca73990b6fbfb652c44ec185a902cdfbefa7e89f7c232a65f659efd7ff02";
+sha256 = "4a23d2adc94f37d3b6aa4adbf2e6d360f7d9c5bb1d74e991854a27c5fe4ca6c5";
 };
 giflib = {
 version = "5.2.2-r2";
@@ -5373,14 +5373,14 @@ version = "5.2.2-r2";
 filename = "giflib-utils-5.2.2-r2.apk";
 depends = [ "libc" ];
 provides = [ "giflib-utils-any" ];
-sha256 = "8609c5bf6c45f8d7eb73dc72e6539ba2ec755bb824c1f19708a017a55f620662";
+sha256 = "e3fc5024ff5e5998f6ee76dd0862ae6a533dbd59d7c9e3f6ea5a11e31bd3d4b5";
 };
 git = {
 version = "2.50.1-r1";
 filename = "git-2.50.1-r1.apk";
 depends = [ "libc" "libopenssl3" "libpthread" "librt" "zlib" ];
 provides = [ "git-any" ];
-sha256 = "9e316ad127fc69e46682ff3043559bc378633944ef8bde21fbc186606c4166d4";
+sha256 = "acc4f5220f1c74d0e642e2d6eee5bf313890f1f82cbbd036ce4158795c99cac8";
 };
 git-gitweb = {
 version = "2.50.1-r1";
@@ -5401,7 +5401,7 @@ version = "3.5.1-r1";
 filename = "git-lfs-3.5.1-r1.apk";
 depends = [ "git" "libc" ];
 provides = [ "git-lfs-any" ];
-sha256 = "3332524b6efb88ac590750f693dc30a7e275b6ab6a0888641c7810dff4802555";
+sha256 = "a40113d25806cbbe141b3898d23a0a7f7f8d63e30add5c8e36928bb9aa64e8f8";
 };
 gitolite = {
 version = "3.6.13-r1";
@@ -5415,28 +5415,28 @@ version = "1.00-r2";
 filename = "gkermit-1.00-r2.apk";
 depends = [ "libc" ];
 provides = [ "gkermit-any" ];
-sha256 = "1e9939110b135eb821c0a003fe3bc8d75f7e7a34567b33ca68044f0b90567a60";
+sha256 = "bf4f1b8c9b7c830621d0467afed47f2cdb8648285a489ce542d4f30fe0621463";
 };
 gkrellmd = {
 version = "2.4.0-r1";
 filename = "gkrellmd-2.4.0-r1.apk";
 depends = [ "glib2" "libc" ];
 provides = [ "gkrellmd-any" ];
-sha256 = "6cf1dcbf93d8a5ea117e5947323068f6dc425b7adf096c752d28066989403d71";
+sha256 = "8eb26a054d39e8201725ea2eaa0e66244afed9c445221e662e87e95f46d232ed";
 };
 gl-puli-mcu = {
 version = "2-r1";
 filename = "gl-puli-mcu-2-r1.apk";
 depends = [ "libc" "libubox20260213" "libubus20251202" ];
 provides = [ "gl-puli-mcu-any" ];
-sha256 = "2fab6db539e349f57d3171584cd4d9d08987bb8cb07cabf675164b5aee661f19";
+sha256 = "c99b86855f8e5da4f3993c689b3633b0fe8abd9c9aae86ead86645712f5af7f2";
 };
 glib2 = {
 version = "2.82.0-r1";
 filename = "glib2-2.82.0-r1.apk";
 depends = [ "libattr" "libc" "libffi" "libpcre2" "libpthread" "zlib" ];
 provides = [ "glib2-any" ];
-sha256 = "5930855c7702d6f27e7b5abc250ac0f313599d6c0743bfedab3c6f4f74f7716c";
+sha256 = "ed4855a275f61799bed60f33bbcb4d95f434ac4414697843094887d3055e4983";
 };
 gnunet = {
 version = "0.25.1-r2";
@@ -5702,7 +5702,7 @@ version = "1.9.12-r1";
 filename = "go2rtc-1.9.12-r1.apk";
 depends = [ "ffmpeg" "libc" ];
 provides = [ "go2rtc-any" ];
-sha256 = "8a44abe996d482dbd0a51300f26c60304977a78beddfbcea142bc9ea3490f1e1";
+sha256 = "55e11abe253b033332594a941a14de3e36ed42bf5fc5f907775b9d073e2ecc05";
 };
 golang-github-jedisct1-dnscrypt-proxy2-dev = {
 version = "2.1.15-r1";
@@ -5726,39 +5726,39 @@ provides = [ "golang-gitlab-yawning-obfs4-dev-any" ];
 sha256 = "471ecb3228a45fdb432bf757abf9fd4e60a7a7638cc4770d115b81654337f05e";
 };
 "golang1.26" = {
-version = "1.26.9-r1";
-filename = "golang1.26-1.26.9-r1.apk";
+version = "1.26.10-r1";
+filename = "golang1.26-1.26.10-r1.apk";
 depends = [ "golang1.26-src" "libc" ];
 provides = [ "golang" "golang1.26-any" ];
-sha256 = "5954ce9ed0c57a617938b98725c341f63462deebcd0ec36192063d08e5390ca4";
+sha256 = "d1afca0490e3536c6d5946937f086996e4bc25c9da47d0bccebbf064357e20dd";
 };
 "golang1.26-doc" = {
-version = "1.26.9-r1";
-filename = "golang1.26-doc-1.26.9-r1.apk";
+version = "1.26.10-r1";
+filename = "golang1.26-doc-1.26.10-r1.apk";
 depends = [ "libc" ];
 provides = [ "golang-doc" "golang1.26-doc-any" ];
-sha256 = "acf5582ddd730a931335676c0904ed2ad75842c345b44871ed173eb8fdc31852";
+sha256 = "74bd6edd35f9dcdbd1dd659b4a766e8eb8272ed23e623158bb527c11724e557f";
 };
 "golang1.26-misc" = {
-version = "1.26.9-r1";
-filename = "golang1.26-misc-1.26.9-r1.apk";
+version = "1.26.10-r1";
+filename = "golang1.26-misc-1.26.10-r1.apk";
 depends = [ "libc" ];
 provides = [ "golang-misc" "golang1.26-misc-any" ];
-sha256 = "772c23eebf9a5552d35e012042a51a945a64ad3d06296cf5741d6c80d9368574";
+sha256 = "50ef6b6f88326149efbd657c920028c64326cfba0b54e8e1683dadaeeb941198";
 };
 "golang1.26-src" = {
-version = "1.26.9-r1";
-filename = "golang1.26-src-1.26.9-r1.apk";
+version = "1.26.10-r1";
+filename = "golang1.26-src-1.26.10-r1.apk";
 depends = [ "libc" ];
 provides = [ "golang-src" "golang1.26-src-any" ];
-sha256 = "d077a1ffb0f8429e2f8e988915a8a046c8a324f929b4d93e898ace03fbc0f43d";
+sha256 = "ec46c3b0b81f7feacb89cbe9667e770cd34c488cf87486258855bd4f73b86e13";
 };
 "golang1.26-tests" = {
-version = "1.26.9-r1";
-filename = "golang1.26-tests-1.26.9-r1.apk";
+version = "1.26.10-r1";
+filename = "golang1.26-tests-1.26.10-r1.apk";
 depends = [ "golang1.26-src" "libc" ];
 provides = [ "golang-tests" "golang1.26-tests-any" ];
-sha256 = "a911b1b307cdb4ebbf860c1531f97b8f87a667520b8d591136eb59e28223321f";
+sha256 = "c718c6d08368b2450dc3981941a334137cdb6d518c34a1ad8f6c3e77b482d985";
 };
 google-authenticator-libpam = {
 version = "1.09-r2";
@@ -5933,7 +5933,7 @@ version = "1.4.39-r1";
 filename = "gsocket-1.4.39-r1.apk";
 depends = [ "libc" "libopenssl3" ];
 provides = [ "gsocket-any" ];
-sha256 = "2bb3030925432b63af426cc23fee169f766848510dc887ddc0f52ef563632602";
+sha256 = "b572f08c6fd88e0c0e2d071e1b0c988e8e4ec1efb1a5c085ef1989a8ba0bf014";
 };
 gst1-libav = {
 version = "1.26.4-r1";
@@ -7130,14 +7130,14 @@ version = "3.2.21-r1";
 filename = "haproxy-3.2.21-r1.apk";
 depends = [ "libatomic1" "libc" "libltdl7" "liblua5.4-5.4" "libncurses6" "libopenssl3" "libpcre2" "libpthread" "libreadline8" "zlib" ];
 provides = [ "haproxy-any" ];
-sha256 = "ee3a216c12694a7a0f7747a5e77dc705c7a6f2abda8a43f6574401b9fd641965";
+sha256 = "792d6abf198884cb907324832813f2aac088829d95fae6b520cfde30b5e30b08";
 };
 haproxy-nossl = {
 version = "3.2.21-r1";
 filename = "haproxy-nossl-3.2.21-r1.apk";
 depends = [ "libatomic1" "libc" "libltdl7" "liblua5.4-5.4" "libpcre2" "libpthread" "zlib" ];
 provides = [ "haproxy-nossl-any" ];
-sha256 = "1069aed711c4f44531ee9cfcddb47b21b077d7378a60246e83f1962b5383f95b";
+sha256 = "e1be21a78ddaa5738386ef203518a99ac105f4d44cf5c2fdb8d09adfe5604510";
 };
 haserl = {
 version = "0.9.36-r1";
@@ -7319,7 +7319,7 @@ version = "2026.05.06-r1";
 filename = "https-dns-proxy-2026.05.06-r1.apk";
 depends = [ "ca-bundle" "jsonfilter" "libc" "libcares" "libcurl4" "libev" "resolveip" ];
 provides = [ "https-dns-proxy-any" ];
-sha256 = "313a6b6a59c812abe3b1cda59f78b42f5a4ef3b3b9df38cdc7f8a861535f937a";
+sha256 = "242d9c67e4b0ef422885968ff45658bbf4c8376c5e3a40cf1f2f0e8da47e0ff5";
 };
 httptunnel = {
 version = "3.3-r1";
@@ -7340,7 +7340,7 @@ version = "21.71-r4";
 filename = "hwinfo-21.71-r4.apk";
 depends = [ "libc" "libuuid1" ];
 provides = [ "hwinfo-any" ];
-sha256 = "c1f8bf653695c6fe779dbebdb2d59ad51a52911612f853a4e568d5dc8e67d0a4";
+sha256 = "db39fd39e59d94ca47b4ed5d2e95b9e123a17b8bd7442d275f5f5cbcf98dcc56";
 };
 hwloc-utils = {
 version = "2.12.1-r1";
@@ -7466,7 +7466,7 @@ version = "3";
 filename = "ieee8021xclient-3.apk";
 depends = [ "libc" ];
 provides = [ "ieee8021xclient-any" ];
-sha256 = "69f756f11d3933ce7da41e91432ffbd3f3d9d123e3f8c6bb2a47fd4a20f076ca";
+sha256 = "790958ff7bcdacad707b2df3ff218ab8e866256e2a8e97b58f93798a8f026bd4";
 };
 ifstat = {
 version = "1.1-r5";
@@ -7550,7 +7550,7 @@ version = "4";
 filename = "io-4.apk";
 depends = [ "libc" ];
 provides = [ "io-any" ];
-sha256 = "73d8653f1d7964349ec37765f85ddd11f379a8d3a215b63ebc81b1648782c0eb";
+sha256 = "023e8e2b0294c018cbf800f4c1ad317a9420822386edfdb6dce42f26fe8118d1";
 };
 iodine = {
 version = "0.8.0-r5";
@@ -7823,7 +7823,7 @@ version = "1.9.5-r1";
 filename = "irqbalance-1.9.5-r1.apk";
 depends = [ "libc" ];
 provides = [ "irqbalance-any" ];
-sha256 = "e25067b612b7d8a80251b2166e058ef2c2251555edc80a9bd076ff280e8ad886";
+sha256 = "3c2be8f8acf472173f0d864ecdc5adc911e52d508bbe0e830523c88ec39c5f82";
 };
 irssi = {
 version = "1.4.5-r1";
@@ -7837,7 +7837,7 @@ version = "0.9.1-r1";
 filename = "irtt-0.9.1-r1.apk";
 depends = [ "libc" ];
 provides = [ "irtt-any" ];
-sha256 = "8412a67df9204f5f3ccf6e0879fcf9e20c85d941988303308a0e651acb058188";
+sha256 = "063a49d60fe7cafbee2dd78beffce03c5241e0249942acf126f8d4bb44cf0f0a";
 };
 isc-dhcp-client-ipv4 = {
 version = "4.4.3_p1-r13";
@@ -8054,7 +8054,7 @@ version = "3.0.3-r3";
 filename = "kea-libs-3.0.3-r3.apk";
 depends = [ "boost" "libc" "libopenssl3" "log4cplus" ];
 provides = [ "kea-libs-any" ];
-sha256 = "45ea811a4852e49386477353a7969620d1c7b80942ffbeea2b41cdf2fd74c750";
+sha256 = "fed8a9282a4e99acd8d0b6a99c62d956ae4a38d119825d77671834c591e67b61";
 };
 kea-perfdhcp = {
 version = "3.0.3-r3";
@@ -8264,7 +8264,7 @@ version = "3.5.6-r1";
 filename = "ksmbd-server-3.5.6-r1.apk";
 depends = [ "kmod-fs-ksmbd" "libc" "libnl-core200" "libnl-genl200" ];
 provides = [ "ksmbd-server-any" ];
-sha256 = "9839d0c3b7d0c4a698418fcf072c6fb110e4917917a188cf763c65ac96e92839";
+sha256 = "5609774c6eacf07b8557b8f622c0fab2d98565001130ba55047f8de550cdade2";
 };
 lame = {
 version = "3.100-r1";
@@ -8299,7 +8299,7 @@ version = "0.0.13-r4";
 filename = "lcdgrilo-0.0.13-r4.apk";
 depends = [ "grilo" "grilo-plugins" "gstreamer1-libs" "libc" "libgee" "libgstreamer1" ];
 provides = [ "lcdgrilo-any" ];
-sha256 = "7b165c9104596a9454a2f82f4640edc8c6e525a7e50229f6fb52f64511c6efae";
+sha256 = "1f3772a2e7d0b6f41359e547fb180ef8631b764dd18d4eb705954d6e438b96d2";
 };
 lcdproc-clients = {
 version = "0.5.9-r9";
@@ -8355,7 +8355,7 @@ version = "39-r1";
 filename = "lf-39-r1.apk";
 depends = [ "libc" ];
 provides = [ "lf-any" ];
-sha256 = "2cc5b121dcfec1fef62666e6a2e7c829d1e9cf18cff6255c9eee69300cce1d73";
+sha256 = "ccb7a73d146da24a1c1eced5032d01a0c5842b1bb8c0fb7dfda7cd826fb2436c";
 };
 lftp = {
 version = "4.9.2-r3";
@@ -8579,14 +8579,14 @@ version = "8.14.1-r1";
 filename = "libcurl-gnutls4-8.14.1-r1.apk";
 depends = [ "libc" "libgnutls" "libidn2" "zlib" ];
 provides = [ "libcurl-gnutls" "libcurl-gnutls-any" ];
-sha256 = "6fa44c542396f54e1dfff346e036c76274940a1eb26d1c5f6b3b57a08e242308";
+sha256 = "8808971e89b9f346e3b3062f233c73b84c9835598fbc6044150c792fcb10ea43";
 };
 libcurl4 = {
-version = "8.22.0-r1";
-filename = "libcurl4-8.22.0-r1.apk";
+version = "8.23.0-r1";
+filename = "libcurl4-8.23.0-r1.apk";
 depends = [ "ca-bundle" "libc" "libmbedtls21" "libnghttp2-14" "zlib" ];
 provides = [ "libcurl" "libcurl-any" ];
-sha256 = "f4cd1a3cce059ea85e8f5ddf1f8bfcbaea8bc47ef5c5cbb463460ad54eafa728";
+sha256 = "5404774035cb7e5f310a82663e805a36eaa4bf8a81ea37421a4ced442d623b65";
 };
 libdaemon = {
 version = "0.14-r5";
@@ -8677,14 +8677,14 @@ version = "1.02.207";
 filename = "libdevmapper-1.02.207.apk";
 depends = [ "kmod-dm" "libblkid1" "libc" "libpthread" "librt" "libuuid1" ];
 provides = [ "libdevmapper-any" ];
-sha256 = "619210e6951189e383d94309e058156e5d813cbbfa787acfc1a9530700f1623f";
+sha256 = "cdc1fe67a1fe1f3dd70468a42648f6e68a055df8f1f29a58894f3d65f2ae2806";
 };
 libdevmapper-selinux = {
 version = "1.02.207";
 filename = "libdevmapper-selinux-1.02.207.apk";
 depends = [ "kmod-dm" "libblkid1" "libc" "libpthread" "librt" "libselinux" "libuuid1" ];
 provides = [ "libdevmapper" "libdevmapper-selinux-any" ];
-sha256 = "bc8c2b549cb5ba7b609db03cc0c3d9cf7c699710494a047e4c44b41921da995f";
+sha256 = "0220dc23bca86332d549e10973242a0da7a2eccc4fcc4324d16c752053a4c31a";
 };
 libdht = {
 version = "2023.03.18~0bbb8f4a-r2";
@@ -9132,7 +9132,7 @@ version = "1.25-r1";
 filename = "libgdbm-1.25-r1.apk";
 depends = [ "libc" ];
 provides = [ "libgdbm-any" ];
-sha256 = "c5ee02c1698fbad9173b34b0b668871dbb1f1abdde4be1b1d4221ab9398ac3de";
+sha256 = "c55a02986d80dd4793103fc052f40013b49d7eecb32dbdd51e56072388d7c53c";
 };
 libgee = {
 version = "0.20.8-r1";
@@ -10084,14 +10084,14 @@ version = "3.1.1-r1";
 filename = "libjpeg-turbo-3.1.1-r1.apk";
 depends = [ "libc" ];
 provides = [ "libjpeg" "libjpeg-turbo-any" ];
-sha256 = "9e6ae0a35ec1245a4fe0769dfd7ca25192baa311d88229134522fdb65a991a65";
+sha256 = "76e5d52a5371e6a87783ad449a9379995f6915821d9bb38d643468702da1de4a";
 };
 libjpeg-turbo-utils = {
 version = "3.1.1-r1";
 filename = "libjpeg-turbo-utils-3.1.1-r1.apk";
 depends = [ "libc" "libjpeg-turbo" ];
 provides = [ "jpeg-tools" "libjpeg-turbo-utils-any" ];
-sha256 = "2ccd23ae9349ffe376c251aa4db768103f21e26842d02ebb3c16a86d056797ab";
+sha256 = "66502eb677d1a1149bb65c5603a7cf7300f85bf29180b67b953d1109e1c1bd14";
 };
 libjwt0 = {
 version = "1.17.1-r2";
@@ -10385,7 +10385,7 @@ version = "5.0-r1";
 filename = "libndpi-5.0-r1.apk";
 depends = [ "libc" ];
 provides = [ "libndpi-any" ];
-sha256 = "1c1a8685a84a689a844987e9888b61293c251a498806d7efe8fe16e6d22e1bf5";
+sha256 = "a6dfc6cf9706fbe44b0f53bf11ac178eaf431a0c3ce7247889a2a4f32637b2a1";
 };
 libneon = {
 version = "0.32.4-r1";
@@ -10553,7 +10553,7 @@ version = "1.3.6-r2";
 filename = "libopen62541-1.3.6-r2.apk";
 depends = [ "libatomic1" "libc" "libpthread" "librt" "libstdcpp6" "zlib" ];
 provides = [ "libopen62541-any" ];
-sha256 = "2a1a0feef5b8f013743b1adb6cbd06f95e05b63846ac906cc97ebe889c477dc0";
+sha256 = "63620dbbf292c3f2032dd4bb37928d8b20655f3ec5868dc633950e55993284a4";
 };
 libopendkim = {
 version = "2.10.3-r7";
@@ -10882,7 +10882,7 @@ version = "7";
 filename = "libowipcalc-7.apk";
 depends = [ "libc" ];
 provides = [ "libowipcalc-any" ];
-sha256 = "9aa2d19a2fb863c04f4e191cd9f5d1111a31d4cc73840b55d5084364039707d2";
+sha256 = "2ad293ef8685319d9aa307c4c2634766e1e386a042309e0d8c42686dffb5a338";
 };
 libp11 = {
 version = "0.4.16-r1";
@@ -11057,28 +11057,28 @@ version = "1.0.14-r1";
 filename = "librespeed-cli-1.0.14-r1.apk";
 depends = [ "libc" ];
 provides = [ "librespeed-cli-any" ];
-sha256 = "9e0730825aa2eb17eb7b023286f17e9ec3e90560a50aaa3f39ac093351c9a624";
+sha256 = "7e7b72a9f6caa95afacd8e2a86d4c8055d7b02626ccd8b7806c31af5fb588940";
 };
 librespeed-cli-rust = {
 version = "1.2.0-r2";
 filename = "librespeed-cli-rust-1.2.0-r2.apk";
 depends = [ "libc" "libopenssl3" ];
 provides = [ "librespeed-cli" "librespeed-cli-rust-any" ];
-sha256 = "f2a813150ff94161118bb1a9a5df01719931d383c067d5644352f04059b652f1";
+sha256 = "d262969a4f2c24a48afe711f09f9e47d1b59ef2f646623649f6c75955cf0b36e";
 };
 librespeed-common = {
 version = "1.0.0-r2";
 filename = "librespeed-common-1.0.0-r2.apk";
 depends = [ "jshn" "jsonfilter" "libc" "librespeed-cli" "rpcd-mod-ucode" "ucode" "ucode-mod-fs" "ucode-mod-uci" ];
 provides = [ "librespeed-common-any" ];
-sha256 = "8f39fe86da086159af7a4bf5463f03cb2322359380566ff11bd30d0cf035d74b";
+sha256 = "ec420c6b02c26ea5c8f1aec6ddda5d6704c0c9b0b5cb399bdabc0eec2fed9a22";
 };
 librespeed-go = {
 version = "1.1.5-r5";
 filename = "librespeed-go-1.1.5-r5.apk";
 depends = [ "libc" ];
 provides = [ "librespeed-go-any" ];
-sha256 = "3c41de00cbc434368cac4186a3ae62a8326330ff02e87809d19c36ce3ab529fb";
+sha256 = "e1b84ffba6a8e6852cf5a70a118432838be4850480f115f72b3a4ac01befc9bc";
 };
 libreswan = {
 version = "4.12-r4";
@@ -11414,7 +11414,7 @@ version = "3.6.5-r1";
 filename = "libsoup3-3.6.5-r1.apk";
 depends = [ "glib2" "libc" "libgnutls" "libnghttp2-14" "libpsl5" "libsqlite3-0" "libxml2-16" ];
 provides = [ "libsoup3-any" ];
-sha256 = "4474d3a8b1565f54c357315025c71b48de0b960605b29ad490b3657e36d2d448";
+sha256 = "c203169e3e81685d2b68f7758ac0aac73473b8c7fccc1aeb59c9c0c3252f18e1";
 };
 libsoxr = {
 version = "0.1.3-r3";
@@ -15600,7 +15600,7 @@ version = "2019.11.20~c106c94d-r3";
 filename = "lua-rs232-2019.11.20~c106c94d-r3.apk";
 depends = [ "libc" "lua" ];
 provides = [ "lua-rs232-any" ];
-sha256 = "0435c6b3688e344543d4d6cc361e02f5c4d8826051116f3288c69a774618ccda";
+sha256 = "087be345da301ffc4143e5dcfeb48739ac6f2c5609aceb703a57b7c6232e9f26";
 };
 lua-sha2 = {
 version = "0.2.0-r1";
@@ -16055,7 +16055,7 @@ version = "2.9.2-r1";
 filename = "lynx-2.9.2-r1.apk";
 depends = [ "ca-bundle" "libc" "libncursesw6" "libopenssl3" "zlib" ];
 provides = [ "lynx-any" ];
-sha256 = "44dfcd1b67eae35872a628d80dc770309897f8432962cd0f4240bf662ba10b54";
+sha256 = "d6cae92f5192a98842e59995db9227f8b9da9595345b689ea436ca186d65518b";
 };
 lz4 = {
 version = "1.10.0-r1";
@@ -16125,7 +16125,7 @@ version = "1";
 filename = "maccalc-1.apk";
 depends = [ "libc" ];
 provides = [ "maccalc-any" ];
-sha256 = "9edef04dc3e1eaf09191a100af78a0f440893c8806bc5ee40f2bb38978c73c7f";
+sha256 = "c4f03bb0c99e0eb97d698b6764a00652b581fc89542fe9c7806add3de43f259e";
 };
 macchanger = {
 version = "1.7.0-r3";
@@ -16412,7 +16412,7 @@ version = "4.8.33-r1";
 filename = "mc-4.8.33-r1.apk";
 depends = [ "glib2" "libc" "libe2p2" "libmount1" "libncurses6" "libssh2-1" ];
 provides = [ "mc-any" ];
-sha256 = "ce6b9c49355f0ea8e7732f81191a82d742f3e03cfa16bf5d2ca35bec7919a791";
+sha256 = "fb21358f84e0f0025378c7906ebaa71691ee573dd36d13f4da9e1e3703401cff";
 };
 mc-skins = {
 version = "4.8.33-r1";
@@ -16482,14 +16482,14 @@ version = "2.0.14-r1";
 filename = "micro-2.0.14-r1.apk";
 depends = [ "libc" ];
 provides = [ "micro-any" ];
-sha256 = "84807e6b699c069d4f247f6e3bdbe33f640c8e3d315303d8b259474b86bc6a20";
+sha256 = "00c822696630ee1935249dd212a49be241b838bd3f1110b6205021e8ecde8809";
 };
 micrond = {
 version = "1-r2";
 filename = "micrond-1-r2.apk";
 depends = [ "libc" ];
 provides = [ "micrond-any" ];
-sha256 = "2012fdca3b7a244cbd922efa64e4b73b6ae86cdc9f12916653ac88854556219a";
+sha256 = "29f897176f7de687cda0f0cae8dd601b4a9b385035826bc20d7421ae37391392";
 };
 micropython-lib = {
 version = "20241017~68e3e07b-r1";
@@ -16524,14 +16524,14 @@ version = "1.23.0-r1";
 filename = "micropython-mbedtls-1.23.0-r1.apk";
 depends = [ "libc" "libffi" "libmbedtls21" ];
 provides = [ "micropython" "micropython-mbedtls-any" ];
-sha256 = "ca4f63b290dfa88d654ac421ee29d3ed6061561d5423a1678450c734231637c8";
+sha256 = "2da0d04ab8336870613edad53355507c7b8bdb83276db699c4beac15850e8ab5";
 };
 micropython-nossl = {
 version = "1.23.0-r1";
 filename = "micropython-nossl-1.23.0-r1.apk";
 depends = [ "libc" "libffi" ];
 provides = [ "micropython" "micropython-nossl-any" ];
-sha256 = "448d22c91ec98f399e8680258670b4cabaa2ff60a25511109c7a4eb616e2a26b";
+sha256 = "5b4b9b01f1f2eada9a89cc2e91da4284767bde292097251bf0d5d34794de1d22";
 };
 microsocks = {
 version = "1.0.5-r2";
@@ -16601,14 +16601,14 @@ version = "2.0.42-r1";
 filename = "miniflux-2.0.42-r1.apk";
 depends = [ "libc" "pgsql-server" ];
 provides = [ "miniflux-any" ];
-sha256 = "e025d3b833bb51275abcf5061940e2c9f32f58d9b075bf85d80ecd952fdf9669";
+sha256 = "421b7623b086c47c3048f01316393973764535db177d3709d7b707c7b2aed613";
 };
 minisatip = {
 version = "1.3.4-r1";
 filename = "minisatip-1.3.4-r1.apk";
 depends = [ "libc" ];
 provides = [ "minisatip-any" ];
-sha256 = "80f3a57eafa00f5e840e372e0ba5c56697962c7891289516709a4be98cab674f";
+sha256 = "3ca3f90e692f53cf914e88c0a47f8eb0b422af4f00c82938b525f4d41eb936a5";
 };
 miniupnpc = {
 version = "2.2.8-r1";
@@ -16622,7 +16622,7 @@ version = "2.3.9-r1";
 filename = "miniupnpd-iptables-2.3.9-r1.apk";
 depends = [ "ip6tables" "iptables" "libc" "libcap-ng" "libip4tc2" "libip6tc2" "libmnl0" "libnetfilter-conntrack3" "libuuid1" ];
 provides = [ "miniupnpd" "miniupnpd-iptables-any" ];
-sha256 = "d88fc9911e174aeca9396910c51a0c808f12f80317db9e2cbd63482e1bdef2d3";
+sha256 = "823dbb8167335e92fffe747119473929abaa299e53394805ad3a3a2097e79f4a";
 };
 miniupnpd-nftables = {
 version = "2.3.9-r1";
@@ -16923,14 +16923,14 @@ version = "2.1.5-r2";
 filename = "mutt-2.1.5-r2.apk";
 depends = [ "libc" "libncursesw6" "libopenssl3" "terminfo" "zlib" ];
 provides = [ "mutt-any" ];
-sha256 = "3292f67d62f3e99da2a7416f3804886b15cb2204e77dad6ac801aaecc7cb98f1";
+sha256 = "49d8595b0b2220484da60d4ada45b261078e475777ffe5633ae2269dd3b00024";
 };
 mwan3 = {
 version = "2.12.0-r3";
 filename = "mwan3-2.12.0-r3.apk";
 depends = [ "ip" "ip6tables" "ipset" "iptables" "iptables-mod-conntrack-extra" "iptables-mod-ipopt" "jshn" "libc" "rpcd-mod-ucode" ];
 provides = [ "mwan3-any" ];
-sha256 = "3b9e206f45ccb188d41fc19e59cb0b0478155ee1371f196153e86470fff463f7";
+sha256 = "3bf548806fcde2b18d34d838ac5086c80dc1b99213ed5b11b9c544b6ce28cf8b";
 };
 nail = {
 version = "12.5-r5";
@@ -16993,7 +16993,7 @@ version = "3.25-r2";
 filename = "nbd-server-3.25-r2.apk";
 depends = [ "glib2" "libc" ];
 provides = [ "nbd-server-any" ];
-sha256 = "78e09dbf0c20ede7938186ca839ce216fddf567fc3c181ed1ec2e4e0516f54c9";
+sha256 = "7dc998b45b9a1e5bfabe4e1e7dd6562a20690f9bd18701614a27ee8c484b68ed";
 };
 ncat = {
 version = "7.95-r1";
@@ -17056,14 +17056,14 @@ version = "1.10.3-r1";
 filename = "nebula-1.10.3-r1.apk";
 depends = [ "kmod-tun" "libc" ];
 provides = [ "nebula-any" ];
-sha256 = "2235bdaa9365e1fb27afe9a169ec48aeeae15491a3478fd6818fa9dfb47f8a64";
+sha256 = "6f5d4b6186c36d8d462eada71eb039fd392b08a806698c9da6c3ab99701da598";
 };
 nebula-cert = {
 version = "1.10.3-r1";
 filename = "nebula-cert-1.10.3-r1.apk";
 depends = [ "libc" ];
 provides = [ "nebula-cert-any" ];
-sha256 = "5b1aec813a7b74a964e62a20df97f96a5ebb9390f80b10d693bb825b12f6a3b8";
+sha256 = "48f94d3bd9e73153408f6c92255aa7de1d4d30f4dc156adf078f1ca773b21be4";
 };
 nebula-proto = {
 version = "1.10.3-r1";
@@ -17084,7 +17084,7 @@ version = "1.7.7-r1";
 filename = "nerdctl-1.7.7-r1.apk";
 depends = [ "libc" ];
 provides = [ "nerdctl-any" ];
-sha256 = "180698aade282d1469a87a7c88897824a563b07cb8f47636a4282f4194c7a1fc";
+sha256 = "82348f7ef3b8c0c302be113eb2b7b6e24a1e7eb4bcf18027199633e2eda4e985";
 };
 net-mtools = {
 version = "3.2-r1";
@@ -17140,14 +17140,14 @@ version = "1.12.2-r1";
 filename = "netavark-1.12.2-r1.apk";
 depends = [ "libc" ];
 provides = [ "netavark-any" ];
-sha256 = "d38141beb03b58099f5419b0e08f48f066184da5dab61262e309275bc2036b67";
+sha256 = "ab2e3766124722f7b79dbab39c0b50e1f8d301d9e1d5de7371895b485debe235";
 };
 netbird = {
 version = "0.78.1-r1";
 filename = "netbird-0.78.1-r1.apk";
 depends = [ "kmod-wireguard" "libc" ];
 provides = [ "netbird-any" ];
-sha256 = "fbf589887d3a6cbcf37a133459fe01f79c3848c45b1c4bc599fe8e1d86681d30";
+sha256 = "4adda16e153befca6498a619115115f21c22e657e5a891d4cbff8180bac8cb1a";
 };
 netcat = {
 version = "0.7.1-r2";
@@ -17217,7 +17217,7 @@ version = "1.47.3-r1";
 filename = "nextdns-1.47.3-r1.apk";
 depends = [ "ca-bundle" "libc" ];
 provides = [ "nextdns-any" ];
-sha256 = "29dcb1091a20b602f3edac4dc65f768ead656b36d9b0006028d83220cd3ae9f2";
+sha256 = "08540e880410bcc7834d2b5b6281fb7312e70b0b23ad30dbc139502d16ff0dc2";
 };
 nfdump = {
 version = "1.7.6-r1";
@@ -17266,133 +17266,133 @@ version = "1.26.3-r4";
 filename = "nginx-full-1.26.3-r4.apk";
 depends = [ "libc" "libopenssl3" "libpcre2" "libpthread" "libxml2-16" "nginx-ssl-util" "zlib" ];
 provides = [ "nginx" "nginx-full-any" ];
-sha256 = "02e328613fff0795331a2ade357407f1a2cc9c0cf55273f798937523f5e53841";
+sha256 = "226b02c0e464a7adb97bb7e7dd0e4def9bd91b383ea5947be6f00dc39f0b41c4";
 };
 nginx-mod-brotli = {
 version = "1.26.3-r4";
 filename = "nginx-mod-brotli-1.26.3-r4.apk";
 depends = [ "libc" "nginx" ];
 provides = [ "nginx-mod-brotli-any" ];
-sha256 = "c3ea9ca1bcf5c1aeb52aaa1d775c6990b5205acfe058496a541ecd3fd6f35fed";
+sha256 = "8d35c012d30998e73f5327fe32a85d8a96eb170cc155c16b0cceb88dda48f0d9";
 };
 nginx-mod-dav-ext = {
 version = "1.26.3-r4";
 filename = "nginx-mod-dav-ext-1.26.3-r4.apk";
 depends = [ "libc" "libxml2-16" "nginx" ];
 provides = [ "nginx-mod-dav-ext-any" ];
-sha256 = "5fca8054fbc684eb87d5de6b08163f2762bef4dd6b8996b9a38e1db4662035bf";
+sha256 = "2b693476a22819852cd122e893f8381b6b410abefd5340fca32c454bcbc8086c";
 };
 nginx-mod-geoip2 = {
 version = "1.26.3-r4";
 filename = "nginx-mod-geoip2-1.26.3-r4.apk";
 depends = [ "libc" "libmaxminddb" "nginx" "nginx-mod-stream" ];
 provides = [ "nginx-mod-geoip2-any" ];
-sha256 = "5a648f1e8efe3f20135e1d3dffa27a0ec16652911df64f22ceb47794ee6a19c3";
+sha256 = "c67e69a02bf78be51ef8bb908457cf2e10c6d487b980e247f77f56c7597eb37c";
 };
 nginx-mod-headers-more = {
 version = "1.26.3-r4";
 filename = "nginx-mod-headers-more-1.26.3-r4.apk";
 depends = [ "libc" "nginx" ];
 provides = [ "nginx-mod-headers-more-any" ];
-sha256 = "1426dc9b5807827cfda7d88a27a739a77e9f4e34edc5f0e6a1d9bd174c035656";
+sha256 = "021226a1f7372910168ba3ab5359ba684f809e8b6e4806fb63fdaa1d79c39f15";
 };
 nginx-mod-lua = {
 version = "1.26.3-r4";
 filename = "nginx-mod-lua-1.26.3-r4.apk";
 depends = [ "libc" "nginx" "nginx-mod-lua-resty-core" ];
 provides = [ "nginx-mod-lua-any" ];
-sha256 = "038ce84a1e4739d9b7bc5598787d9ba7fe29fe83af35310383d11171ecfa8039";
+sha256 = "6179be106aa508d9782e587870a892c5a342aa9ee1a8e048d0d26e9db6249669";
 };
 nginx-mod-lua-resty-core = {
 version = "1.26.3-r4";
 filename = "nginx-mod-lua-resty-core-1.26.3-r4.apk";
 depends = [ "libc" "nginx-mod-lua-resty-lrucache" ];
 provides = [ "nginx-mod-lua-resty-core-any" ];
-sha256 = "651589922e9ed31e5af2a02360ba8ce7fe57c79a54bb445d15a7ca03556bc155";
+sha256 = "0ba6fd7e933405463c2d365aee64470add9d66116c64cda76b8380e157a5527f";
 };
 nginx-mod-lua-resty-lrucache = {
 version = "1.26.3-r4";
 filename = "nginx-mod-lua-resty-lrucache-1.26.3-r4.apk";
 depends = [ "libc" "luajit2" ];
 provides = [ "nginx-mod-lua-resty-lrucache-any" ];
-sha256 = "fd9d4323e5915f5f82cd62a1e371d3a81702e635e7e3ea628977911257bdd9d2";
+sha256 = "8ff4cbf3c422e3ad947e39eea81965565d935efced7568ed96a2f73cd7b9f73f";
 };
 nginx-mod-luci = {
 version = "1.26.3-r4";
 filename = "nginx-mod-luci-1.26.3-r4.apk";
 depends = [ "libc" "nginx" "nginx-mod-ubus" "uwsgi" "uwsgi-luci-support" ];
 provides = [ "nginx-mod-luci-any" ];
-sha256 = "cb31dfb3efd116f5e5d446942236db64eee9935c549c6c47331822a6c3868fe2";
+sha256 = "aa55eeee6096592545b4e1fc6f3d30d060a69932997d951bf9ce05b5c7e20878";
 };
 nginx-mod-naxsi = {
 version = "1.26.3-r4";
 filename = "nginx-mod-naxsi-1.26.3-r4.apk";
 depends = [ "libc" "nginx" ];
 provides = [ "nginx-mod-naxsi-any" ];
-sha256 = "eed94cbee9a359e8f137504d76d44295eae2e5a21c4c34d5251f307e918a4dfa";
+sha256 = "43da644c78cf3b184d91e9fbb229117d4ae4a30974996ea29cd3769c64457377";
 };
 nginx-mod-njs = {
 version = "1.26.3-r4";
 filename = "nginx-mod-njs-1.26.3-r4.apk";
 depends = [ "libc" "libpcre2" "libxml2-16" "libxslt" "nginx" "zlib" ];
 provides = [ "nginx-mod-njs-any" ];
-sha256 = "035c95716f32184a1c6496c35c672ce209f8ddaf66dddf9a8db9c83f6dc7192a";
+sha256 = "4d58ad1737a1dfe256ba21cd7a523ab3c172788644fd7d544efbc08d92977b56";
 };
 nginx-mod-rtmp = {
 version = "1.26.3-r4";
 filename = "nginx-mod-rtmp-1.26.3-r4.apk";
 depends = [ "libc" "nginx" ];
 provides = [ "nginx-mod-rtmp-any" ];
-sha256 = "527fc5785effe720b6b55a733ecc04b5574db2acd65ff686b6bc0be6532c9719";
+sha256 = "d1273ecd7465e08f45d69a31d8093e40dd0508419f3451cd667ff230eb417f8b";
 };
 nginx-mod-stream = {
 version = "1.26.3-r4";
 filename = "nginx-mod-stream-1.26.3-r4.apk";
 depends = [ "libc" "nginx" ];
 provides = [ "nginx-mod-stream-any" ];
-sha256 = "b61d3d5fbe869fe8045302d8a5a78b4b7030689aedd8a2c256d57dd997c08af8";
+sha256 = "ffec6f38fba76f3e4fe541b98a9c4d0ceed29fa30d8d698a89a2336e8504d247";
 };
 nginx-mod-ts = {
 version = "1.26.3-r4";
 filename = "nginx-mod-ts-1.26.3-r4.apk";
 depends = [ "libc" "nginx" ];
 provides = [ "nginx-mod-ts-any" ];
-sha256 = "b8775a60d414d456c418b6e955e069bfbe99b02dfb2080e73f0b43bcbe00fe6c";
+sha256 = "d9e1092e9b5be83a125b01e06e7328d23d9e02c1420585e64bdeaba7cfb6dc24";
 };
 nginx-mod-ubus = {
 version = "1.26.3-r4";
 filename = "nginx-mod-ubus-1.26.3-r4.apk";
 depends = [ "libblobmsg-json20260213" "libc" "libjson-c5" "libubus20251202" "nginx" ];
 provides = [ "nginx-mod-ubus-any" ];
-sha256 = "6a4497dabe094bae9400db36f4bb95526bd1c674fed958f8fbe4b140167efd8d";
+sha256 = "234f05bd4f560d7dbec9309ce8c0b2be9504532df07c9dca8c82d421639bd793";
 };
 nginx-ssl = {
 version = "1.26.3-r4";
 filename = "nginx-ssl-1.26.3-r4.apk";
 depends = [ "libc" "libopenssl3" "libpcre2" "libpthread" "libxml2-16" "nginx-ssl-util" "zlib" ];
 provides = [ "nginx" "nginx-ssl-any" ];
-sha256 = "8d2bcf90b346b22a2d04265efc7ee0e56a73b7241e3962378a8dae0e6323f0c2";
+sha256 = "0c73ba89d8145208baefef4994f447a43c19b9ebb3c50e18d23c80135267ecfd";
 };
 nginx-ssl-util = {
 version = "1.7-r2";
 filename = "nginx-ssl-util-1.7-r2.apk";
 depends = [ "libc" "libopenssl3" "libpcre2" "libpthread" "libstdcpp6" "libubox20260213" "libubus20251202" "libuci20250120" ];
 provides = [ "nginx-ssl-util-any" ];
-sha256 = "04e4fe0f656c3068c543362eaf1c9d605ed56c7c7884b845cbb21b13fa33fbf3";
+sha256 = "7dba9768611e410fdf7ffeab6f40d4760463febd85ba4ef7e6771d17ac177bfd";
 };
 nginx-ssl-util-nopcre = {
 version = "1.7-r2";
 filename = "nginx-ssl-util-nopcre-1.7-r2.apk";
 depends = [ "libc" "libopenssl3" "libpthread" "libstdcpp6" "libubox20260213" "libubus20251202" "libuci20250120" ];
 provides = [ "nginx-ssl-util-nopcre-any" ];
-sha256 = "db3fa1be0dad31337ebf4ed93d271e84d00d05ae730af834a888f67216143cc1";
+sha256 = "db4dcc013ed4f4c599d1382174faccefa09381f7953f17b76625ab5b52fabbc5";
 };
 ngircd = {
 version = "26.1-r1";
 filename = "ngircd-26.1-r1.apk";
 depends = [ "libc" "libopenssl3" "zlib" ];
 provides = [ "ngircd-any" ];
-sha256 = "381f9252d2577dc2d9b4e7f6dcf9d640df975be43a7cb8d8a68bc7d19edb32e6";
+sha256 = "00fc9a9a8a5dd66c914a40d04c913526613749efd0e560966c0b3bcf6528f179";
 };
 ngircd-nossl = {
 version = "26.1-r1";
@@ -17511,7 +17511,7 @@ version = "4.36-r1";
 filename = "nspr-4.36-r1.apk";
 depends = [ "libc" "libpthread" ];
 provides = [ "nspr-any" ];
-sha256 = "9b367c2eda2c27d8a327c85fcda58cb3a703dca9eb4e470619325e9bc5fe8ac8";
+sha256 = "ca9d609f0f3573d86e7d40965e8cc1a7856c2f4b3f8b65cc4a3b8319bc9bd95d";
 };
 nss-utils = {
 version = "3.112-r1";
@@ -17532,49 +17532,49 @@ version = "2022.10.3-r1";
 filename = "ntfs-3g-2022.10.3-r1.apk";
 depends = [ "kmod-fuse" "libc" "libpthread" ];
 provides = [ "ntfs-3g-any" ];
-sha256 = "a2b220bc6247859bc44b9eac2050a2f29587e19af1011fc34e94e13cef14ded8";
+sha256 = "c7db64e349ab419fcdbdaaa8402e7a0d6ac6a6a1f19f9d9ca10ad4cd743c00d4";
 };
 ntfs-3g-low = {
 version = "2022.10.3-r1";
 filename = "ntfs-3g-low-2022.10.3-r1.apk";
 depends = [ "libc" "ntfs-3g" ];
 provides = [ "ntfs-3g-low-any" ];
-sha256 = "908d502bbd8af6612fb53aa1e1bf32d8619f648bede14f6312647dfca17b29c0";
+sha256 = "60f1d786873a892c9ce0f01a3a941d595f001e73eb36596df5c650b75429f117";
 };
 ntfs-3g-utils = {
 version = "2022.10.3-r1";
 filename = "ntfs-3g-utils-2022.10.3-r1.apk";
 depends = [ "libc" "libgcrypt" "libuuid1" "ntfs-3g" ];
 provides = [ "ntfs-3g-utils-any" ];
-sha256 = "d57b64112c625184c36ee790659b97aa016bf2f220e87fb7ff1a228911641c2a";
+sha256 = "9dd15752bcc22a25c019bcedb6e2577c3a4927dab32898440344df5e1508df37";
 };
 ntp-keygen = {
 version = "4.2.8_p18-r3";
 filename = "ntp-keygen-4.2.8_p18-r3.apk";
 depends = [ "libc" "libcap" "libevent2-core7" "libopenssl3" "libpthread" ];
 provides = [ "ntp-keygen-any" ];
-sha256 = "f31d2e5bc137937ec2a83f9a696ca7015cdc89331416aad64903381766c00bcf";
+sha256 = "b90fbaf8aa816670d77a1ddf226c8312f40d449b4d5d3e035cede9b80edc892f";
 };
 ntp-utils = {
 version = "4.2.8_p18-r3";
 filename = "ntp-utils-4.2.8_p18-r3.apk";
 depends = [ "libc" "libcap" "libevent2-pthreads7" "libopenssl3" "libpthread" ];
 provides = [ "ntp-utils-any" ];
-sha256 = "6c00febc2db9ad7368f9dfe4622475daf3da7638206536b3e88aa4c0e1d7574d";
+sha256 = "c4f79ef6bc418989b7a43faafcfd91b84fa6435edc66694b54ba865a209d6796";
 };
 ntpd = {
 version = "4.2.8_p18-r3";
 filename = "ntpd-4.2.8_p18-r3.apk";
 depends = [ "libc" "libcap" "libopenssl3" "libpthread" "ntp-utils" ];
 provides = [ "ntpd-any" ];
-sha256 = "6fde54974437ba0b68ddb4c0628785e00ae038aebd0ba1c20ef754e435c6a566";
+sha256 = "9e346935e709ae6df77a979025679f696846dbc2b5de044b4a38cf36e5a09030";
 };
 ntpdate = {
 version = "4.2.8_p18-r3";
 filename = "ntpdate-4.2.8_p18-r3.apk";
 depends = [ "libc" "libcap" "libopenssl3" "libpthread" ];
 provides = [ "ntpdate-any" ];
-sha256 = "37548f1b03f0fbf8060f121f0dc798ac73126806511a24c7213104ed144c1ec4";
+sha256 = "355b4032a58de6a551e6fd6f5791d846c3b036de3cdaedbd4458c3a5bab76fb1";
 };
 ntripcaster = {
 version = "0.1.5-r3";
@@ -17588,14 +17588,14 @@ version = "1.51-r2";
 filename = "ntripclient-1.51-r2.apk";
 depends = [ "libc" ];
 provides = [ "ntripclient-any" ];
-sha256 = "5716e34d93db104c946106439500ec2634f59e15070f87b111c85e0e43626ff9";
+sha256 = "f7ac2bc4c4d6ececdb48fb70a4b072b9aac9a78d1e3ad08e5e05c8343b746731";
 };
 ntripserver = {
 version = "1.51-r2";
 filename = "ntripserver-1.51-r2.apk";
 depends = [ "libc" ];
 provides = [ "ntripserver-any" ];
-sha256 = "85c27ee1a926edda91d4836993cc09b1fb758704d6ec987bdd95d9bb9b2f8e6a";
+sha256 = "26ede22dab38272ac847b7d7fb05b03daf1fe230d009cf05eb012208e7253142";
 };
 nut = {
 version = "2.8.4-r1";
@@ -17623,448 +17623,448 @@ version = "2.8.4-r1";
 filename = "nut-driver-al175-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-al175-any" ];
-sha256 = "11f5a5e4c105eec4a413f68c768487f33feabb3026d1df689e310914c812adcb";
+sha256 = "1a4b58772ad1ecbf0b923bfa1c1f7f8d6b26b0495f6919df345932c537bf4ae6";
 };
 nut-driver-apcsmart = {
 version = "2.8.4-r1";
 filename = "nut-driver-apcsmart-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-apcsmart-any" ];
-sha256 = "6cac1676f33f07a3687d461a0c1c61650acac41ca506b9dbd942efd7c86cf5f7";
+sha256 = "ac9d31523f51622b2156940fca3d3634412b16f0b61f42178febfd445c13f643";
 };
 nut-driver-apcsmart-old = {
 version = "2.8.4-r1";
 filename = "nut-driver-apcsmart-old-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-apcsmart-old-any" ];
-sha256 = "d51c811a49a2ad0b8887a5dbb751988622ff508250b2aa9aae9ca76fb2df97e6";
+sha256 = "ca3913ac45d22984bfd4f24ae9abe74a30c34f2f34cc8bbf701fb25dac4c570a";
 };
 nut-driver-apcupsd-ups = {
 version = "2.8.4-r1";
 filename = "nut-driver-apcupsd-ups-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-apcupsd-ups-any" ];
-sha256 = "e38f94863e33facddfa873098864e178bef3160fae2ddaf43e5d7d572e11f2a5";
+sha256 = "4996c027bb30a3e49667e29b5e9838146fce2252303233dbd86f36a98ba4e684";
 };
 nut-driver-bcmxcp = {
 version = "2.8.4-r1";
 filename = "nut-driver-bcmxcp-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-bcmxcp-any" ];
-sha256 = "d48e6a375918c58e59399e5c5ae9f38e8ae66fc9c69b789c57f990b168a40e5c";
+sha256 = "9355334a4b58ee9f8238deab235e8c5779915112198418675bb946ab18a55dd8";
 };
 nut-driver-bcmxcp_usb = {
 version = "2.8.4-r1";
 filename = "nut-driver-bcmxcp_usb-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-bcmxcp_usb-any" ];
-sha256 = "3da9c91c6b465114753d3c171ea5734c5159bddf43d3cbeef2754fb520dce7cc";
+sha256 = "73389540cd874e8ca557cba178018d7c04bcd32f6d5a93954402f1dd0272b5c0";
 };
 nut-driver-belkin = {
 version = "2.8.4-r1";
 filename = "nut-driver-belkin-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-belkin-any" ];
-sha256 = "1c38de008fb4115a28f85fc02c03ff3c25a9fbc013e12eeb6e70f064326a5b13";
+sha256 = "455e38aed2622a8804871d098bae62224399fa0a3d071f7c3e3ee23984f06f6e";
 };
 nut-driver-belkinunv = {
 version = "2.8.4-r1";
 filename = "nut-driver-belkinunv-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-belkinunv-any" ];
-sha256 = "eae3eeba0b86ee87a81e4ff03a17636464ccf5559a7ff9b1dc9b086b73ba5ef1";
+sha256 = "1ec93308b31a72292ce3673993ee42c5ac735d6a26ddd8585e1b98775b5d0f3a";
 };
 nut-driver-bestfcom = {
 version = "2.8.4-r1";
 filename = "nut-driver-bestfcom-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-bestfcom-any" ];
-sha256 = "c5fc48889996c50484029b67d17f272177015ae9ffefee43a9e545d4272bc6ec";
+sha256 = "8d6d472322a5002649d9a74fa66b95fa52a0d12b4b2bf8e172da75938fc5b2e8";
 };
 nut-driver-bestfortress = {
 version = "2.8.4-r1";
 filename = "nut-driver-bestfortress-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-bestfortress-any" ];
-sha256 = "e0f4e61f154dc0971f549ca8762d29e38dbf488cd664bc9a39b9752e90914e8e";
+sha256 = "5c116928a1b0233561ead6ffa0de863ba6c9c15250d5b655e14cc50a4765eba9";
 };
 nut-driver-bestuferrups = {
 version = "2.8.4-r1";
 filename = "nut-driver-bestuferrups-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-bestuferrups-any" ];
-sha256 = "117612e8e975ca5f7e710899afb665bfca25e400f0b05e52592e3f843d06ec3f";
+sha256 = "8f4789c693bcded6995f33ead9fa0a4eb45f3436b0d53c9dae586e6006aa0a3e";
 };
 nut-driver-bestups = {
 version = "2.8.4-r1";
 filename = "nut-driver-bestups-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-bestups-any" ];
-sha256 = "e58447662519df783d3ec1f2984be0ae43a3f0de28b976073de04f2f67f993da";
+sha256 = "f40ddd73df06692cd1588bcf7817477aa182f6d319fc3faed4b43a3b3d3947ca";
 };
 nut-driver-bicker_ser = {
 version = "2.8.4-r1";
 filename = "nut-driver-bicker_ser-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-bicker_ser-any" ];
-sha256 = "e02dfae8a6ec18eace7c1e014adb39edaaab48640f931543fc9bc4be46b38254";
+sha256 = "8d3a00cad55d2e921848fe31a8696035783898a9819e79060aac119675a7b5cb";
 };
 nut-driver-blazer_ser = {
 version = "2.8.4-r1";
 filename = "nut-driver-blazer_ser-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-blazer_ser-any" ];
-sha256 = "0f1d8061e4c2f1531beb3650a9601e047325ce88e41a07304c02bd09621a581e";
+sha256 = "dab6f4aee77d4b13c71f2925a2c261308da64a1c583a948a18c5d584432e2de7";
 };
 nut-driver-blazer_usb = {
 version = "2.8.4-r1";
 filename = "nut-driver-blazer_usb-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-blazer_usb-any" ];
-sha256 = "4dc177dea331fe2b35957b870627ab24e5b7eddccde29391b92c88c7c80c3c8d";
+sha256 = "4a94ee1e1171303a0d0680e32802a42dbc18f14c2275cecea43b4c6cd3664a4e";
 };
 nut-driver-clone = {
 version = "2.8.4-r1";
 filename = "nut-driver-clone-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-clone-any" ];
-sha256 = "4feaa4d9e98ce1ddbe6c5ab2161ddc485d0e4edfec34c97e27cc4e4127fe3632";
+sha256 = "a45da786532822de1f7ba7dbb0bf356899435d45021c6736de2cc13148cef317";
 };
 nut-driver-dummy-ups = {
 version = "2.8.4-r1";
 filename = "nut-driver-dummy-ups-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-dummy-ups-any" ];
-sha256 = "ad01d1aaab527726fdd6d8e10c8df74643fee12bad9be1baeefd430c279dc228";
+sha256 = "0a43db735e11943fc46eaadf1d1ed270557ae62e8407bfc31654a3433e7be59f";
 };
 nut-driver-etapro = {
 version = "2.8.4-r1";
 filename = "nut-driver-etapro-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-etapro-any" ];
-sha256 = "e214099749e069555981dc0456c426983e2c123f5cbaa3bb94732db01887a241";
+sha256 = "86ba81b7999b5496cafe05bc0632f7f638ba425bd55b8422d45d3a0543f6da94";
 };
 nut-driver-everups = {
 version = "2.8.4-r1";
 filename = "nut-driver-everups-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-everups-any" ];
-sha256 = "5aead78dce5d12559e8df2b5f379a2561bfa95298f4d912e391225345371ddc7";
+sha256 = "096649ba2c17abb03ac883faa068ebe323b5c4aa5c48bfc715b7801449347a0e";
 };
 nut-driver-failover = {
 version = "2.8.4-r1";
 filename = "nut-driver-failover-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-failover-any" ];
-sha256 = "33922874955e2317ad1a15f2d8d694b287182336b294f4dca1f418bb9e6f0d92";
+sha256 = "6f1df5481b0e154b2fed2d1e0570b1de71327dedd6ddfaef724ef516acad0a09";
 };
 nut-driver-gamatronic = {
 version = "2.8.4-r1";
 filename = "nut-driver-gamatronic-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-gamatronic-any" ];
-sha256 = "1f68dd11baf7216475838efc3fc1fa8c783a22800ff8340e85374c1dfbbc99d0";
+sha256 = "2edcf7a9957a2f6564ef6fb04b2f78deb15f09877bbf74bf52220e65746fe9b3";
 };
 nut-driver-genericups = {
 version = "2.8.4-r1";
 filename = "nut-driver-genericups-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-genericups-any" ];
-sha256 = "02b480c2d973c463a31b259a47829f4dae2fdf0d0bf117248721d55ca9c353e8";
+sha256 = "f0fc9f80fc024a0831fbcc7e9da79a061166d75cca3d5deeff58f0adf406ea4c";
 };
 nut-driver-isbmex = {
 version = "2.8.4-r1";
 filename = "nut-driver-isbmex-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-isbmex-any" ];
-sha256 = "b3fffcb00e4dfc8033fc3efe673301d855f645bfbf36bdca129543629bd6c1a8";
+sha256 = "2b2cb8cbae76c9174db3c50e18e3cd471da5bbe8a00731e3e4950244734ac68e";
 };
 nut-driver-ivtscd = {
 version = "2.8.4-r1";
 filename = "nut-driver-ivtscd-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-ivtscd-any" ];
-sha256 = "12c61d7f713c290bebe5c63ead0e875f641b3b0b36ee973b48f04ffd50e34842";
+sha256 = "08ed4ef4e467cb573d52a41ebde53cd6d3a350e6cdb04c0d9d380a28da96453b";
 };
 nut-driver-liebert = {
 version = "2.8.4-r1";
 filename = "nut-driver-liebert-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-liebert-any" ];
-sha256 = "01d7c6020b1ff98670e2a955f3c39de1fedea3b3ed7cd4ab0abc4859dd49cd59";
+sha256 = "af0d04d56d359ffbfdc036fbafc51762e0d6e8504130e2a6a0de8021cc68f3f3";
 };
 nut-driver-liebert-esp2 = {
 version = "2.8.4-r1";
 filename = "nut-driver-liebert-esp2-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-liebert-esp2-any" ];
-sha256 = "b861b6b17ac0f4bcb3ba78cce60a81de1f601d1088b7583e63cb042da716956d";
+sha256 = "76800d7bf5f2adf2b6c6c031a461b133f86f2d47c9e5001b79a8573b12f9bafa";
 };
 nut-driver-liebert-gxe = {
 version = "2.8.4-r1";
 filename = "nut-driver-liebert-gxe-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-liebert-gxe-any" ];
-sha256 = "3186fa7986227792b1ef9a4e66de03b5a560cb588d39b4aeefd9f53942435477";
+sha256 = "ab086026b98a51eb228cf3b5b5dd53b33a9bc79e19849161d884f626ee595065";
 };
 nut-driver-masterguard = {
 version = "2.8.4-r1";
 filename = "nut-driver-masterguard-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-masterguard-any" ];
-sha256 = "ea6ea0641506b8201c1406ffbc5d9706360c8fc0175dd0c63863d62aad6d5f4d";
+sha256 = "e5f5c60ce7216bd214c37fa3a70606a456eb29a915656b7b73853d41efebee9d";
 };
 nut-driver-metasys = {
 version = "2.8.4-r1";
 filename = "nut-driver-metasys-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-metasys-any" ];
-sha256 = "fc356e31e4c6170bec136cb3ed3273579a13c18f1e502f6e50cb36e64e87998b";
+sha256 = "42b32352f94638bd5547e16f084cfb9945464e80991d651c2a23bc0b93a56ba7";
 };
 nut-driver-mge-shut = {
 version = "2.8.4-r1";
 filename = "nut-driver-mge-shut-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-mge-shut-any" ];
-sha256 = "17caca0537b9f8da0ae1c0c1216d3d7d11c2d061a27ffd352c8050f7f121074a";
+sha256 = "4b5f466d525c989e322d6af8b377a7b1060b4d051b951490f8700b30f38735d7";
 };
 nut-driver-mge-utalk = {
 version = "2.8.4-r1";
 filename = "nut-driver-mge-utalk-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-mge-utalk-any" ];
-sha256 = "744c4e001105bde4460751b87f64f7d57146c1688f0afbd92b182dd49fe33520";
+sha256 = "8795fe0e7e61e735977d31837b5d421040dd62e3315688fcbde930114cbf665f";
 };
 nut-driver-microdowell = {
 version = "2.8.4-r1";
 filename = "nut-driver-microdowell-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-microdowell-any" ];
-sha256 = "fd542437d6ae4dd140685892908261fb4459b46876e42259583a0cf9d118b594";
+sha256 = "c138c7d0a7f7eb5722c4c762b0616f5825eb39c7fe6352291b28bbe41d599f98";
 };
 nut-driver-microsol-apc = {
 version = "2.8.4-r1";
 filename = "nut-driver-microsol-apc-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-microsol-apc-any" ];
-sha256 = "09f9337dbbc17a9e059ad0c537b58cbc48b64e7fa771f1aaabfec74b4dd062c5";
+sha256 = "c4ee132009207346f447f972913956386a0621eb69375a40ce2cfc7ccd1a78b9";
 };
 nut-driver-netxml-ups = {
 version = "2.8.4-r1";
 filename = "nut-driver-netxml-ups-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-netxml-ups-any" ];
-sha256 = "86bf1d39dc01a018677163c0c0a838aeeb54d5cfbb3dd62dcc9e223f440dec2d";
+sha256 = "bcb40c22157e61138c10cb3d8de6f10dd624f52cc49e33d9c5ebf609003c201c";
 };
 nut-driver-nhs_ser = {
 version = "2.8.4-r1";
 filename = "nut-driver-nhs_ser-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-nhs_ser-any" ];
-sha256 = "fe8183525e436a5f2c7e9e19ffea88a558668276ff366ea056a44320685290e5";
+sha256 = "0d83e3193c6c93c952ad62bef90343871fd477067c23beb5a85f68c37610eae1";
 };
 nut-driver-nutdrv_atcl_usb = {
 version = "2.8.4-r1";
 filename = "nut-driver-nutdrv_atcl_usb-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-nutdrv_atcl_usb-any" ];
-sha256 = "7bf6addd71af512e5803d347b6932fa8c6799e648909ef0b78a0cde12512e105";
+sha256 = "e9a9345f702240074c23d8208c9464a923546c181dccff46befa44589b3a3796";
 };
 nut-driver-nutdrv_hashx = {
 version = "2.8.4-r1";
 filename = "nut-driver-nutdrv_hashx-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-nutdrv_hashx-any" ];
-sha256 = "f5480029fdf9a11e523ee6a7427593bf3e9ff0e0b8de5a535d7e5a5ec3578398";
+sha256 = "c8ca989d383fbcc4513c3b60c09a4b17a84f75eef1d06d99e3d66e249c9e5c27";
 };
 nut-driver-nutdrv_qx = {
 version = "2.8.4-r1";
 filename = "nut-driver-nutdrv_qx-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-nutdrv_qx-any" ];
-sha256 = "9f6eef67edb835929c66c40bee9c0fa59a43a4a6379d95a05b1d4e9e16efdfd4";
+sha256 = "be944c8e244e3666883e1b8dbe9af377fc855c54a0bf1074d4fc4628cdb7d92a";
 };
 nut-driver-nutdrv_siemens-sitop = {
 version = "2.8.4-r1";
 filename = "nut-driver-nutdrv_siemens-sitop-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-nutdrv_siemens-sitop-any" ];
-sha256 = "8e9f19aabc96cff47fee421ad051e633751749295158a84531a2fc0255984196";
+sha256 = "0867726cd0b3cc0aba83cc528e57a07660b1be17fdbecc7bfdbc2ab312575966";
 };
 nut-driver-oneac = {
 version = "2.8.4-r1";
 filename = "nut-driver-oneac-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-oneac-any" ];
-sha256 = "8f5cb36a2944190c5fcbad16f95b300b1006ebf2cc3e6bce2126e5165c49f989";
+sha256 = "b8808422bf2d28f94e01af43fdb43ef2316c844982f714570c3b12d54c5b7734";
 };
 nut-driver-optiups = {
 version = "2.8.4-r1";
 filename = "nut-driver-optiups-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-optiups-any" ];
-sha256 = "6e25491dc98e66051d3d6c76273be7430a56b54c009aaa60e58c12e772b3cd98";
+sha256 = "2e4cf981db3ce883137a9c872a933150f06a5e21fa2c2c8ae249b52d9b0715e4";
 };
 nut-driver-powercom = {
 version = "2.8.4-r1";
 filename = "nut-driver-powercom-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-powercom-any" ];
-sha256 = "40a4df3c22800e6bf87b19f5160de5a59e394280c18c37ffadf1cf70ece822ad";
+sha256 = "27410d6a4db4c24bbb0a85a1e0df3f389f3a338561a9f6c5e136fbdd57c7e95c";
 };
 nut-driver-powerpanel = {
 version = "2.8.4-r1";
 filename = "nut-driver-powerpanel-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-powerpanel-any" ];
-sha256 = "9cb324b1561f653b901c47614674123f3edf7e56e6ff0d2fde0b98fcdd7bc80e";
+sha256 = "68ebad972fa495a58f8521f12536d23fbb2de1f613ad9f8697484cc081d97946";
 };
 nut-driver-powervar_cx_ser = {
 version = "2.8.4-r1";
 filename = "nut-driver-powervar_cx_ser-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-powervar_cx_ser-any" ];
-sha256 = "f39dfeb9f932d43738ffe07188b0a7cfb872def996273154ada360727f29598f";
+sha256 = "4f37b31b505c1d4bddc36630eafaf0b2f34b34f5e9a9f1bdc5d673be97c72b32";
 };
 nut-driver-powervar_cx_usb = {
 version = "2.8.4-r1";
 filename = "nut-driver-powervar_cx_usb-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-powervar_cx_usb-any" ];
-sha256 = "3a1abaa3ea74ac83b29e638885726ebf681159bcaab2f30b352ff0a4fac6365e";
+sha256 = "880ccbce9618bcb4100c36beb135bdc1319e86da84e53ddf4df6724ffc6838e9";
 };
 nut-driver-rhino = {
 version = "2.8.4-r1";
 filename = "nut-driver-rhino-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-rhino-any" ];
-sha256 = "1caa2ce92832d2e2057e7aa8ef7dba1161ed018af2e622c36c8aae08bb42018f";
+sha256 = "528ad408653edad1752ba529092e9f2705cba14be260ec9ba14514ec3196e390";
 };
 nut-driver-richcomm_usb = {
 version = "2.8.4-r1";
 filename = "nut-driver-richcomm_usb-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-richcomm_usb-any" ];
-sha256 = "e52f9b26e156bc8e32f716ca3b96342abc55974706160c60db033380df0331f8";
+sha256 = "a92d5307bb79543a6bb00562ccaee8db2f20a119573d021cb8627ea44c27f950";
 };
 nut-driver-riello_ser = {
 version = "2.8.4-r1";
 filename = "nut-driver-riello_ser-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-riello_ser-any" ];
-sha256 = "b09c1bfa5e86b0c9bbcdd88b236d9c277d152d15ec67b90ad800262b04075867";
+sha256 = "c90245933d72c68a3fe8f640052e393562ac28cae57f7c5c7c2be19819086301";
 };
 nut-driver-riello_usb = {
 version = "2.8.4-r1";
 filename = "nut-driver-riello_usb-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-riello_usb-any" ];
-sha256 = "106f6b29f6ba4448284e70dc92fc4d6cfdb4c3bb0147a530fb356f882dd3dde3";
+sha256 = "f4b69cfa3d3139e373f1f2e58f46b9b97d03563b7466b8347819df06548fa9df";
 };
 nut-driver-safenet = {
 version = "2.8.4-r1";
 filename = "nut-driver-safenet-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-safenet-any" ];
-sha256 = "060872bb8fb303e5cd0680b1ca475caa68d1745d1b6f8bcb6892ba97ce7b75f4";
+sha256 = "5989d613417bfa6b9a391d10697e5945343a0d1f3e362b22da79d148860342f4";
 };
 nut-driver-sms_ser = {
 version = "2.8.4-r1";
 filename = "nut-driver-sms_ser-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-sms_ser-any" ];
-sha256 = "328a4c3e14518b8c1d9b2fdbb64bd9fe4511716d3475a606a569433307e92b5e";
+sha256 = "d87bc2214ec6653680d111f70592c984a35d03b8254475e35899b6ae07f0fbd5";
 };
 nut-driver-solis = {
 version = "2.8.4-r1";
 filename = "nut-driver-solis-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-solis-any" ];
-sha256 = "475c2d4d29a148a0171a76008b27cdecd8834c675bc140afc31a8d9a367b1eeb";
+sha256 = "114195dbd6d94c8f1bdc0d1ec0fc2555298752d03ae3ba4c8bed5ca876219d7a";
 };
 nut-driver-tripplite = {
 version = "2.8.4-r1";
 filename = "nut-driver-tripplite-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-tripplite-any" ];
-sha256 = "1a091ea69a17a5a4214421404c78150615e67e001248d63c84b573a6dceb7421";
+sha256 = "97a178a807bb0209cf64cd5b7d0c3a44a093dba88afbca9f45512846c5b05ec2";
 };
 nut-driver-tripplite_usb = {
 version = "2.8.4-r1";
 filename = "nut-driver-tripplite_usb-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-tripplite_usb-any" ];
-sha256 = "14dc0280c8b5d575c57555cf609b7a8261713d70a258e7ed02463953dca1ca88";
+sha256 = "060c56bcebe5a9b2ca70ea84e8ae000159ac06f39f37d3443aa49211190abe52";
 };
 nut-driver-tripplitesu = {
 version = "2.8.4-r1";
 filename = "nut-driver-tripplitesu-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-tripplitesu-any" ];
-sha256 = "40e509b825b05df91ad47ac5f76a86c206edf9db78e29a90de0f143d48e207aa";
+sha256 = "7462fe40371b13b477b5961367a7d7ad5049a3499b07c53f86e2eb72a0b1cb18";
 };
 nut-driver-upscode2 = {
 version = "2.8.4-r1";
 filename = "nut-driver-upscode2-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-upscode2-any" ];
-sha256 = "1d3fec4f13c72da2d7d7dfa2d55ab338f3a867dadddcce2e8d8241e3f053595c";
+sha256 = "42824218f8c79a00d08064298e62e6541dc92cef88e3ef233f35417142a737e8";
 };
 nut-driver-usbhid-ups = {
 version = "2.8.4-r1";
 filename = "nut-driver-usbhid-ups-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-usbhid-ups-any" ];
-sha256 = "0e8508b1c8d767151bf2d35abde4f5bb4f2cbb9364129ea43c678d4b4f775901";
+sha256 = "f67f4539170be73e5d9c47c8805e251c5a70b1b1c898c09c0d8a72837da3ced9";
 };
 nut-driver-ve-direct = {
 version = "2.8.4-r1";
 filename = "nut-driver-ve-direct-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-ve-direct-any" ];
-sha256 = "b4d56a16015353736107548b454cbd722fdfb8c12d90394879b2b419049c76fb";
+sha256 = "892d9b858a344ec2d7bfc26707a470fe8ebabceebca8b6cf118f0948f81fcaed";
 };
 nut-driver-victronups = {
 version = "2.8.4-r1";
 filename = "nut-driver-victronups-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-server" ];
 provides = [ "nut-driver-victronups-any" ];
-sha256 = "c21755118188c1ca385029bac52db5ca0769ea6522ca3ddebf92ffe94e869542";
+sha256 = "89a74b3c110a6cd196a5d417f8834d5e4730ca8d79ea74b93a31e4c3cf0139c5";
 };
 nut-server = {
 version = "2.8.4-r1";
 filename = "nut-server-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-common" ];
 provides = [ "nut-server-any" ];
-sha256 = "5b74f1c9cd3d1700cf8e53b18c8aa892726875dc686abad2910906b8c80279ba";
+sha256 = "17831f74ccf883b92e8cf9e1b762a08fd3a81430b23bd7ec21cf7270edb88165";
 };
 nut-upsc = {
 version = "2.8.4-r1";
 filename = "nut-upsc-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-common" ];
 provides = [ "nut-upsc-any" ];
-sha256 = "27479170f8cdd317bbd5f224c4df2d88acc4868b9d20747e05ffd51dc13f9bd4";
+sha256 = "92a0f69d4f19abd87f3c79a5463b6a5282b2cc9571023b46a1dde969c04eec32";
 };
 nut-upscmd = {
 version = "2.8.4-r1";
 filename = "nut-upscmd-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-common" ];
 provides = [ "nut-upscmd-any" ];
-sha256 = "74f7d54f9b311394eda026980dcb42b24cf08e6c8dae008c7d4744beab175d95";
+sha256 = "7e21928492c94e2a30de383fdb6e2bbc543cfad81b3b323ec42ddf3c5f070544";
 };
 nut-upslog = {
 version = "2.8.4-r1";
 filename = "nut-upslog-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-common" ];
 provides = [ "nut-upslog-any" ];
-sha256 = "43c1c8a5550b108b8311adeb0f9a0dca307f5cc84ed3d61bd983a21160e5e2f9";
+sha256 = "d45de9f4bd5672f74362ae53715e70dffc8a59b888350bfe5ef25dbec5be7cc9";
 };
 nut-upsmon = {
 version = "2.8.4-r1";
 filename = "nut-upsmon-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-common" ];
 provides = [ "nut-upsmon-any" ];
-sha256 = "1820ceba03033c875bc452ebbcceca3f5803834ca2be6c8e7e52d6cd31ff0221";
+sha256 = "4f522fc856f569a40d0d4c78f9b7ed294ae3afabd3ce014e81d86f6f50cfa50f";
 };
 nut-upsmon-sendmail-notify = {
 version = "2.8.4-r1";
@@ -18078,21 +18078,21 @@ version = "2.8.4-r1";
 filename = "nut-upsrw-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-common" ];
 provides = [ "nut-upsrw-any" ];
-sha256 = "bed9d01025de6510d752928fb74f41318bcce94c808098a6c9e512387df87323";
+sha256 = "efa94b2d1875774c6e8722f4d938b836ce92e1dfdf0ef7592f6bb11047ecdc19";
 };
 nut-upssched = {
 version = "2.8.4-r1";
 filename = "nut-upssched-2.8.4-r1.apk";
 depends = [ "libc" "nut" "nut-common" "nut-upsmon" ];
 provides = [ "nut-upssched-any" ];
-sha256 = "1b665a1ae1561a94fd3f1c73bbdedf843ae5dab1a98210ee4b81255b488d04da";
+sha256 = "111df18a59e38ce5a9e2464363db54e236513ff5ddb746d013587d941c6ae3ed";
 };
 nut-web-cgi = {
 version = "2.8.4-r1";
 filename = "nut-web-cgi-2.8.4-r1.apk";
 depends = [ "libc" "libgd" "nut" "nut-common" ];
 provides = [ "nut-web-cgi-any" ];
-sha256 = "32f58b08d71c52ab3c7272dd47a539e9ecec85da8681f686a93bd7756f80be36";
+sha256 = "55db0b987b2fcf943d8043d8ba48dec2363a805dcc7c8548907ffa6f81c32a1b";
 };
 nyx = {
 version = "2.1.0-r3";
@@ -18127,14 +18127,14 @@ version = "0.0.14-r1";
 filename = "obfs4proxy-0.0.14-r1.apk";
 depends = [ "libc" ];
 provides = [ "obfs4proxy-any" ];
-sha256 = "e719668edcd9f5a18cf3a2eb30c83354c172c383a05e2e06b6dc934e1eb36888";
+sha256 = "b07bcaaa9be5e3553919a8cc7ee3d08f83a189ace02bc963293228096d1ee4ec";
 };
 oci-runtime-tool = {
 version = "1.1.0.20241108-r1";
 filename = "oci-runtime-tool-1.1.0.20241108-r1.apk";
 depends = [ "libc" ];
 provides = [ "oci-runtime-tool-any" ];
-sha256 = "4023daefe7c0e0e508c5c2ebd34d128e419d9d0bf00855e4ca1d4cac2865f769";
+sha256 = "f816fe42ac1ae0771f902de9e992506dc02e93ff671b1e266362177178cd9a26";
 };
 ocserv = {
 version = "1.4.1-r2";
@@ -18183,7 +18183,7 @@ version = "2.1.10-r1";
 filename = "open-iscsi-2.1.10-r1.apk";
 depends = [ "kmod-iscsi-initiator" "libc" "libkmod" "libmount1" "libopenssl3" "open-isns" ];
 provides = [ "open-iscsi-any" ];
-sha256 = "832fe7b467a9a5f69643e144c5df631e2b6aeb0047cf4b4c4ecb1380f5d59102";
+sha256 = "bdd948758cdaabec2ef1a9e884f87e17997e02e53f4a672a3df0a148c97c61c0";
 };
 open-isns = {
 version = "0.100-r2";
@@ -19037,7 +19037,7 @@ version = "4.2.5-r1";
 filename = "openlist-4.2.5-r1.apk";
 depends = [ "ca-bundle" "libc" ];
 provides = [ "alist" "openlist-any" ];
-sha256 = "2c5386d455c64d5d82e9ad05521b122dc5cd525143a0096211ce8ddfb5d99de0";
+sha256 = "28cf325a371b2105e3b985c38a6688f9ae8214b79a963284456b6fc2775b88da";
 };
 openobex = {
 version = "1.7.2-r4";
@@ -19065,7 +19065,7 @@ version = "5.3.128-r1";
 filename = "openpgm-5.3.128-r1.apk";
 depends = [ "libc" ];
 provides = [ "openpgm-any" ];
-sha256 = "f3898a3f3664fc256d45b746292efa84b0d54e4c934c252f0a974700ad9c6a44";
+sha256 = "e6d4a0c9e8a3e059f8ddbb51cd35be45316a978f37629cece61f56b14672b4ab";
 };
 opensc-utils = {
 version = "0.26.1-r1";
@@ -19303,7 +19303,7 @@ version = "2025.06.12~2f3c799c-r1";
 filename = "openthread-br-2025.06.12~2f3c799c-r1.apk";
 depends = [ "cJSON" "kmod-tun" "libblobmsg-json20260213" "libc" "libjson-c5" "libncurses6" "libnetfilter-queue1" "libreadline8" "libstdcpp6" "libubox20260213" "libubus20251202" "mdnsd" "mdnsresponder" ];
 provides = [ "openthread-br-any" ];
-sha256 = "3e26d05708c8998de0c8850adfbc85568bb88e3d180cf35d023f10296f828748";
+sha256 = "896e67a7d6cf238f678e91216ce088a95d2102fd71a24abc7d37033c473f7300";
 };
 opentracker = {
 version = "2025.04.25~b20b0b89-r1";
@@ -19464,7 +19464,7 @@ version = "1.7-r1";
 filename = "overture-1.7-r1.apk";
 depends = [ "libc" ];
 provides = [ "overture-any" ];
-sha256 = "3fc8d1c425988322f2ab4fad78a9f8b8edeb523c4284e28451525053047001b4";
+sha256 = "ca8d2e5e8a7bb5c035d66831293bfdd442f60c8923445dcc3e92f63049e00f12";
 };
 ovsd = {
 version = "2020.12.08~3a03476e-r1";
@@ -19499,14 +19499,14 @@ version = "7";
 filename = "owipcalc-7.apk";
 depends = [ "libc" "libowipcalc" ];
 provides = [ "owipcalc-any" ];
-sha256 = "d68a1521655e0adb6065bd88971e12f9ad1e63829b936d583343574ccfa96cad";
+sha256 = "bedc978eb6d1d0e0e5bc787a3be35da21fd6304c3bf227e36e204215a5ee2871";
 };
 owntone = {
 version = "29.0-r1";
 filename = "owntone-29.0-r1.apk";
 depends = [ "alsa-lib" "confuse" "libavahi-client" "libc" "libcurl4" "libdaemon" "libevent2-7" "libevent2-pthreads7" "libexpat" "libffmpeg-full" "libgcrypt" "libgdbm" "libgnutls" "libgpg-error" "libjson-c5" "libmount1" "libplist" "libprotobuf-c" "libsodium" "libunistring" "libuuid1" "libwebsockets" "libxml2-16" "sqlite3-cli" "zlib" ];
 provides = [ "owntone-any" ];
-sha256 = "8a821ddcec6402501315cda8cf591bbeed8b7c5bfdf6bfd1f750f14bbf35ca6d";
+sha256 = "46d71b7126cac5200f57b1e4d0d39af9841bb9a84dffc6f6aa0a8ab85e08452e";
 };
 owserver = {
 version = "3.2.4-r2";
@@ -19583,7 +19583,7 @@ version = "1.2.2-r20";
 filename = "pbr-1.2.2-r20.apk";
 depends = [ "ip-full" "jshn" "jsonfilter" "kmod-nft-core" "kmod-nft-nat" "libc" "nftables-json" "resolveip" ];
 provides = [ "pbr-any" ];
-sha256 = "9a3ff2df0d0ecef4dcea8d6b1c2e1cc81b073b7177bc6e4cb6ac09b9d099c5cb";
+sha256 = "caaa973813abaec545b2eec20746b4864a4b2a86ee21dc9093906af562389299";
 };
 pcapplusplus = {
 version = "21.11-r1";
@@ -20129,7 +20129,7 @@ version = "4.17.5.40-r8";
 filename = "perl-www-curl-4.17.5.40-r8.apk";
 depends = [ "libc" "libcurl4" "perl" "perlbase-essential" "perlbase-xsloader" ];
 provides = [ "perl-www-curl-any" ];
-sha256 = "3a307959dfaacd4c0fe4b224627843e78510cbe91fdbe95c5673f37275178683";
+sha256 = "8e2172cc1fc8eccec3bc3b7cec0a5c790cb3c3eb0eb5361c2e346e9b0a347b80";
 };
 perl-www-mechanize = {
 version = "2.19.5.40-r1";
@@ -20941,7 +20941,7 @@ version = "17.5-r3";
 filename = "pgsql-cli-17.5-r3.apk";
 depends = [ "libc" "libncursesw6" "libpq" "libreadline8" "librt" "zlib" ];
 provides = [ "pgsql-cli-any" ];
-sha256 = "84408c2ff0d8b1ce827d879a1c5de986a07e2f5bfc12c63158d86de236f8d71d";
+sha256 = "a9000420411c56c20c4c9bb55951acbd6196ad670c6f4ef9adb11f2682ce3f89";
 };
 pgsql-cli-extra = {
 version = "17.5-r3";
@@ -20955,7 +20955,7 @@ version = "17.5-r3";
 filename = "pgsql-server-17.5-r3.apk";
 depends = [ "blockd" "libc" "pgsql-cli" ];
 provides = [ "pgsql-server-any" ];
-sha256 = "d2868bd11620aab246be38beaf0753090831b8dae37a3c2ef7f55e550d87022b";
+sha256 = "4d02108a06b37bb54e9b3b0adfc4b3cedf961e7d048f8f971c8c8ec613500579";
 };
 pgsqlodbc2 = {
 version = "2.3.12-r4";
@@ -20983,14 +20983,14 @@ version = "8.4.21-r1";
 filename = "php8-cgi-8.4.21-r1.apk";
 depends = [ "libc" "libstdcpp6" "php8" ];
 provides = [ "php8-cgi-any" ];
-sha256 = "e8baf0611b7792edff24c2aa7f45d0b665c4188e6517dba586b81b3bdec1e1b4";
+sha256 = "69190dd81d8b856a2402e0845d5d6cd8d601028ae45fe36f7e6fd3fd20365b7c";
 };
 php8-cli = {
 version = "8.4.21-r1";
 filename = "php8-cli-8.4.21-r1.apk";
 depends = [ "libc" "libstdcpp6" "php8" ];
 provides = [ "php8-cli-any" ];
-sha256 = "3f94a2b30d6b0d76e3508a5d396f7f0e5ac2405cfecbe1569a0a782c76a30bfb";
+sha256 = "4c3e211ee43df463db27c6b4c6f7692b77d81b770288414b4c22480a7b2c63d6";
 };
 php8-fastcgi = {
 version = "8.4.21-r1";
@@ -21004,7 +21004,7 @@ version = "8.4.21-r1";
 filename = "php8-fpm-8.4.21-r1.apk";
 depends = [ "libc" "libstdcpp6" "php8" ];
 provides = [ "php8-fpm-any" ];
-sha256 = "aca7182c9759c14b056263f971ea278a9c56aa6de6a9c2b680a0123302436b21";
+sha256 = "ff951d087e33e12101dbfc3db924291fc73781a01758e75b346f8163adf623c1";
 };
 php8-mod-bcmath = {
 version = "8.4.21-r1";
@@ -21319,7 +21319,7 @@ version = "4.3.1-r2";
 filename = "php8-pecl-http-4.3.1-r2.apk";
 depends = [ "icu78" "libc" "libcurl4" "libevent2-7" "libidn" "libidn2" "librt" "php8" "php8-mod-iconv" "php8-mod-session" "php8-pecl-raphf" ];
 provides = [ "php8-pecl-http-any" ];
-sha256 = "11fad3410d66454b8a3f3e18ef4fd64651e23b195c9d49a325d73de7759052f4";
+sha256 = "6b9621281cda703dc0afc18e114c1c135a6bad295e39e5507d95bf0a32119cd6";
 };
 php8-pecl-imagick = {
 version = "3.8.0_rc2-r1";
@@ -21473,7 +21473,7 @@ version = "5.2.2-r1";
 filename = "podman-5.2.2-r1.apk";
 depends = [ "aardvark-dns" "catatonit" "conmon" "crun" "kmod-veth" "libc" "libgpgme" "libseccomp" "netavark" "nsenter" "slirp4netns" "zoneinfo-simple" ];
 provides = [ "podman-any" ];
-sha256 = "0a1e130d24aa90d1e84359b70a54a2777185a5a51a66fb283215ec1e848113e3";
+sha256 = "42e98c6a237ca0cfd4d7aa76db6f44c1439dba7689251eb53e5495c63e499803";
 };
 poemgr = {
 version = "2025.09.27~17771dd7-r1";
@@ -21515,7 +21515,7 @@ version = "4";
 filename = "pppossh-4.apk";
 depends = [ "libc" "ppp" "resolveip" ];
 provides = [ "pppossh-any" ];
-sha256 = "1bca4023db84aabc66f8173b9f007189f060c6b030c03c7efa0f5949169a4b23";
+sha256 = "3b65f1d65f40f30d7e4a94cd8f6090b5a043cf46333a3a82871eb1430899dc5e";
 };
 pps-tools = {
 version = "1.0.2-r2";
@@ -21690,238 +21690,238 @@ version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-2026.06.05-r1.apk";
 depends = [ "libc" "libubus-lua" "lua" "luasocket" "uhttpd" "uhttpd-mod-lua" ];
 provides = [ "prometheus-node-exporter-lua-any" ];
-sha256 = "f90720f457c0dff34c78205dc459f4440815f66c25c97d66c4bcc02d66642cd6";
+sha256 = "aa9ed369fb48dbbe8d10e59a7ce955a3176d6b0ce820af3d9407b7a903cec251";
 };
 prometheus-node-exporter-lua-bmx7 = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-bmx7-2026.06.05-r1.apk";
 depends = [ "bmx7" "bmx7-json" "libc" "lua-cjson" "prometheus-node-exporter-lua" ];
 provides = [ "prometheus-node-exporter-lua-bmx7-any" ];
-sha256 = "fb9b658c43923222ce613d5c0e29b5ba97231e653c85bf01910a393c104046d3";
+sha256 = "b5f2d272bc4f23e9050b670dc6a065dfdb72e8a66ea26985e20094836f135d51";
 };
 prometheus-node-exporter-lua-dawn = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-dawn-2026.06.05-r1.apk";
 depends = [ "libc" "libiwinfo-lua" "prometheus-node-exporter-lua" ];
 provides = [ "prometheus-node-exporter-lua-dawn-any" ];
-sha256 = "c45738641dafeca139772cdcdbc0ebef4b8a5443a5b91ab6df358cd582c77c86";
+sha256 = "f003089209adccfca9d3f77d26e74e6caa72b035b116ce5c4d3b183a2742c4e6";
 };
 prometheus-node-exporter-lua-ethtool = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-ethtool-2026.06.05-r1.apk";
 depends = [ "ethtool-lua" "libc" "prometheus-node-exporter-lua" ];
 provides = [ "prometheus-node-exporter-lua-ethtool-any" ];
-sha256 = "0218567a00aee77ddba2df78fc3c274a2c2f7e03f1d1bfd15a8543aee1be64e4";
+sha256 = "20d6cd98ed9bfb77cf937c0c2ed23d4fef88429baa0050398ee9cd646fc8d3be";
 };
 prometheus-node-exporter-lua-filesystem = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-filesystem-2026.06.05-r1.apk";
 depends = [ "libc" "luci-lib-nixio" "prometheus-node-exporter-lua" ];
 provides = [ "prometheus-node-exporter-lua-filesystem-any" ];
-sha256 = "fc3085b5252affc1ec0d120eba57c905f1ce55dc9f57dbc1eca9fd6d7f31da8f";
+sha256 = "26b9a1d36fa0cd757490cc4274e572839a8e3c3730d01b6b0ac7dbd98f81708d";
 };
 prometheus-node-exporter-lua-hostapd_stations = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-hostapd_stations-2026.06.05-r1.apk";
 depends = [ "hostapd-utils" "libc" "lua-bit32" "prometheus-node-exporter-lua" ];
 provides = [ "prometheus-node-exporter-lua-hostapd_stations-any" ];
-sha256 = "92c507becfe3f2c5b7b0758b10e8d177c986cdc7d3f7a5afbb875a4296c21ba3";
+sha256 = "95803ce21ba7f0943fd2d0c538803637342592dfa36f5278ef4db56df7cb67d6";
 };
 prometheus-node-exporter-lua-hostapd_ubus_stations = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-hostapd_ubus_stations-2026.06.05-r1.apk";
 depends = [ "libc" "luabitop" "prometheus-node-exporter-lua" ];
 provides = [ "prometheus-node-exporter-lua-hostapd_ubus_stations-any" ];
-sha256 = "b75d2b1cdf3e81e522bd8e8d241e8bcbe5741d472bb8545c3a33c94585d775c1";
+sha256 = "b7e1efbf16292c993cd1f29cc5dd9bdaeba28841fe57d9f7d7dd3895ec79fe37";
 };
 prometheus-node-exporter-lua-hwmon = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-hwmon-2026.06.05-r1.apk";
 depends = [ "libc" "luci-lib-nixio" "prometheus-node-exporter-lua" ];
 provides = [ "prometheus-node-exporter-lua-hwmon-any" ];
-sha256 = "76f1de063152017c4926914d36ad27d1a5e75047abb7f32ed2bedb3bee491926";
+sha256 = "ad5b63ba551027bcb7e229d54e6d14b3a25160610dacb5e1a9d8515704d2df1e";
 };
 prometheus-node-exporter-lua-modemmanager = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-modemmanager-2026.06.05-r1.apk";
 depends = [ "libc" "lua-cjson" "modemmanager" "prometheus-node-exporter-lua" ];
 provides = [ "prometheus-node-exporter-lua-modemmanager-any" ];
-sha256 = "371cfa058cd313441eee73986614ddc04487dbb9a723aa08f32dcf1af06a6db8";
+sha256 = "251952586b9361538e59c2193f67bbd15b26ebd36c3b39a94246597c45706040";
 };
 prometheus-node-exporter-lua-mwan3 = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-mwan3-2026.06.05-r1.apk";
 depends = [ "libc" "mwan3" "prometheus-node-exporter-lua" ];
 provides = [ "prometheus-node-exporter-lua-mwan3-any" ];
-sha256 = "6e5573748f33ca5b9b0e2b42379bd10a05112e58ce65ef6cc7a17d8e24344c78";
+sha256 = "160473024e6dc22f0697c90ba08c3e01ffe3f4163296b6e7b200570bc9b84b30";
 };
 prometheus-node-exporter-lua-nat_traffic = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-nat_traffic-2026.06.05-r1.apk";
 depends = [ "libc" "prometheus-node-exporter-lua" ];
 provides = [ "prometheus-node-exporter-lua-nat_traffic-any" ];
-sha256 = "c378166cdea40d1f893d84a0418366645ba31e2f039444ab0f45f24f8cdbde00";
+sha256 = "534760dc69dcfe178c5696564acd0e5a5d9f584d63eabe955d52e1d9ae419c6a";
 };
 prometheus-node-exporter-lua-netstat = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-netstat-2026.06.05-r1.apk";
 depends = [ "libc" "prometheus-node-exporter-lua" ];
 provides = [ "prometheus-node-exporter-lua-netstat-any" ];
-sha256 = "2ccb51413b3ce8fe7679613f96fbb0ce773b642307ed52dced4c78ae9073d90e";
+sha256 = "739c36d029844efeca503d1ef9663e0bde502b8826ebbebfe5e4aae539a324f6";
 };
 prometheus-node-exporter-lua-nft-counters = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-nft-counters-2026.06.05-r1.apk";
 depends = [ "libc" "lua-cjson" "nftables-json" "prometheus-node-exporter-lua" ];
 provides = [ "prometheus-node-exporter-lua-nft-counters-any" ];
-sha256 = "58b751d8d5b25c7ccf6f18ad293f40e77747c12aa04aaf1731310b525c5f8bb5";
+sha256 = "e9d8b424f5239484393b97cf4179509b83cb37ec01fbf367677bac9a0afa10cd";
 };
 prometheus-node-exporter-lua-openwrt = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-openwrt-2026.06.05-r1.apk";
 depends = [ "libc" "prometheus-node-exporter-lua" ];
 provides = [ "prometheus-node-exporter-lua-openwrt-any" ];
-sha256 = "343e3296d317366914930aefa9541b7161951f9125c6694b55a73af12cf63af0";
+sha256 = "d034c277ff510e0ffec81be5280d843788b6cb441f7787366d86bcc92cb97e20";
 };
 prometheus-node-exporter-lua-realtek-poe = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-realtek-poe-2026.06.05-r1.apk";
 depends = [ "libc" "prometheus-node-exporter-lua" "realtek-poe" ];
 provides = [ "prometheus-node-exporter-lua-realtek-poe-any" ];
-sha256 = "6a3293ad7cf72fbb089ee9e4dbfde43bc68fe344271b860f24975d9d4c7a51c8";
+sha256 = "1d0bcab09e92e54821dcb7bd8255fbbe0d3a1fe59158e2e088ac468f36869de7";
 };
 prometheus-node-exporter-lua-snmp6 = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-snmp6-2026.06.05-r1.apk";
 depends = [ "libc" "prometheus-node-exporter-lua" ];
 provides = [ "prometheus-node-exporter-lua-snmp6-any" ];
-sha256 = "40997e576d575a7a69b54984eb4060c5651fa19ee9626831e5f4d48500726bfc";
+sha256 = "2761dade33ce5fd0d908d76cc5c06065d7903b8866efbc76d5ce90d7fa5d4dc7";
 };
 prometheus-node-exporter-lua-textfile = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-textfile-2026.06.05-r1.apk";
 depends = [ "libc" "luci-lib-nixio" "prometheus-node-exporter-lua" ];
 provides = [ "prometheus-node-exporter-lua-textfile-any" ];
-sha256 = "b3861a1d52c0753b377819f85a458a018fbd23a992eae9de852116be80b3d920";
+sha256 = "8509766e0660ab49eade092f7e2da0180dae3d9d6169844ffaf5a806b11c7f5f";
 };
 prometheus-node-exporter-lua-thermal = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-thermal-2026.06.05-r1.apk";
 depends = [ "libc" "prometheus-node-exporter-lua" ];
 provides = [ "prometheus-node-exporter-lua-thermal-any" ];
-sha256 = "520ef830682429c597671298b1fe9a4afc43a6e366f96766caf6e5c1ca6da5a8";
+sha256 = "d0321564293f2ec52ed2829929acbd695fa6d27c3c768080c316d1a0e9e8d322";
 };
 prometheus-node-exporter-lua-ubnt-manager = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-ubnt-manager-2026.06.05-r1.apk";
 depends = [ "libc" "lua-cjson" "prometheus-node-exporter-lua" "ubnt-manager" ];
 provides = [ "prometheus-node-exporter-lua-ubnt-manager-any" ];
-sha256 = "2176eeaf9f9d0539d384aef7b5b18e7054f35b19c148d9f6dda7c37ee050bd08";
+sha256 = "a41641dee9e6ac181b795107cbdeff2decf4cc06797b80eb4c43a554e0aed0c6";
 };
 prometheus-node-exporter-lua-uci_dhcp_host = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-uci_dhcp_host-2026.06.05-r1.apk";
 depends = [ "libc" "libuci-lua" "prometheus-node-exporter-lua" ];
 provides = [ "prometheus-node-exporter-lua-uci_dhcp_host-any" ];
-sha256 = "c7e14cb79e788b9fa599f29753bda91cc99c136c703fefa83edd1c6eb13abde5";
+sha256 = "071f432e77f6b7b0d163c4b37b02263afd540d0af6d1493408452eeb2a9aeb1a";
 };
 prometheus-node-exporter-lua-unbound = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-unbound-2026.06.05-r1.apk";
 depends = [ "libc" "prometheus-node-exporter-lua" "unbound-daemon" ];
 provides = [ "prometheus-node-exporter-lua-unbound-any" ];
-sha256 = "de1c5597e46108abd980099c01a3048d69cb549158a49e7245e5adf0291635c0";
+sha256 = "4f80a870d08b81f23c08ed4cecf5d94bdc1908a202f821af28f4959a6107b8ac";
 };
 prometheus-node-exporter-lua-wifi = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-wifi-2026.06.05-r1.apk";
 depends = [ "libc" "libiwinfo-lua" "prometheus-node-exporter-lua" ];
 provides = [ "prometheus-node-exporter-lua-wifi-any" ];
-sha256 = "f3b7a53030283158a6dae67082a39c14508540871bcfd0bd44843b2db5e404be";
+sha256 = "ed859ebe89810c456a283eecac304753e028cfddaf1fb0ec54fc7b632978dbd9";
 };
 prometheus-node-exporter-lua-wifi_stations = {
 version = "2026.06.05-r1";
 filename = "prometheus-node-exporter-lua-wifi_stations-2026.06.05-r1.apk";
 depends = [ "libc" "libiwinfo-lua" "prometheus-node-exporter-lua" ];
 provides = [ "prometheus-node-exporter-lua-wifi_stations-any" ];
-sha256 = "7c120984744d55515f14f5b32465135cf15d3511ecdbab8262bc102da952020c";
+sha256 = "976eb8d11ba5c14b6aad02974a2f5c699df0eeb39721e85555d21efc98d9095c";
 };
 prometheus-node-exporter-ucode = {
 version = "2024.02.07-r2";
 filename = "prometheus-node-exporter-ucode-2024.02.07-r2.apk";
 depends = [ "libc" "rpcd" "ucode-mod-fs" "ucode-mod-ubus" "uhttpd" "uhttpd-mod-ucode" ];
 provides = [ "prometheus-node-exporter-ucode-any" ];
-sha256 = "07379825249c7420fd16c8ba87a32abf95a86e4bb42d9343372428fb9606ffd1";
+sha256 = "92411a81311ec97f46cb21baa3cb7e0b1aad4e0461a5d8b9fa09945e2365c6b0";
 };
 prometheus-node-exporter-ucode-dnsmasq = {
 version = "2024.02.07-r2";
 filename = "prometheus-node-exporter-ucode-dnsmasq-2024.02.07-r2.apk";
 depends = [ "libc" "prometheus-node-exporter-ucode" ];
 provides = [ "prometheus-node-exporter-ucode-dnsmasq-any" ];
-sha256 = "a105dfabd245d0d14fa1303c0a6e9bf72eae3b6f4f04d67a4b9999cfd6ae62ce";
+sha256 = "08aa36d4b1851ea9719a24cf51a83bbbd0a7c44d99a527ca8fb1ef00aa30ffe3";
 };
 prometheus-node-exporter-ucode-netstat = {
 version = "2024.02.07-r2";
 filename = "prometheus-node-exporter-ucode-netstat-2024.02.07-r2.apk";
 depends = [ "libc" "prometheus-node-exporter-ucode" ];
 provides = [ "prometheus-node-exporter-ucode-netstat-any" ];
-sha256 = "5098363c74bb0776ff44832623e35c98db6ee2db26c74033ecd8522bde54e47c";
+sha256 = "fceaba994f3a0cc2c89ace2b0e0ca9b70e7de18739a9cf411fcea7f6fc14fc43";
 };
 prometheus-node-exporter-ucode-openwrt = {
 version = "2024.02.07-r2";
 filename = "prometheus-node-exporter-ucode-openwrt-2024.02.07-r2.apk";
 depends = [ "libc" "prometheus-node-exporter-ucode" ];
 provides = [ "prometheus-node-exporter-ucode-openwrt-any" ];
-sha256 = "de84689f3f3aaae70fc29d781270233e52e759ba2ccf0d60e15e406341415654";
+sha256 = "195829b314e318dbbe5fc63044229585c94c52d90c57525cd52488f9d0c0e0be";
 };
 prometheus-node-exporter-ucode-snmp6 = {
 version = "2024.02.07-r2";
 filename = "prometheus-node-exporter-ucode-snmp6-2024.02.07-r2.apk";
 depends = [ "libc" "prometheus-node-exporter-ucode" ];
 provides = [ "prometheus-node-exporter-ucode-snmp6-any" ];
-sha256 = "583bcdda4b0966854f0e06db84cf1e785dd0bce85b93f3848d3625a18a506f7e";
+sha256 = "2ec45a737c7bd66332d174390891e379a3334b70f55e5a09fbf9ad85fe73a4b8";
 };
 prometheus-node-exporter-ucode-uci_dhcp_host = {
 version = "2024.02.07-r2";
 filename = "prometheus-node-exporter-ucode-uci_dhcp_host-2024.02.07-r2.apk";
 depends = [ "libc" "prometheus-node-exporter-ucode" ];
 provides = [ "prometheus-node-exporter-ucode-uci_dhcp_host-any" ];
-sha256 = "f63a06b5a6502c8f912e115919c8ad144f52bb908d4ca1de53c964ede5b58bbf";
+sha256 = "3df3349fb7e4073cf2f4fedea2573105a989ce84bfb51af4f3da71288b083fb5";
 };
 prometheus-node-exporter-ucode-wifi = {
 version = "2024.02.07-r2";
 filename = "prometheus-node-exporter-ucode-wifi-2024.02.07-r2.apk";
 depends = [ "libc" "prometheus-node-exporter-ucode" "ucode-mod-nl80211" ];
 provides = [ "prometheus-node-exporter-ucode-wifi-any" ];
-sha256 = "5d52efdb8ee5be384be3a7368c28e3125d78910cb7bc3b4f66e9a7c10c4c8b73";
+sha256 = "eda8f7724c9617a54eaefcd7b02f79c556b603603b2a0bbfa971f1773e8632ca";
 };
 prometheus-node-exporter-ucode-wireguard = {
 version = "2024.02.07-r2";
 filename = "prometheus-node-exporter-ucode-wireguard-2024.02.07-r2.apk";
 depends = [ "libc" "prometheus-node-exporter-ucode" "rpcd-mod-wireguard" ];
 provides = [ "prometheus-node-exporter-ucode-wireguard-any" ];
-sha256 = "3dbe1f005dd9bfee12d1f0420f16cfe4ce84dd1270f51166754435239c76afaa";
+sha256 = "9478bb835cd902c21115884a60bb34e1dcd0573513618c19994a7426a699e33c";
 };
 prometheus-statsd-exporter = {
 version = "0.15.0-r2";
 filename = "prometheus-statsd-exporter-0.15.0-r2.apk";
 depends = [ "libc" ];
 provides = [ "prometheus-statsd-exporter-any" ];
-sha256 = "86cd996409220125a338b0d43bcb31fe08328c38e766d3c12ca7f53afe38a54b";
+sha256 = "f0ca02202a0f8c375e7f766da902d2996da7a920bed3356eb5b278a9e1dc143e";
 };
 prosody = {
 version = "13.0.6-r2";
 filename = "prosody-13.0.6-r2.apk";
 depends = [ "libc" "libidn" "liblua5.4-5.4" "libopenssl3" "lua5.4" "luaexpat5.4" "luafilesystem5.4" "luasec5.4" "luasocket5.4" ];
 provides = [ "prosody-any" ];
-sha256 = "9e54f704a5179f041ccbf6fd5d16cff956129e10f3f6ff5058fe9d997a2e7f6a";
+sha256 = "17e74dfa28bf8c15beb6a441a1b3f4c7cfbd8dfad560b3ae9122e0d866f07108";
 };
 proto-bonding = {
 version = "2021.04.09-r1";
 filename = "proto-bonding-2021.04.09-r1.apk";
 depends = [ "kmod-bonding" "libc" ];
 provides = [ "proto-bonding-any" ];
-sha256 = "04d3d156217ad5aa2d49c0504f7b0eaf0c1c516f16e06d965c9abca27f1ca5e0";
+sha256 = "c3aa1c99e06b11d4e4807ca79c018320776b107b8559de1db2a926a7fa6cfe18";
 };
 protobuf = {
 version = "3.17.3-r3";
@@ -21949,7 +21949,7 @@ version = "2017.08.29-r3";
 filename = "pservice-2017.08.29-r3.apk";
 depends = [ "libc" ];
 provides = [ "pservice-any" ];
-sha256 = "4301c932b6a17084f3db6e29a6e0a1bf4f612c21d8747ee90c9b345ae389683b";
+sha256 = "7a61a24ef8b9c2c83284aa4d5cb87671ace665053ebe8fde16f939550e2eb952";
 };
 psmisc = {
 version = "23.7-r1";
@@ -21963,14 +21963,14 @@ version = "17.00.0004-r1";
 filename = "psqlodbca-17.00.0004-r1.apk";
 depends = [ "libc" "libpq" "unixodbc" ];
 provides = [ "psqlodbca-any" ];
-sha256 = "abe63124f538134a1cfa8d76eae59411b53850806cbf69c19d37f18b9d330eea";
+sha256 = "cd8d3d00cea486b5f1715b2a5ddab08d72340b23ff426b61c0bdd73da025cdc0";
 };
 psqlodbcw = {
 version = "17.00.0004-r1";
 filename = "psqlodbcw-17.00.0004-r1.apk";
 depends = [ "libc" "libpq" "unixodbc" ];
 provides = [ "psqlodbcw-any" ];
-sha256 = "4bde4f4fc73b1e9516cb075e86223f6fb2e12aa4f14be480546c6ab44c6f4a62";
+sha256 = "fc0ca1bcd3d6ee1f3fa5d690c276bdb8fd2dd529620a482acf34ff9feb410b59";
 };
 pthsem = {
 version = "2.0.8-r8";
@@ -22173,7 +22173,7 @@ version = "1.1.0-r2";
 filename = "python3-augeas-1.1.0-r2.apk";
 depends = [ "augeas" "libc" "python3-cffi" "python3-light" ];
 provides = [ "python3-augeas-any" ];
-sha256 = "565d615d90b816278e7924b66304a92dd34c395491c93b875e855a9e7dc51e16";
+sha256 = "4e973408d4a2d72aa4fdbc0afd1e32ed6f6adc4fc134c0636d6e827f1dea5265";
 };
 python3-augeas-src = {
 version = "1.1.0-r2";
@@ -22257,7 +22257,7 @@ version = "5.0.0-r1";
 filename = "python3-bcrypt-5.0.0-r1.apk";
 depends = [ "libc" "python3-light" ];
 provides = [ "python3-bcrypt-any" ];
-sha256 = "10744673c136c77f32c75dde092813dbfde394e651708dc7cc325194b148d039";
+sha256 = "bb248cd245819790db483707670ba62d8e63999eef0b43c17db476db2b2fa617";
 };
 python3-bcrypt-src = {
 version = "5.0.0-r1";
@@ -22411,7 +22411,7 @@ version = "2.0.0-r1";
 filename = "python3-cffi-2.0.0-r1.apk";
 depends = [ "libc" "libffi" "python3-ctypes" "python3-light" "python3-pycparser" ];
 provides = [ "python3-cffi-any" ];
-sha256 = "cb55790558d664ea09fdd7f7e625e86f408b1c935f4d4660004271efa0096965";
+sha256 = "951a5f21676dbff7dc1b60bd090ecc5953f057cd7fbb877abf04172a67177174";
 };
 python3-cffi-src = {
 version = "2.0.0-r1";
@@ -22537,7 +22537,7 @@ version = "1.7-r2";
 filename = "python3-crcmod-1.7-r2.apk";
 depends = [ "libc" "python3-light" ];
 provides = [ "python3-crcmod-any" ];
-sha256 = "b26f6e4060157062d7f9821168c335415349371a4ca2ae9db1631c7e692df23a";
+sha256 = "acce16a8322f1bba4d2c56769346b200031d113ecc44b885e103686ed3f71bf7";
 };
 python3-crcmod-src = {
 version = "1.7-r2";
@@ -22551,7 +22551,7 @@ version = "3.18.0-r1";
 filename = "python3-cryptodome-3.18.0-r1.apk";
 depends = [ "libc" "libgmp10" "python3-cffi" "python3-light" ];
 provides = [ "python3-crypto" "python3-cryptodome-any" ];
-sha256 = "a15b3a943abb5cb2bacf9e038ecbc0fb2146c5907cd23e34b402041963e094d1";
+sha256 = "1ed4e4407805a9453d679a23bd202204edebbb59742f90fdfc2b2b4c9c5e22bc";
 };
 python3-cryptodome-src = {
 version = "3.18.0-r1";
@@ -22565,7 +22565,7 @@ version = "3.18.0-r1";
 filename = "python3-cryptodomex-3.18.0-r1.apk";
 depends = [ "libc" "libgmp10" "python3-cffi" "python3-light" ];
 provides = [ "python3-cryptodomex-any" ];
-sha256 = "3887d58e0fa702fa1f1440c2ecae47ada28914775e6a0da8bd49c4b114b16263";
+sha256 = "7c171a78279dde33837847dc5ae57238af47e64cb9f1aa01974336c596198dc1";
 };
 python3-cryptodomex-src = {
 version = "3.18.0-r1";
@@ -22579,7 +22579,7 @@ version = "46.0.6-r1";
 filename = "python3-cryptography-46.0.6-r1.apk";
 depends = [ "libc" "libopenssl-legacy" "libopenssl3" "python3-cffi" "python3-email" "python3-light" "python3-urllib" ];
 provides = [ "python3-cryptography-any" ];
-sha256 = "6e1fae15240d42cec7b694e39463e0e46b19bf24f249423a42e16f0005d0c4a1";
+sha256 = "dac0adfe2f9ee62eae9b962ab4b987bb6ded25489442c14ac5067277606f89dc";
 };
 python3-cryptography-src = {
 version = "46.0.6-r1";
@@ -22607,7 +22607,7 @@ version = "7.45.7-r1";
 filename = "python3-curl-7.45.7-r1.apk";
 depends = [ "libc" "libcurl4" "python3" ];
 provides = [ "python3-curl-any" ];
-sha256 = "73b2cdcc72d646b6f5043c5cb217efeee15fd42901fd6e1cd7103b67effb4a5e";
+sha256 = "1d7e4003ce15544ef0f9d6e7c8a8054c5e131e3ef29c656cb536ff960196ed32";
 };
 python3-curl-src = {
 version = "7.45.7-r1";
@@ -22649,7 +22649,7 @@ version = "2.21.1-r1";
 filename = "python3-dbus-fast-2.21.1-r1.apk";
 depends = [ "libc" "python3-async-timeout" "python3-asyncio" "python3-light" "python3-logging" "python3-urllib" "python3-xml" ];
 provides = [ "python3-dbus-fast-any" ];
-sha256 = "27b7f920ef7fc714d8282a9c1053136f6f0a17cca76b80e05e8898f66856f351";
+sha256 = "9f91cd04489112349ea1b2fa57127c5b17576fb5309cd8cd419c760f893576e5";
 };
 python3-dbus-fast-src = {
 version = "2.21.1-r1";
@@ -22705,7 +22705,7 @@ version = "3.13.15-r1";
 filename = "python3-dev-3.13.15-r1.apk";
 depends = [ "libc" "python3" ];
 provides = [ "python3-dev-any" ];
-sha256 = "6fe1350616c021c2169ac9cff8efb5d1103db03067bcb05b9cfa247e60953a13";
+sha256 = "d5b135f3b5eb1de82621f265300e9ce7482287fac39b12285c90685fb3b983ab";
 };
 python3-dev-src = {
 version = "3.13.15-r1";
@@ -22915,7 +22915,7 @@ version = "1.9.3-r1";
 filename = "python3-evdev-1.9.3-r1.apk";
 depends = [ "libc" "python3-ctypes" "python3-light" ];
 provides = [ "python3-evdev-any" ];
-sha256 = "d316fdcaf1663e3b60ffb686651ff29c14380ae79b3d9f87232c83970c50d604";
+sha256 = "3f93a914905a711b91af9eefce4f50d1a052fcb38616f83c647cefe3e31672bb";
 };
 python3-evdev-src = {
 version = "1.9.3-r1";
@@ -23055,7 +23055,7 @@ version = "0.5.0-r1";
 filename = "python3-fnv-hash-fast-0.5.0-r1.apk";
 depends = [ "libc" "libstdcpp6" "python3-fnvhash" "python3-light" ];
 provides = [ "python3-fnv-hash-fast-any" ];
-sha256 = "bfe18602eb572a14f72cc4ee5b42d93e474f2f9fbb2dbfa6f7b6fc380a514d31";
+sha256 = "15e670ae7711e7dd95b4ef7c50712077ea2064cf73618c06f6cbb38f9d17af66";
 };
 python3-fnv-hash-fast-src = {
 version = "0.5.0-r1";
@@ -23083,7 +23083,7 @@ version = "1.8.0-r1";
 filename = "python3-frozenlist-1.8.0-r1.apk";
 depends = [ "libc" "libstdcpp6" "python3-light" ];
 provides = [ "python3-frozenlist-any" ];
-sha256 = "9a866024afe1df0a10b6c9d88ae83cdc9095725a8f3f7c08a2484541891c77e9";
+sha256 = "4ddca89a571ee4809eb05ee3100bd39814105ef56c7f38bd5575e574a2794ee6";
 };
 python3-frozenlist-src = {
 version = "1.8.0-r1";
@@ -23104,7 +23104,7 @@ version = "25.9.1-r1";
 filename = "python3-gevent-25.9.1-r1.apk";
 depends = [ "libc" "libcares" "libev" "libuv1" "python3-cffi" "python3-greenlet" "python3-light" "python3-zope-interface" ];
 provides = [ "python3-gevent-any" ];
-sha256 = "3cf384b0fc70ed868cd27bec50f8cb868f5b4c4f98bdb6b2ca69c959586075e4";
+sha256 = "7747f491189a0bb6889e19895eaa3f3f48e55d4a0ae2365518b6eeb7f87e49cf";
 };
 python3-gevent-src = {
 version = "25.9.1-r1";
@@ -23118,7 +23118,7 @@ version = "2.3.0-r1";
 filename = "python3-gmpy2-2.3.0-r1.apk";
 depends = [ "libc" "libgmp10" "libmpc3" "libmpfr6" "python3-email" "python3-light" "python3-urllib" ];
 provides = [ "python3-gmpy2-any" ];
-sha256 = "114120b92f72ab51e8d32c0736813d553ee4172717287b23fdb7657b98da0bea";
+sha256 = "22e858b3db625e1cc89fa4440c330c75a8aa4fac02c5e1bed5e57ff755e7b9b3";
 };
 python3-gmpy2-src = {
 version = "2.3.0-r1";
@@ -23146,7 +23146,7 @@ version = "2.1.3-r1";
 filename = "python3-gpiod-2.1.3-r1.apk";
 depends = [ "libc" "libgpiod" "python3-light" ];
 provides = [ "python3-gpiod-any" ];
-sha256 = "fa5a91a7d0ac29acb4b5a73bcad55380af6fd0824321b7460557d636ae20b79b";
+sha256 = "3497ba74b5feb14a41921d9acf165fd7cb5a8ce5c5226ab13b5795ecb01e8d56";
 };
 python3-gpiod-src = {
 version = "2.1.3-r1";
@@ -23160,7 +23160,7 @@ version = "3.4.0-r1";
 filename = "python3-greenlet-3.4.0-r1.apk";
 depends = [ "libc" "libstdcpp6" "python3-light" ];
 provides = [ "python3-greenlet-any" ];
-sha256 = "a91ef2f61fa9c898c7921ac9ded00893a0b4771621f89ef82d34380e9a9d2134";
+sha256 = "ce3215a7183eb37bda27fd8333fded62f77f5655789655e7c1155a66625e36bb";
 };
 python3-greenlet-src = {
 version = "3.4.0-r1";
@@ -23440,7 +23440,7 @@ version = "1.3.0-r1";
 filename = "python3-lru-dict-1.3.0-r1.apk";
 depends = [ "libc" "python3-light" ];
 provides = [ "python3-lru-dict-any" ];
-sha256 = "77a9cc115ac0099410a6e731f280bd2042672945ee1436b8a06e83b459d482af";
+sha256 = "998bae4014176bb82b18df0d596451218b733fbcb4ad375d947542f20d410cfa";
 };
 python3-lru-dict-src = {
 version = "1.3.0-r1";
@@ -23454,7 +23454,7 @@ version = "6.0.2-r1";
 filename = "python3-lxml-6.0.2-r1.apk";
 depends = [ "libc" "libexslt" "libxml2-16" "libxslt" "python3-light" ];
 provides = [ "python3-lxml-any" ];
-sha256 = "ccf3fc3ea4db63f92ec2e09f300cb23c31f3866089b48b4fe6b08404e054b4f0";
+sha256 = "14dac8a463ca654a99d0b4501bd8dd397a764b6bf4f902be1dfe32ea167b6cb0";
 };
 python3-lxml-src = {
 version = "6.0.2-r1";
@@ -23496,7 +23496,7 @@ version = "3.0.3-r2";
 filename = "python3-markupsafe-3.0.3-r2.apk";
 depends = [ "libc" "python3-light" ];
 provides = [ "python3-markupsafe-any" ];
-sha256 = "f79d7190f67f3b73b78999cb78a41e771b25facc4f436850a44f83576513b347";
+sha256 = "acabd79cb6f54db661c5bde7e3d9b42415f54aa15d7608db47de26e33fbde3db";
 };
 python3-markupsafe-src = {
 version = "3.0.3-r2";
@@ -23510,7 +23510,7 @@ version = "2.4.0-r1";
 filename = "python3-maxminddb-2.4.0-r1.apk";
 depends = [ "libc" "libmaxminddb" "python3-light" ];
 provides = [ "python3-maxminddb-any" ];
-sha256 = "9aa91e4135d47b5e61e89fd255426bce5aa7f0aaa7d4fcf28c9e02298756e4b7";
+sha256 = "8205a6e728e84866fa16a2fcc8c7c5405ae467a7bbbce4039454101910ec2590";
 };
 python3-maxminddb-src = {
 version = "2.4.0-r1";
@@ -23538,7 +23538,7 @@ version = "1.1.2-r1";
 filename = "python3-msgpack-1.1.2-r1.apk";
 depends = [ "libc" "libstdcpp6" "python3-light" ];
 provides = [ "python3-msgpack-any" ];
-sha256 = "41a2b3374dadb402ff38408798f36bc86e6860d36a5a4f10554dc72e8138b0ba";
+sha256 = "62af2eebc938b78bf431d64f9adfac39245e4bad499ee81732f8085d5b1f15bf";
 };
 python3-msgpack-src = {
 version = "1.1.2-r1";
@@ -23650,7 +23650,7 @@ version = "3.10.12-r1";
 filename = "python3-orjson-3.10.12-r1.apk";
 depends = [ "libc" "python3-light" ];
 provides = [ "python3-orjson-any" ];
-sha256 = "e4dbc0d6f92515da013ab683c5d5721a9d0b1092bec39c2fe6be531402d13ff1";
+sha256 = "3345546bff9efcc4bc30b3f55a52329eb41c2c37ed3f06f73021c8e54fc2ec0c";
 };
 python3-orjson-src = {
 version = "3.10.12-r1";
@@ -23678,7 +23678,7 @@ version = "1.0-r2";
 filename = "python3-packages-1.0-r2.apk";
 depends = [ "libc" "python3" ];
 provides = [ "python3-packages-any" ];
-sha256 = "908063dffb0d5abd67cefaa7c75593b640853e6b3eae6661360ab1af4648ec00";
+sha256 = "2ed4773168bdda2a8b35f6ceb4bd22e99c6d2f30e66f397f1eae5226e34d16b2";
 };
 python3-packaging = {
 version = "25.0-r1";
@@ -23741,7 +23741,7 @@ version = "12.1.1-r1";
 filename = "python3-pillow-12.1.1-r1.apk";
 depends = [ "libc" "libfreetype" "libjpeg" "libtiff6" "libwebp" "python3" "zlib" ];
 provides = [ "python3-pillow-any" ];
-sha256 = "76db00a0b1f13cdcc91282a79908c5a1d7f62ea0767da6cc1d1bd98112bd3b59";
+sha256 = "df18a881c925e014b08a50041c72bd0bee4d70eb25d9742d4d563e88e398787a";
 };
 python3-pillow-src = {
 version = "12.1.1-r1";
@@ -23825,7 +23825,7 @@ version = "5.9.5-r1";
 filename = "python3-psutil-5.9.5-r1.apk";
 depends = [ "libc" "python3-light" ];
 provides = [ "python3-psutil-any" ];
-sha256 = "e2a3ad3b6c07547958bf8669610fa5f45abdf43676f067f4fecf72d8528c7c13";
+sha256 = "272419d67dee356f9a7eb99889cd79bffd12dd29c537a2d5fdb00c1f2a2a01fb";
 };
 python3-psutil-src = {
 version = "5.9.5-r1";
@@ -23839,7 +23839,7 @@ version = "2.9.11-r1";
 filename = "python3-psycopg2-2.9.11-r1.apk";
 depends = [ "libc" "libpq" "python3-decimal" "python3-light" "python3-logging" "python3-uuid" ];
 provides = [ "python3-psycopg2-any" ];
-sha256 = "9614da8809c97a303ba060a71260dd3077bcbe6706e358749a63f17e362703a9";
+sha256 = "5b96d16757770ff2d2283f6a88b16af05df6e47b14f3db45b88666d03a4a6a5d";
 };
 python3-psycopg2-src = {
 version = "2.9.11-r1";
@@ -23895,7 +23895,7 @@ version = "4.10.0-r1";
 filename = "python3-pycares-4.10.0-r1.apk";
 depends = [ "libc" "python3-cffi" "python3-light" ];
 provides = [ "python3-pycares-any" ];
-sha256 = "e9cac95352378a6a0165ab340017704801716760e5612568a54dcf3d5e0a7126";
+sha256 = "b878117c6df43c89cfc3098480b7881d82f4c6d30a521ef10864dfca70dc1878";
 };
 python3-pycares-src = {
 version = "4.10.0-r1";
@@ -23965,7 +23965,7 @@ version = "3.4.1-r1";
 filename = "python3-pyfuse3-3.4.1-r1.apk";
 depends = [ "libc" "libfuse3-3" "python3-asyncio" "python3-light" "python3-logging" "python3-trio" ];
 provides = [ "python3-pyfuse3-any" ];
-sha256 = "7e42402cd131ee8110e60dc7ab53b6f04dfd5e851da35c7e39a98498858be0d1";
+sha256 = "39e3807eb1db36d7020b7611fe8186a1741e49e4261ccdfee3c131b148493cee";
 };
 python3-pyfuse3-src = {
 version = "3.4.1-r1";
@@ -24014,7 +24014,7 @@ version = "1.6.1-r1";
 filename = "python3-pynacl-1.6.1-r1.apk";
 depends = [ "libc" "libsodium" "python3-cffi" "python3-light" ];
 provides = [ "python3-pynacl-any" ];
-sha256 = "7317055f7c08b3951b85453f527e390fa68b343489b109836afbeb530992eb5c";
+sha256 = "6eb1e9ba27b17da0b52cbe7d9f38e482b31c6f3a49a9d839cf7eef85ef53fdb0";
 };
 python3-pynacl-src = {
 version = "1.6.1-r1";
@@ -24028,7 +24028,7 @@ version = "5.3.0-r1";
 filename = "python3-pyodbc-5.3.0-r1.apk";
 depends = [ "libc" "libodbc2" "libstdcpp6" "python3-decimal" "python3-light" "python3-uuid" ];
 provides = [ "python3-pyodbc-any" ];
-sha256 = "9a354da867f2d881a62a4321c238a4ff169df06520323b4722c2bf5dd828dd2c";
+sha256 = "6f24b3b7fc32738fdf568c43580be0ed4aef89a81ec8e37c39f00d8fe80bd251";
 };
 python3-pyopenssl = {
 version = "23.3.0-r2";
@@ -24238,7 +24238,7 @@ version = "0.10.6-r1";
 filename = "python3-rpds-py-0.10.6-r1.apk";
 depends = [ "libc" "python3-light" ];
 provides = [ "python3-rpds-py-any" ];
-sha256 = "e261257e3936f6856750843d4c94e676d39a44122403bd79fe51a088841fc73d";
+sha256 = "3bbc9d5082d3844ebc48250bcc809f7196cafd3fb78f10b4255cd14850df4d85";
 };
 python3-rpds-py-src = {
 version = "0.10.6-r1";
@@ -24322,7 +24322,7 @@ version = "3.8.1-r2";
 filename = "python3-selinux-3.8.1-r2.apk";
 depends = [ "libc" "libselinux" "python3-light" ];
 provides = [ "python3-selinux-any" ];
-sha256 = "1ff3fe847aaa6a81566b476ce30139d32499162b28080841ff154ef12091ecad";
+sha256 = "4bb6009e1ee99b3741dd858ba50ee687ecf20e98c9c11fc2a841dc35da56edd0";
 };
 python3-selinux-src = {
 version = "3.8.1-r2";
@@ -24420,7 +24420,7 @@ version = "4.5.1-r1";
 filename = "python3-setools-4.5.1-r1.apk";
 depends = [ "libc" "libselinux" "libsepol" "python3-light" "python3-logging" "python3-pkg-resources" ];
 provides = [ "python3-setools-any" ];
-sha256 = "4b2d67dda5854348a45f658e7869424de10da7080858298cbc4fb54773353555";
+sha256 = "95f958e7cd8f1bab62214c02293ffd444577af8029b35c76e1fcd7c067179dd4";
 };
 python3-setools-src = {
 version = "4.5.1-r1";
@@ -24476,7 +24476,7 @@ version = "4.4-r2";
 filename = "python3-smbus-4.4-r2.apk";
 depends = [ "libc" "libi2c" "python3-light" ];
 provides = [ "python3-smbus-any" ];
-sha256 = "45387cae90d29ffe45b726425d5dfd633df95fc2d1b210dc7000db707331b3a9";
+sha256 = "39dc69dac14d9f920df68d03c70ccf82340ba22c321fabefb9dd95f10a4d59e1";
 };
 python3-sniffio = {
 version = "1.3.0-r2";
@@ -24525,7 +24525,7 @@ version = "2.0.44-r2";
 filename = "python3-sqlalchemy-2.0.44-r2.apk";
 depends = [ "libc" "python3" "python3-typing-extensions" ];
 provides = [ "python3-sqlalchemy-any" ];
-sha256 = "8dfbcb47d35566daa72b5b397db660116b8a57c15deb4e37b7f7a597a9d705d0";
+sha256 = "15203348458fe40644cc6f00e2b835d61b372d02543cb22a540da2b54878f573";
 };
 python3-sqlalchemy-src = {
 version = "2.0.44-r2";
@@ -24637,7 +24637,7 @@ version = "6.3.3-r1";
 filename = "python3-tornado-6.3.3-r1.apk";
 depends = [ "libc" "python3" ];
 provides = [ "python3-tornado-any" ];
-sha256 = "2848f14e2de8349570cf524be934e63d0eeab075231a2d40975e1ea9d7067384";
+sha256 = "8fd824b810e2b3c57808e8ddf0ba61d3760150e6d8cd639279cc72e085300f75";
 };
 python3-tornado-src = {
 version = "6.3.3-r1";
@@ -24707,7 +24707,7 @@ version = "0.10.3-r2";
 filename = "python3-uci-0.10.3-r2.apk";
 depends = [ "libc" "libuci20250120" "python3-light" ];
 provides = [ "python3-uci-any" ];
-sha256 = "bf8c71d5d7f46f051b463bfe4d92526c0b5a73f3eeed5e835cc084c2d9e187b7";
+sha256 = "9b526e39783efd724c60947c85cd5c0f547281078dd09c7e742a3893754eeca7";
 };
 python3-uci-src = {
 version = "0.10.3-r2";
@@ -24847,7 +24847,7 @@ version = "11.0.3-r1";
 filename = "python3-websockets-11.0.3-r1.apk";
 depends = [ "libc" "python3" ];
 provides = [ "python3-websockets-any" ];
-sha256 = "54e86295189f75fc98c2c00f935df8987809c57f99190b6a72da8632c13af897";
+sha256 = "0b9b2b38bc8bd46a9a976bec04d398fb64a31515f91bdf8d6a4d2a07baf17401";
 };
 python3-websockets-src = {
 version = "11.0.3-r1";
@@ -24903,7 +24903,7 @@ version = "6.0.3-r1";
 filename = "python3-yaml-6.0.3-r1.apk";
 depends = [ "libc" "libyaml" "python3-light" ];
 provides = [ "python3-yaml-any" ];
-sha256 = "7e1f1c7f0a7b3de91c681b5567617ce9232b0fb6b8abf98378dc3bcfa4ee3fa9";
+sha256 = "350be3cc47f0f326389193c10fe64edfbf6cf6c7a2daf592e82e8c58eeaea7d7";
 };
 python3-yaml-src = {
 version = "6.0.3-r1";
@@ -24917,7 +24917,7 @@ version = "0.131.0-r1";
 filename = "python3-zeroconf-0.131.0-r1.apk";
 depends = [ "libc" "python3-asyncio" "python3-ifaddr" "python3-light" "python3-logging" ];
 provides = [ "python3-zeroconf-any" ];
-sha256 = "6c11cbd63fcb92b603858ffeadb81b5395208c35fb43083225c735511937ec85";
+sha256 = "d31e54125087685e7fa102ccf6a5a27206a006901d0db5441561e64ef87a2a4d";
 };
 python3-zeroconf-src = {
 version = "0.131.0-r1";
@@ -24959,7 +24959,7 @@ version = "8.0.1-r1";
 filename = "python3-zope-interface-8.0.1-r1.apk";
 depends = [ "libc" "python3-light" "python3-logging" ];
 provides = [ "python3-zope-interface-any" ];
-sha256 = "ba62479705adccc7611cbba0b522eaa86b224a03e5ab42b0f74c1703a2cb1e77";
+sha256 = "24583883b7fcf0bc6bf499e0135fa6d1de71b4cc208c1816b34fedf20dab09de";
 };
 python3-zope-interface-src = {
 version = "8.0.1-r1";
@@ -24973,7 +24973,7 @@ version = "2025.49-r1";
 filename = "qbee-agent-2025.49-r1.apk";
 depends = [ "libc" ];
 provides = [ "qbee-agent-any" ];
-sha256 = "9157dd9464fb870963b298039e6efca1f590d20fa22335ad86339d9447bac180";
+sha256 = "6727598c5a31b02bc7cac9cfa405d5411506d162f3a8e648789fb82ef1e998fb";
 };
 qcsuper = {
 version = "2022.08.11-r2";
@@ -25071,7 +25071,7 @@ version = "1.75.0-r1";
 filename = "rclone-1.75.0-r1.apk";
 depends = [ "ca-bundle" "fuse3-utils" "libc" ];
 provides = [ "rclone-any" ];
-sha256 = "86c1abbdca47dadb54d75015f254b913af537327461f5863d0118535219ab979";
+sha256 = "6b3c225bf293e2d4bd266a9d183151f59f118591d7b03c7bceb286677a948504";
 };
 rclone-config = {
 version = "1.75.0-r1";
@@ -25176,14 +25176,14 @@ version = "0.17.3-r1";
 filename = "restic-0.17.3-r1.apk";
 depends = [ "libc" ];
 provides = [ "restic-any" ];
-sha256 = "6ebce81ece1dc05bd3418b5b366290100887acf00beb3466a61127d4f06d5cf7";
+sha256 = "c247a80e2f161941b6a067156a394563eb41bb070031a195accd329df61a8cce";
 };
 restic-rest-server = {
 version = "0.13.0-r1";
 filename = "restic-rest-server-0.13.0-r1.apk";
 depends = [ "libc" ];
 provides = [ "restic-rest-server-any" ];
-sha256 = "353af4bcd207b68b6e1ee2f2fac9ae32cde34c85824f8d9ee62c4e9bf8f9a2f8";
+sha256 = "1a9ffb1640827bd772daa65ba707310391c76168c85f88af1aacb487b0f5aed7";
 };
 ripe-atlas-anchor = {
 version = "5130-r4";
@@ -25197,7 +25197,7 @@ version = "5130-r4";
 filename = "ripe-atlas-common-5130-r4.apk";
 depends = [ "libc" "libopenssl3" "openssh-client" "openssh-keygen" ];
 provides = [ "ripe-atlas-common-any" ];
-sha256 = "909f83647ae02b6208074dcbd6d2f02c48478e2afc0c30c00c0dff28b1788ccc";
+sha256 = "8bb89f93045cca49f06046c2d520b6c718563ce30b82211e29386b9b98565d9f";
 };
 ripe-atlas-probe = {
 version = "5130-r4";
@@ -25232,14 +25232,14 @@ version = "4.0-r2";
 filename = "rp-pppoe-common-4.0-r2.apk";
 depends = [ "libc" "ppp" ];
 provides = [ "rp-pppoe-common-any" ];
-sha256 = "7d744a014501f5f5ac3f1034c527d378e62ee56e1bbb1ab9c61c7665735c6c1e";
+sha256 = "cb7511f9056bb139c30a86df200a9d1e71546071dcf09ab5eb985d4a0f92ab08";
 };
 rp-pppoe-server = {
 version = "4.0-r2";
 filename = "rp-pppoe-server-4.0-r2.apk";
 depends = [ "libc" "ppp-mod-pppoe" "rp-pppoe-common" ];
 provides = [ "rp-pppoe-server-any" ];
-sha256 = "46b89de03a4f43db9e661d264350128ee0c0523e245f4dd633dff8a70ad267b1";
+sha256 = "f9adf62d26701dcf27d9fdeb8e60168a2aaedf9010e6801795d41579994560c3";
 };
 rpcbind = {
 version = "1.2.6-r2";
@@ -25253,14 +25253,14 @@ version = "20250823";
 filename = "rpcd-mod-lxc-20250823.apk";
 depends = [ "libc" "liblxc" "rpcd" ];
 provides = [ "rpcd-mod-lxc-any" ];
-sha256 = "f0856c0a86b7ddd10a3a76639e0855f64b8759fe1392dcd3c5fc9386afd8aecd";
+sha256 = "e62a0a54da92aa8483b73f8c3ca18a6137401c33e30781db9232398779248705";
 };
 rpcd-mod-wireguard = {
 version = "2";
 filename = "rpcd-mod-wireguard-2.apk";
 depends = [ "kmod-wireguard" "libc" "rpcd" ];
 provides = [ "rpcd-mod-wireguard-any" ];
-sha256 = "2167e7a5abc569f8c53fe048b406cfb00abd53b0d8619b9d919924883d6c1a3a";
+sha256 = "60e702386c417089ffb0a8bc339b4a21c1ad5ed05d4387ff3739044379f396e9";
 };
 rrdcgi1 = {
 version = "1.0.50-r7";
@@ -25470,7 +25470,7 @@ version = "3.4.9-r1";
 filename = "ruby-debug-3.4.9-r1.apk";
 depends = [ "libc" "ruby" "ruby-irb" "ruby-objspace" "ruby-readline" ];
 provides = [ "ruby-debug-any" ];
-sha256 = "804070aadb48fda559a37c12c6d7f308e4048dcd5d4c4a6557b48db7de82de57";
+sha256 = "ed6bbac558fc8c0eda926aa8417625d33dace0bca66803066950ad9f143d7a25";
 };
 ruby-delegate = {
 version = "3.4.9-r1";
@@ -25743,7 +25743,7 @@ version = "3.4.9-r1";
 filename = "ruby-nkf-3.4.9-r1.apk";
 depends = [ "libc" "ruby" "ruby-enc" ];
 provides = [ "ruby-nkf-any" ];
-sha256 = "f93dc6b3c8e47ab87159f632d39b076ac1a5c5e2f34cf896e8a856e79871e67f";
+sha256 = "28ad08ffd9c9ed3ca8b64a47342ff047c1ca67df769a1242ea4aa4bf86fe7390";
 };
 ruby-objspace = {
 version = "3.4.9-r1";
@@ -25883,14 +25883,14 @@ version = "3.4.9-r1";
 filename = "ruby-rbconfig-3.4.9-r1.apk";
 depends = [ "libc" "ruby" ];
 provides = [ "ruby-rbconfig-any" ];
-sha256 = "0d4983176a76d66561a68bf50f9ef76f8b4c89b14170d567b08322568dc43392";
+sha256 = "5ee0df6dbb66b1776256f13c020eb4c0bbf8fb707cad5e1f2e779746b2f0b922";
 };
 ruby-rbs = {
 version = "3.4.9-r1";
 filename = "ruby-rbs-3.4.9-r1.apk";
 depends = [ "libc" "ruby" "ruby-logger" "ruby-rdoc" ];
 provides = [ "ruby-rbs-any" ];
-sha256 = "2a9388366f6ebb9cb21cf0d96aa0d941dfb9cbcea64f8c8118cb635340b79869";
+sha256 = "8856439bf80ddfbcfee72766f0658e6bc60c97d4162695b634566e6bf422f72c";
 };
 ruby-rdoc = {
 version = "3.4.9-r1";
@@ -26051,7 +26051,7 @@ version = "3.4.9-r1";
 filename = "ruby-syslog-3.4.9-r1.apk";
 depends = [ "libc" "ruby" "ruby-logger" ];
 provides = [ "ruby-syslog-any" ];
-sha256 = "a04c2f95314f83990c3331e6b24024b5d0d28b8a1cb45b2858c7eeffb37ab4a4";
+sha256 = "fafbe017d75d9a434ca0a8aa96dff4dda922b0c2065eb0fd603239c935f396d4";
 };
 ruby-tempfile = {
 version = "3.4.9-r1";
@@ -26149,42 +26149,7 @@ version = "2.0.1-r11";
 filename = "safe-search-2.0.1-r11.apk";
 depends = [ "libc" ];
 provides = [ "safe-search-any" ];
-sha256 = "a4b18d86e1f662e22d7062b4ebb20ecfdc01eb397aa27bad524cf7482155c150";
-};
-samba4-admin = {
-version = "4.22.7-r3";
-filename = "samba4-admin-4.22.7-r3.apk";
-depends = [ "libc" "samba4-libs" ];
-provides = [ "samba4-admin-any" ];
-sha256 = "abe022af0bcab1db4e2c67288eceea3fbff5e9d199405b666ff64e1f4ca492cb";
-};
-samba4-client = {
-version = "4.22.7-r3";
-filename = "samba4-client-4.22.7-r3.apk";
-depends = [ "libc" "samba4-libs" ];
-provides = [ "samba4-client-any" ];
-sha256 = "1ddc50b274c1f70ebe5d91f719c0da180b52dd8e2ed4e834e55994daa5e0d6ce";
-};
-samba4-libs = {
-version = "4.22.7-r3";
-filename = "samba4-libs-4.22.7-r3.apk";
-depends = [ "attr" "icu78" "libatomic1" "libavahi-client" "libc" "libcap" "libgnutls" "libopenssl3" "libpam" "libpopt0" "libreadline8" "libtasn1" "libtirpc" "libuuid1" "zlib" ];
-provides = [ "samba4-libs-any" ];
-sha256 = "426399a4b8ee1f776253997b7e64a3d9abde91e20ac0a844621226e2235d873a";
-};
-samba4-server = {
-version = "4.22.7-r3";
-filename = "samba4-server-4.22.7-r3.apk";
-depends = [ "libc" "samba4-libs" ];
-provides = [ "samba4-server-any" ];
-sha256 = "ef0b53edd134a7d534126a94945722202b238e51896a91d870989a2f6de0b931";
-};
-samba4-utils = {
-version = "4.22.7-r3";
-filename = "samba4-utils-4.22.7-r3.apk";
-depends = [ "libc" "samba4-libs" ];
-provides = [ "samba4-utils-any" ];
-sha256 = "47dcc5559e5d342088aca3b1595623b3be51c47506e69f7e287fdc4f10ca4fa5";
+sha256 = "c970928dc5dd558c607a9be8fd397567f99acc069d1d59b3618846459666f734";
 };
 samplicator = {
 version = "2021.10.11~ceeb1d28-r1";
@@ -26842,7 +26807,7 @@ version = "1.6.13-r5";
 filename = "schroot-1.6.13-r5.apk";
 depends = [ "boost" "boost-filesystem" "boost-iostreams" "boost-program_options" "boost-regex" "libc" ];
 provides = [ "schroot-any" ];
-sha256 = "ecb2e9c6567f0ec36125c8c5039d9140597fee841680c6ca3913d2912f3d3521";
+sha256 = "ac461f94d8000cc452b031b3cce33811577ce0bd1c0ffaa74d80580fc8c26c97";
 };
 scmp_sys_resolver = {
 version = "2.5.5-r1";
@@ -26856,7 +26821,7 @@ version = "5.0.1-r1";
 filename = "screen-5.0.1-r1.apk";
 depends = [ "libc" "libncurses6" ];
 provides = [ "screen-any" ];
-sha256 = "77866f7c0af6b2444983d1b5c910ad2b75b1a36045cdb57be3908d7f242866c5";
+sha256 = "684d242813ccb56ccfc2dc53bda11eaecb8f3af710ac4f29599388ca0d99f1e2";
 };
 sctp-tools = {
 version = "1.0.21-r1";
@@ -27339,7 +27304,7 @@ version = "5.2.8-r2";
 filename = "shorewall-core-5.2.8-r2.apk";
 depends = [ "libc" ];
 provides = [ "shorewall-core-any" ];
-sha256 = "4f70c48df01a071af8b2d6bf4fcc996f9ff89ddd8de340eaecb1236034dddfa5";
+sha256 = "40c7dd6dc2d00afa7d40cb1541355138457749acfefab9fd2d62c564781a99ae";
 };
 shorewall-lite = {
 version = "5.2.8-r2";
@@ -27367,21 +27332,21 @@ version = "2026.08.06-r1";
 filename = "simple-captive-portal-2026.08.06-r1.apk";
 depends = [ "libc" "luci-lib-ip" "uhttpd" "uhttpd-mod-lua" ];
 provides = [ "simple-captive-portal-any" ];
-sha256 = "5b45de2a75037c8826f076675129d99048105e725b177f14a1da1e09402e9998";
+sha256 = "3743380d8154a3791e7d82c59cac2b7910f4bead78f7b1ea6b4b98ee60e7fea2";
 };
 sing-box = {
 version = "1.13.21-r1";
 filename = "sing-box-1.13.21-r1.apk";
 depends = [ "ca-bundle" "kmod-inet-diag" "kmod-tun" "libc" ];
 provides = [ "sing-box-any" ];
-sha256 = "8f05c3c20d6ac7352c34e64565a891ef0d3b3f9728f863c10f73a33d883d0fbf";
+sha256 = "938c01adc4d486df4840ebcc3a7a57f5871f020ff75aed2aa4198b9651843c95";
 };
 sing-box-tiny = {
 version = "1.13.21-r1";
 filename = "sing-box-tiny-1.13.21-r1.apk";
 depends = [ "ca-bundle" "kmod-inet-diag" "kmod-tun" "libc" ];
 provides = [ "sing-box" "sing-box-tiny-any" ];
-sha256 = "b63a087b5366360262dfef5f9b126ca847124fb90da5c4dea42813329b4ff13e";
+sha256 = "75fc4a312136c3e607ee92a1f07dd67949d513c1efa6b85b56f148446a1565ac";
 };
 sipcalc = {
 version = "2014.10.24~9b97dbca-r2";
@@ -27409,7 +27374,7 @@ version = "1.3.1-r1";
 filename = "slirp4netns-1.3.1-r1.apk";
 depends = [ "glib2" "libc" "libcap" "libseccomp" "libslirp" ];
 provides = [ "slirp4netns-any" ];
-sha256 = "617c86fef09ce5a547054769ec6a1d83d5a68a5586d194b99611c6d572f0da94";
+sha256 = "5367fc7a0258bd59cd10d7f093e0cc4c40c07293e5a96d6a01bc8f6406b2f623";
 };
 slsh = {
 version = "2.3.3-r2";
@@ -27423,7 +27388,7 @@ version = "7.5-r1";
 filename = "smartd-7.5-r1.apk";
 depends = [ "libc" "libstdcpp6" ];
 provides = [ "smartd-any" ];
-sha256 = "cbc04dc271b48d330d80de19e43537c1518328c5ed1458b9abfac3e28fc76a4b";
+sha256 = "cedb6c62841d701ce663247265859926bcd3accdd149756f3edeead8d224f9f9";
 };
 smartd-mail = {
 version = "7.5-r1";
@@ -27437,14 +27402,14 @@ version = "46.1-r1";
 filename = "smartdns-46.1-r1.apk";
 depends = [ "libc" "libopenssl3" "libpthread" ];
 provides = [ "smartdns-any" ];
-sha256 = "faf1009376814b713f983bc6ca5209114c80a77e2f5b75ad37608af8cccebbb0";
+sha256 = "09acf1930af94fb9738a81703ff225c35429d9c5c58d2daa9f0ae85a7f2888cd";
 };
 smartmontools = {
 version = "7.5-r1";
 filename = "smartmontools-7.5-r1.apk";
 depends = [ "libc" "libstdcpp6" ];
 provides = [ "smartmontools-any" ];
-sha256 = "797af337531d75905e5d9bda473b425e5b4ebbde7dcffdef789c04b163efe880";
+sha256 = "7eb576b90d18240aa173491b1d0844ef4942cf620d9aa3804dfb089741d1e904";
 };
 smartmontools-drivedb = {
 version = "7.5-r1";
@@ -27556,42 +27521,42 @@ version = "2.13.1-r1";
 filename = "snowflake-broker-2.13.1-r1.apk";
 depends = [ "libc" ];
 provides = [ "snowflake-broker-any" ];
-sha256 = "bddf85baec69316c5860a40c66ef2731e22546d6622a3e8aea680796ccdd61e6";
+sha256 = "fc70bbe5bf08bbb8c7b751eacadf37530e23bc82e69bd2cbfe1b87017c09b161";
 };
 snowflake-client = {
 version = "2.13.1-r1";
 filename = "snowflake-client-2.13.1-r1.apk";
 depends = [ "libc" ];
 provides = [ "snowflake-client-any" ];
-sha256 = "ba2d1cde8dc8a0bd489659aaa5ec4c82442ff8cf45cfae56c13babe59f520744";
+sha256 = "b4be576d15f3d0ab03f1cafdbbdb1178f36aec36be368df86a4922b22b5d8741";
 };
 snowflake-probetest = {
 version = "2.13.1-r1";
 filename = "snowflake-probetest-2.13.1-r1.apk";
 depends = [ "libc" ];
 provides = [ "snowflake-probetest-any" ];
-sha256 = "e60f6c865957f46b3e0f23728ddbf4536ae84722a279bbce31e3d814f4ec4f60";
+sha256 = "4728c0473236dd1ca31737cbe628c1f12fda2d5a45f6c5ac491c46ba6c71a434";
 };
 snowflake-proxy = {
 version = "2.13.1-r1";
 filename = "snowflake-proxy-2.13.1-r1.apk";
 depends = [ "libc" ];
 provides = [ "snowflake-proxy-any" ];
-sha256 = "1cc9fb596b44e95043148ee46f1d9c562012b0d663c82032102d93d2090c5f88";
+sha256 = "7235a101d178951aa2f9c3c79177294662202443e29d21305bbd7aa54e4003f2";
 };
 snowflake-server = {
 version = "2.13.1-r1";
 filename = "snowflake-server-2.13.1-r1.apk";
 depends = [ "libc" ];
 provides = [ "snowflake-server-any" ];
-sha256 = "3ad2c7e3bb18c5b5b23cd7832ec30b184b6c621485d703f4bd6ffcf2c33ab1ba";
+sha256 = "ab3f1a15500f345486a35e391e24ecb9ffb331c77da16839e58806adf2205d1c";
 };
 socat = {
 version = "1.8.1.1-r1";
 filename = "socat-1.8.1.1-r1.apk";
 depends = [ "libc" "libpthread" "librt" ];
 provides = [ "socat-any" ];
-sha256 = "0edde506276ea93cb3c71dbbe0f34202287073ba6b9e493874c09bde12de5b29";
+sha256 = "54df5fed9159dacf65327850842d93e677f8575e276bdee1588e79db756e7ece";
 };
 sockd = {
 version = "1.4.4-r3";
@@ -27605,7 +27570,7 @@ version = "1.1-r1";
 filename = "sockread-1.1-r1.apk";
 depends = [ "libc" ];
 provides = [ "sockread-any" ];
-sha256 = "dbf93bc6cf53d0f99809b730d7d0ce58829d4771ecd55b20585b0c1bbb8a6313";
+sha256 = "61b97cecebd312675ab09e9658698cd29f0c0ca02aba3027ca0374b84a516851";
 };
 socksify = {
 version = "1.4.4-r3";
@@ -27717,14 +27682,14 @@ version = "1.7.10-r1";
 filename = "speedtest-go-1.7.10-r1.apk";
 depends = [ "ca-bundle" "libc" ];
 provides = [ "speedtest-go-any" ];
-sha256 = "375e30835d8db724c0c999c18faef9eea50cdc61bcbe9584f429f6a6e40efb9b";
+sha256 = "d3c4c5c1679ad9d036f8bdb769411ef287254b5215ebf93023915e467c1f8ba4";
 };
 speedtest-netperf = {
 version = "1.1.0-r1";
 filename = "speedtest-netperf-1.1.0-r1.apk";
 depends = [ "libc" "netperf" ];
 provides = [ "speedtest-netperf-any" ];
-sha256 = "c52a6d4c0d6b9856511bc412184e9ebe824f9a44cbc163cd60a5690599c167ce";
+sha256 = "5e3469a0dd744c65f92459318298009f7db2662a08a8a81b8d4b9726f5436df7";
 };
 speedtestcpp = {
 version = "1.20.3-r1";
@@ -27836,7 +27801,7 @@ version = "5-r2";
 filename = "sshtunnel-5-r2.apk";
 depends = [ "libc" ];
 provides = [ "sshtunnel-any" ];
-sha256 = "d2564a3f5df2c56f140534e92141c68d8a2e8a8bfe925c87b2c486f9202ed7c0";
+sha256 = "0cd2f6627535b43ced33b0930d027c05156de41513a3cd805d33a8c1d908592b";
 };
 sslh = {
 version = "2.1.2-r1";
@@ -27857,14 +27822,14 @@ version = "1-r2";
 filename = "static-neighbor-reports-1-r2.apk";
 depends = [ "libc" "libubus-lua" "libuci-lua" "lua" ];
 provides = [ "static-neighbor-reports-any" ];
-sha256 = "c26fdd4c333ca31e686a8c95bd0e2b7cf9a58dc7933e6c1648b3c8ce37692fa4";
+sha256 = "82702576af0565ccb4a4956de10354e7da0a73711b4af18a98795cc80ceb611d";
 };
 stdiscosrv = {
 version = "2.1.3-r1";
 filename = "stdiscosrv-2.1.3-r1.apk";
 depends = [ "libc" ];
 provides = [ "stdiscosrv-any" ];
-sha256 = "d3f40d811075abcc1a0d06ec66e42be7cd73559e9841a8f1056f28f29de151cd";
+sha256 = "0a7961c21a9c5024bdfe4146efeaf110bc82f2084f6a5ec952df1a7f8d53acdf";
 };
 stlink-st-flash = {
 version = "1.8.0-r2";
@@ -27927,14 +27892,14 @@ version = "2.1.3-r1";
 filename = "strelaysrv-2.1.3-r1.apk";
 depends = [ "libc" ];
 provides = [ "strelaysrv-any" ];
-sha256 = "e6f17dce474141d73660e5e123188ff14e6bb68c70ee0095a89b093c54214a5e";
+sha256 = "19e2c811c5eb3ac849a43cf478478e4621178ee8a4d4154721a7455efed2400f";
 };
 stress-ng = {
 version = "0.19.04-r1";
 filename = "stress-ng-0.19.04-r1.apk";
 depends = [ "libaio" "libatomic1" "libbsd0" "libc" "libjpeg" "libkmod" "libsctp" "zlib" ];
 provides = [ "stress" "stress-ng-any" ];
-sha256 = "214f3704c98ecd67a7dc57f92075825f85a4ddfa5f0b99f7284725f13d902970";
+sha256 = "f77bbe06c933e9c666f43f904bf99522e3f323ce6c5edb01026f4d01c592fe40";
 };
 strongswan = {
 version = "6.0.7-r1";
@@ -28606,7 +28571,7 @@ version = "1.14.5-r1";
 filename = "subversion-libs-1.14.5-r1.apk";
 depends = [ "libaprutil" "libc" "libmagic" "libsqlite3-0" "unixodbc" ];
 provides = [ "subversion-libs-any" ];
-sha256 = "b078b3565214957e62a4250b036c2711746525ca15830f6af89a39d69c1cac54";
+sha256 = "b2b18d10f788d6302cba7899794479190754230871eb763f21f5b1436c0f257d";
 };
 subversion-server = {
 version = "1.14.5-r1";
@@ -28648,14 +28613,14 @@ version = "1.10.0-r1";
 filename = "swgp-go-1.10.0-r1.apk";
 depends = [ "libc" ];
 provides = [ "swgp-go-any" ];
-sha256 = "44d1c482cdf5e27339cc125447451740842ec72eb7e512072d0d16c1e6856c2a";
+sha256 = "e28cd828e421f93b21d7cc9049cc92891cc0a1f23ac42cb3163a839d017de30e";
 };
 switchdev-poller = {
 version = "1.1.0-r1";
 filename = "switchdev-poller-1.1.0-r1.apk";
 depends = [ "libc" "swconfig" ];
 provides = [ "switchdev-poller-any" ];
-sha256 = "a22b7ac306e6ac36aa64bcabfabfa3c17394da4d9d3cace50fa0fcc884eac538";
+sha256 = "1242d1f1ffa4cd630a5bf80c1d63b3d2794ad25946d227eea21192ff07d011e4";
 };
 sx1302_hal-tests = {
 version = "2.1.0-r1";
@@ -28676,14 +28641,14 @@ version = "2.1.3-r1";
 filename = "syncthing-2.1.3-r1.apk";
 depends = [ "libc" ];
 provides = [ "syncthing-any" ];
-sha256 = "b03cb18c53bb7da72c87d60935665fdd54c71aceec4cb53e8fb2fbb1406b726d";
+sha256 = "426299e05eab68d6301fb2fac99c384bcc95385f8577030fe613f63ac7838c3a";
 };
 syslog-ng = {
 version = "4.12.0-r3";
 filename = "syslog-ng-4.12.0-r3.apk";
 depends = [ "glib2" "ivykis0" "libc" "libcurl4" "libdbi" "libjson-c5" "libopenssl3" "libpcre2" "libpthread" "librt" "libuuid1" "zlib" ];
 provides = [ "syslog-ng-any" ];
-sha256 = "1008971c458e20d7dad91c26152ad669bcef84f7e66f9d11ca61b1d94ebafab6";
+sha256 = "05d3b93ff7c67a804ff7deb49a60a8555ceba650dfbb46abc3e0aa8142d67959";
 };
 sysrepo = {
 version = "3.7.11-r1";
@@ -28739,7 +28704,7 @@ version = "1.104.1-r1";
 filename = "tailscale-1.104.1-r1.apk";
 depends = [ "ca-bundle" "kmod-tun" "libc" ];
 provides = [ "tailscale-any" "tailscaled" ];
-sha256 = "97fac4bfa9ddf459e9a1f6085ddd7e1685ab8c6f6fbc7cccb375a7ea272c2f73";
+sha256 = "55d1b4cd144b3557399e54c8f2923367d5da3c2de06babc538f8765533bf8c83";
 };
 tang = {
 version = "15-r1";
@@ -28774,7 +28739,7 @@ version = "8.6.14-r1";
 filename = "tcl-8.6.14-r1.apk";
 depends = [ "libc" "libpthread" "zlib" ];
 provides = [ "tcl-any" ];
-sha256 = "9a9c933debb076075dcabd96dda0e3be4a4a2f92cd8ca9bd314e66ce604f89c3";
+sha256 = "0ce34322581d151d67e09bf6ed0d4c24af6c6afc8881fd2c3688d6348948bd49";
 };
 tcp-in-udp = {
 version = "2026.02.24~bf16ad0b-r1";
@@ -28865,14 +28830,14 @@ version = "1.40.2-r1";
 filename = "telegraf-1.40.2-r1.apk";
 depends = [ "libc" ];
 provides = [ "telegraf-any" ];
-sha256 = "499098ddedd563ce5b118bcb6074225add132507f88795502fa4051194c29a77";
+sha256 = "11c09bc3f3a0c14ca6a0efd07b93e1ae382eaccc791b90273ad47e57bb79c2e6";
 };
 telegraf-full = {
 version = "1.40.2-r1";
 filename = "telegraf-full-1.40.2-r1.apk";
 depends = [ "libc" ];
 provides = [ "telegraf-full-any" ];
-sha256 = "2335297c7f83e7178fddd4b2916441a5872999bb4e7dcfcdf064039dd3c823c5";
+sha256 = "57ba057af0b5a1d3eb22d67c8b1d657bae1a20c7768b3f6a0b07696313799b51";
 };
 telldus-core = {
 version = "2.1.2-r9";
@@ -28907,903 +28872,903 @@ version = "4.1.0-r2";
 filename = "tesseract-data-afr-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-afr-any" ];
-sha256 = "870a5f1e9c4db943f653979891f82e567a281bdbe39da50b595e242029ab994f";
+sha256 = "a6d599d7e4a992b9dc32591b2e368d884e14c377de23c7e5124a80725ebb56cd";
 };
 tesseract-data-amh = {
 version = "4.1.0-r2";
 filename = "tesseract-data-amh-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-amh-any" ];
-sha256 = "45c81a607b690ada5e85d0afc935e25dadbb197f64ded70c4bcca084d7894585";
+sha256 = "73570348616cb5648d8ea53267a13b77fb4e73d97a78739ba0ec32acc107e8f6";
 };
 tesseract-data-ara = {
 version = "4.1.0-r2";
 filename = "tesseract-data-ara-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-ara-any" ];
-sha256 = "572b787a463eb749e081d5d0d13b86bdb2aadf7bcf8e90b3160080a61dd966f5";
+sha256 = "f75b7d0d570f37b3758b27bd60467f776058b47a5c0982d62603c0b27d7e811b";
 };
 tesseract-data-asm = {
 version = "4.1.0-r2";
 filename = "tesseract-data-asm-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-asm-any" ];
-sha256 = "dccbc5c46bdb481bc3b6ba5bf786971b45ff506658808b7f90221ccc7d2a2385";
+sha256 = "10115771e60f04456845da0b6ecf4a5c029cfb7e6baffdb58869c94e10d04d19";
 };
 tesseract-data-aze = {
 version = "4.1.0-r2";
 filename = "tesseract-data-aze-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-aze-any" ];
-sha256 = "16030e27b7ddffa87ef87c50b188c163aeb6319a1d6c320873be532a1d78ceb9";
+sha256 = "0a630a0c5a963cbea32033db7fef38c3cb92199b02abd27d9a7524faf396e9fd";
 };
 tesseract-data-aze_cyrl = {
 version = "4.1.0-r2";
 filename = "tesseract-data-aze_cyrl-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-aze_cyrl-any" ];
-sha256 = "4d3fba5ae8cda165cd0a58ad029e12ab145447508357c88b13f8f4fa2c23b468";
+sha256 = "545fcfb5e6cc833eeade905684ae42dd829d8d72154fe2acbb1b3b671942e352";
 };
 tesseract-data-bel = {
 version = "4.1.0-r2";
 filename = "tesseract-data-bel-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-bel-any" ];
-sha256 = "9ca9baa492a3a85f93df75dada3ca1c7067b9eda42b87f67626ffd9fa9e5700e";
+sha256 = "6a600a543e98d9921b1a08ed899ac95ce41433a0fe20b6025e8a01400c457c15";
 };
 tesseract-data-ben = {
 version = "4.1.0-r2";
 filename = "tesseract-data-ben-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-ben-any" ];
-sha256 = "0a6ab99f79dc167304a3af4ad1c85b2528723940fc1fa6174c0ea2ffdd45a39b";
+sha256 = "de45874425290e58a71006585081aaab2b980ef759a3e5019cb10d7d6372d6ed";
 };
 tesseract-data-bod = {
 version = "4.1.0-r2";
 filename = "tesseract-data-bod-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-bod-any" ];
-sha256 = "13bfe139b71720b5559075267235183354fc2c94c77de698ca08d2e45798ccc9";
+sha256 = "32b32bad55d2ce7e645cbbcefaa7232a1659551b8f4220b78f645cb4808bd0dc";
 };
 tesseract-data-bos = {
 version = "4.1.0-r2";
 filename = "tesseract-data-bos-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-bos-any" ];
-sha256 = "49151b3c17e33a8afbdd0114ddc64f88b78b5230afd8b8880a4add3d831a4317";
+sha256 = "8e247a2618e716d5cdd3aed26fbd70ad521bedaa128301da01a4df96536163ac";
 };
 tesseract-data-bre = {
 version = "4.1.0-r2";
 filename = "tesseract-data-bre-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-bre-any" ];
-sha256 = "d070e535db31f355fc4c76e41dc6d5b0a5e60634ff63f37bb5393495302e539d";
+sha256 = "d51f3bed8ebae0d67f9ddac0ca2d9cac195586820bb1319e09eeb4cf66726bfa";
 };
 tesseract-data-bul = {
 version = "4.1.0-r2";
 filename = "tesseract-data-bul-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-bul-any" ];
-sha256 = "a8027a447c3f5cd0ac0c077b975e77b0567825451888b7e5c5b1742552807856";
+sha256 = "7db6427848b6f4a212dd893ad23685966c9c51354443fde7cd0d9404b170666c";
 };
 tesseract-data-cat = {
 version = "4.1.0-r2";
 filename = "tesseract-data-cat-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-cat-any" ];
-sha256 = "dd5dffbed8800d2158c39ae106c328c5721ade2042eb80eaf3a7125d9d8ac3d3";
+sha256 = "39b15ed8312f90076d58c0814c86c570130cdc6bf4cb91e906429ec49a17275c";
 };
 tesseract-data-ceb = {
 version = "4.1.0-r2";
 filename = "tesseract-data-ceb-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-ceb-any" ];
-sha256 = "71dab2d097242a2bc6f843bc766009fbdbf5ec20650f25b61778d21222e1b620";
+sha256 = "346db390380f4c5e3a30eade4dfa4423fb6435beac1eaea70630bf1c81286ef0";
 };
 tesseract-data-ces = {
 version = "4.1.0-r2";
 filename = "tesseract-data-ces-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-ces-any" ];
-sha256 = "e493b5e96e8e754b015ae10620f1248b3cd0acceae33f8f7643bd6b1eab842af";
+sha256 = "3d0032b0b0cdf04cf13995bc016c74274011294cbb9af0522f78b4c5ad372476";
 };
 tesseract-data-chi_sim = {
 version = "4.1.0-r2";
 filename = "tesseract-data-chi_sim-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-chi_sim-any" ];
-sha256 = "2f5b80c067dde63d56de2a20b50cdfa229add9832b56426b7baa9fa6e515e653";
+sha256 = "153b06a2b511bb51a17cf4229b94ece2eecea8e22c9a90ea9c546b24f85801a7";
 };
 tesseract-data-chi_sim_vert = {
 version = "4.1.0-r2";
 filename = "tesseract-data-chi_sim_vert-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-chi_sim_vert-any" ];
-sha256 = "975dd5ffb49433387ec5cecff468dfddfc933b96da1239155884d9cb28d5992f";
+sha256 = "6da307f74c4c2592afe64b6efd620b321bc1bdc59d9f4f21340e7f9a6e51ce90";
 };
 tesseract-data-chi_tra = {
 version = "4.1.0-r2";
 filename = "tesseract-data-chi_tra-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-chi_tra-any" ];
-sha256 = "519abbe91aca59999704fd6d169bd20aa1db8e0d6ec0a1b64c2ac161774af7bf";
+sha256 = "e29bbe791a6043e3d7c205a3e3e0d4a1cd33a73424864efcda7a643e73cea655";
 };
 tesseract-data-chi_tra_vert = {
 version = "4.1.0-r2";
 filename = "tesseract-data-chi_tra_vert-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-chi_tra_vert-any" ];
-sha256 = "fb252efcfc1f3562dec26857dcb8d34f8b650cc3ee10f946b86c92413e232140";
+sha256 = "0fab9d12c6f9f2ca6fa89c7e3c1113da68f82077a5572ab3c68b028792df3f4f";
 };
 tesseract-data-chr = {
 version = "4.1.0-r2";
 filename = "tesseract-data-chr-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-chr-any" ];
-sha256 = "52494ebd164b7398910cad4b288ad2df4386971fff4df903e2a90c96a8d9d5de";
+sha256 = "af95e4b1df83e1192a0da5570b32bd659b2c43435c88f451387e2293ca0e836a";
 };
 tesseract-data-cos = {
 version = "4.1.0-r2";
 filename = "tesseract-data-cos-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-cos-any" ];
-sha256 = "f114f5254052ff759227fa588465d0e32c529313522aab3484a51b524c398a5f";
+sha256 = "f5d7e8a0dd48e51501926a1bd3bcfd0dda6d00c29660779227695c86a3df0cf1";
 };
 tesseract-data-cym = {
 version = "4.1.0-r2";
 filename = "tesseract-data-cym-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-cym-any" ];
-sha256 = "4d691a18059e49310163ce8e01cc5e53b32eabcc364c732fc9b4f7cb56c93d76";
+sha256 = "62545edce7068936778d687711ce1149424ddf73f9edcc08a48d48388480dafd";
 };
 tesseract-data-dan = {
 version = "4.1.0-r2";
 filename = "tesseract-data-dan-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-dan-any" ];
-sha256 = "04814bc51ce1616383ca0b27333b5fa447f6c7c2a05f71f9f9f4bd315989b758";
+sha256 = "7f258ba80d2789e7d06000590feafaa0cea7d76b3804b20830a28d320677d747";
 };
 tesseract-data-dan_frak = {
 version = "4.1.0-r2";
 filename = "tesseract-data-dan_frak-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-dan_frak-any" ];
-sha256 = "cd42d4354d791964f4e55c9f0b3c3f344a3ddfb001b574adc076132a7bad5e28";
+sha256 = "6b0010bed85b91f949ef796bf60e81941cf99a90ccc043e09ed57799a28c1299";
 };
 tesseract-data-deu = {
 version = "4.1.0-r2";
 filename = "tesseract-data-deu-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-deu-any" ];
-sha256 = "658b1273ea19fe4a10cfab2f39c588a1f478426eae0aecffc03a4d59291eb567";
+sha256 = "37c0f18e8e190381f68a38e4f5e8a29d3ff93c7b1dac51adf4dceac332e97b5a";
 };
 tesseract-data-deu_frak = {
 version = "4.1.0-r2";
 filename = "tesseract-data-deu_frak-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-deu_frak-any" ];
-sha256 = "f4316652a7c5e8f72dea08c77c0419bf732ee448f74e9457e8773440cd0881cc";
+sha256 = "d7d8637e05efbf2dde59f18203d443abd889ff5d9ce86c286f2388a7f5a9b0ca";
 };
 tesseract-data-div = {
 version = "4.1.0-r2";
 filename = "tesseract-data-div-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-div-any" ];
-sha256 = "e947187a104feae582a421f7bdea59a416ac85e8aa56727479ec1f57225a1abc";
+sha256 = "aca079f769acbe7eb3586428ebf269a9e2f9bb460fd00f90be9e89ef48666047";
 };
 tesseract-data-dzo = {
 version = "4.1.0-r2";
 filename = "tesseract-data-dzo-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-dzo-any" ];
-sha256 = "348255b114d7c8b92ac316c4b6476081c795c7fa8b1ea17782129dc95bdbde4a";
+sha256 = "61c0478d30039e984ef58dd78f9ffe219bfb9b290c9e0a8d51f9a6c9ab57ad34";
 };
 tesseract-data-ell = {
 version = "4.1.0-r2";
 filename = "tesseract-data-ell-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-ell-any" ];
-sha256 = "dfe4964cb35b2c73afe881429590a4fe17c574a94b9d343165b13f8f310d6708";
+sha256 = "47fa065e8acb079fbbfd56c444036477cf662fe7325038180877fff1ad98a077";
 };
 tesseract-data-eng = {
 version = "4.1.0-r2";
 filename = "tesseract-data-eng-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-eng-any" ];
-sha256 = "f7562b302d5682fbfea8160bedfc416db11b9f6ddb3b4e3d6fc69cf4cf5c6af9";
+sha256 = "304bb06bcc21427bc886ec52212ad02395b8d27459ff9cc2c4a1b34683db4235";
 };
 tesseract-data-enm = {
 version = "4.1.0-r2";
 filename = "tesseract-data-enm-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-enm-any" ];
-sha256 = "b20fb987ebc30775a2397b309d85881c57826c5583213000ae8e61bfaa1ef3bf";
+sha256 = "b7fddeb8f681695e0d11dd5f9c2d47e487581ac5a04ddc9806b4cb3314d0a583";
 };
 tesseract-data-epo = {
 version = "4.1.0-r2";
 filename = "tesseract-data-epo-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-epo-any" ];
-sha256 = "f5a62b4e256f003aec981b04a22b60ec762c37085eb2985db2826ff3cae40b4b";
+sha256 = "8707be09b3459ebab375132ca69477d2e2857b003da8b5e6c36f8c1746a4dc77";
 };
 tesseract-data-equ = {
 version = "4.1.0-r2";
 filename = "tesseract-data-equ-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-equ-any" ];
-sha256 = "cba6aa8162bc55112e2a4c027227e016472afaef3d4d151b4f60cad9e644deed";
+sha256 = "8134725bfee4f658e1da827db61775dd17fca54b8e2cfdd750a6ada8c3c21f0e";
 };
 tesseract-data-est = {
 version = "4.1.0-r2";
 filename = "tesseract-data-est-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-est-any" ];
-sha256 = "a38a4a3c5b723778b515658ae7a2451fddc626bbae9e2c59439e9e455ddf465f";
+sha256 = "83995ab1a943ae07a25d0c258e430e3b53a7c0cab73f88ece442753bf7f528a7";
 };
 tesseract-data-eus = {
 version = "4.1.0-r2";
 filename = "tesseract-data-eus-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-eus-any" ];
-sha256 = "989cc7b8efda5fb49548473ebf74ae232f688ff2e419dae2b14d732163bde269";
+sha256 = "5191b90b08795676ca558ce2db267246c77bf40066e308abf554e62a53dd77e2";
 };
 tesseract-data-fao = {
 version = "4.1.0-r2";
 filename = "tesseract-data-fao-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-fao-any" ];
-sha256 = "75b92faa3146d0e8ede4ce5eaa754c684558a78cb08b516e0955998e2f959bb0";
+sha256 = "efbc9b46c4e13712520d9b9cc89a3848d342f51180b76ebfb9dcaa1987d5eac7";
 };
 tesseract-data-fas = {
 version = "4.1.0-r2";
 filename = "tesseract-data-fas-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-fas-any" ];
-sha256 = "7d9602f85159b077dbf43fdb4d41ee4e1a0679142a6f5a9745492e9f2ac8dd81";
+sha256 = "00db82f16b675e5eb116993e31a0345878b6831864bc7cb0df14f8bbe51f6007";
 };
 tesseract-data-fil = {
 version = "4.1.0-r2";
 filename = "tesseract-data-fil-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-fil-any" ];
-sha256 = "03bfaa639b512cd14c163ce4f9565cd07a5793da5667da76dd7eca8f1b627feb";
+sha256 = "795449bdd7a8a5b706a5c20a7dded3db5268c89108d0bb1fce530431d5dbec17";
 };
 tesseract-data-fin = {
 version = "4.1.0-r2";
 filename = "tesseract-data-fin-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-fin-any" ];
-sha256 = "35b87c4d9b9cdfa71b595066c21761eaecb103cdbb0c2ef9c2095e4b3b29fbcc";
+sha256 = "5c7f79f7b13a594f8ffd6592abba496b63d7e21d29131fefb9a4b389034a5e10";
 };
 tesseract-data-fra = {
 version = "4.1.0-r2";
 filename = "tesseract-data-fra-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-fra-any" ];
-sha256 = "43ff3603e717ee9da3a00bad67af2d995df7ce68dd43449ed09a9af3e6e3109a";
+sha256 = "b4371c419ca17bc036beef19c02692fbc25e65ec1a3dc747bab25c94091191c8";
 };
 tesseract-data-frk = {
 version = "4.1.0-r2";
 filename = "tesseract-data-frk-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-frk-any" ];
-sha256 = "616df18536f7bcecee06a13071d23e552d977c49b09ac79971a2fdfa2a9a74c0";
+sha256 = "cb1575029d7fba38be7770bd9c3648eb5d26bf8c3b6026da3c8f0c62ee28c0f5";
 };
 tesseract-data-frm = {
 version = "4.1.0-r2";
 filename = "tesseract-data-frm-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-frm-any" ];
-sha256 = "7d58e951dac29e9d83162337ff4742dd1e1946e8008434f339814ec5d16022dc";
+sha256 = "e85705ce3e908b1e484929152b371674e16b0acbdb8497f7edd130595d0d342a";
 };
 tesseract-data-fry = {
 version = "4.1.0-r2";
 filename = "tesseract-data-fry-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-fry-any" ];
-sha256 = "4fa4eb3be57550d3745890013112857812961806b0679df98a84333a56ac25ef";
+sha256 = "7931785141997b2196359f432643a08c72b7b63e3084d81c991572d5d02a791d";
 };
 tesseract-data-gla = {
 version = "4.1.0-r2";
 filename = "tesseract-data-gla-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-gla-any" ];
-sha256 = "71009faf74eb2fd56894d044f0289da5105de07f8214331172a4634150275f84";
+sha256 = "c285af71405f820c31deaa83f3c732f48590fac4a17707ed1c676a8bc9544f71";
 };
 tesseract-data-gle = {
 version = "4.1.0-r2";
 filename = "tesseract-data-gle-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-gle-any" ];
-sha256 = "384294ca2e344f9784a999bea6da0da7131bb09574b1c42439232b547473903e";
+sha256 = "797ef3d44721201c680ce16e91167f0ff55b22e8a449524582f2ed400223ae12";
 };
 tesseract-data-glg = {
 version = "4.1.0-r2";
 filename = "tesseract-data-glg-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-glg-any" ];
-sha256 = "ac834e1cf47b98b9eeafc14373c155316d18bb97cec42f20f8dedf0255a6229e";
+sha256 = "6ba7adeffb447d0ddd355dfa24354c060ae1d4d9c25613305a6754cebf1444b9";
 };
 tesseract-data-grc = {
 version = "4.1.0-r2";
 filename = "tesseract-data-grc-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-grc-any" ];
-sha256 = "391dcdd9c086452a33c2a776581bfbee6f3cd3cf9da72b7f8fc8541be7c1706d";
+sha256 = "b6c8d140bc9f4dc915b0923f90cf1929edd2338941ec5226a6bd417f1eb26180";
 };
 tesseract-data-guj = {
 version = "4.1.0-r2";
 filename = "tesseract-data-guj-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-guj-any" ];
-sha256 = "b1e495f6f83996b08fa9827314c493a8c806889909e1516efaf906a6003bc7c9";
+sha256 = "391a9298e91ec7f45a22a42b345a8af80d994daee85915c109be697438a090f5";
 };
 tesseract-data-hat = {
 version = "4.1.0-r2";
 filename = "tesseract-data-hat-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-hat-any" ];
-sha256 = "7e766351582e8dd78e56ae8551f0a1d848f87a2d3ab4fb766dbd4cbdcd6be16a";
+sha256 = "3c8f4e6519a8bc0dbf25524ef19193e8b444134b1658029f6cf7ef14137cf48b";
 };
 tesseract-data-heb = {
 version = "4.1.0-r2";
 filename = "tesseract-data-heb-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-heb-any" ];
-sha256 = "055e133fc74bd1f7c1846cf59c7d5ba55f76cdf9c2a84952901cdfbcd242f347";
+sha256 = "440ae666d76de7be7b1859f768f7e0225636b103c18957ce92329f65efa19b42";
 };
 tesseract-data-hin = {
 version = "4.1.0-r2";
 filename = "tesseract-data-hin-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-hin-any" ];
-sha256 = "8abf6cce0da1e23ad7664888587ae75ca3adcb593bee3d9aea8275aabb4950fe";
+sha256 = "c1730d2063875886781aef14fa91d47a2486f56cd3f0f6bfb708c94e1f52b175";
 };
 tesseract-data-hrv = {
 version = "4.1.0-r2";
 filename = "tesseract-data-hrv-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-hrv-any" ];
-sha256 = "f5f5e4acfd10b433a1c71e0f01af3f553546eae7ee740c683ca772ea9a45cef3";
+sha256 = "d2914a5a765355e7164e5ce1a8fe0fa90ba59e5c3c0e0d5e7aa08c04e3c39c78";
 };
 tesseract-data-hun = {
 version = "4.1.0-r2";
 filename = "tesseract-data-hun-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-hun-any" ];
-sha256 = "1130cdeb40f7773221f7a6491d01d92b4b9f949f71ae92a9c424e33391d3532e";
+sha256 = "751678b317b1ff9d8c647b3c5c1e6b0258a3431562ce757573c5d8821452bfd5";
 };
 tesseract-data-hye = {
 version = "4.1.0-r2";
 filename = "tesseract-data-hye-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-hye-any" ];
-sha256 = "7fa34ead3f9a5fc3a8a2d8bfa45f10d6596de45796abf767566acf642cf80ae7";
+sha256 = "70dc79ed7fc5359992f9121174c23d9ff1d0996be3b2ebd6a2cb7ac30c2629b8";
 };
 tesseract-data-iku = {
 version = "4.1.0-r2";
 filename = "tesseract-data-iku-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-iku-any" ];
-sha256 = "10a1a38d09edd72b1719f313580907a6f75b61cbc8ebf2acaf6b713f667a5ca5";
+sha256 = "b51af044aa1866bb06e454d8c5ccf40fd67902412e1d9e5cfece17dc693fb532";
 };
 tesseract-data-ind = {
 version = "4.1.0-r2";
 filename = "tesseract-data-ind-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-ind-any" ];
-sha256 = "d03ca3e8be448bf88867c58e67296d1698e0f328e7e9dc04adb56684bf8dc283";
+sha256 = "4c37d3378437abc7ea1b96ba9e5730b30e8972bc3c31f14e629d5d4348f87ba7";
 };
 tesseract-data-isl = {
 version = "4.1.0-r2";
 filename = "tesseract-data-isl-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-isl-any" ];
-sha256 = "6ed06dfc808c6712f378db2746d32ef7a9e986e2c2fe1a6990aed3d530f8a3bb";
+sha256 = "76e4eb36bb375148ba25a70ce31a9f6409d99a89bf01cc2ad206b9d832701c1c";
 };
 tesseract-data-ita = {
 version = "4.1.0-r2";
 filename = "tesseract-data-ita-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-ita-any" ];
-sha256 = "aa64e44ce3e278408ad462f51b24073ece3e20edc62c3e7042eaf580201d83f4";
+sha256 = "aa305b1c6dc9913c5b519f2edb8d54f23e0a720deba707472350d6535a27dc6a";
 };
 tesseract-data-ita_old = {
 version = "4.1.0-r2";
 filename = "tesseract-data-ita_old-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-ita_old-any" ];
-sha256 = "c5993681d83381cf8456c3541886e0597a5664cc341f832274126dfdaca8660f";
+sha256 = "c955599155991a316efa97da47b4cc0bb3d368d7fff950ea3de5a1436249af2a";
 };
 tesseract-data-jav = {
 version = "4.1.0-r2";
 filename = "tesseract-data-jav-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-jav-any" ];
-sha256 = "2428c6224d5fbe429fef1bd4317230310227da16742c7e8feaadb5543764669f";
+sha256 = "a9414de8a1c8e97a5435449e7a4b0fd5e5332298606c504e039eba18f6b4552c";
 };
 tesseract-data-jpn = {
 version = "4.1.0-r2";
 filename = "tesseract-data-jpn-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-jpn-any" ];
-sha256 = "c05cd9b8d0a0c56753331736e200bc74a37a993a08c69ad314e3e7a1cd28e951";
+sha256 = "2b4aa7c4adcb17bf98b1a2c89d2385a7aafbf682688b036d141a16f15153f15d";
 };
 tesseract-data-jpn_vert = {
 version = "4.1.0-r2";
 filename = "tesseract-data-jpn_vert-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-jpn_vert-any" ];
-sha256 = "ddf72d745eddec25b50a5e764c266437de083e4a342b371770a39192aef227e1";
+sha256 = "d864d625dc9dc5c8f76fb4373d49de809e8028371b3df1741ae2903cb5bb2494";
 };
 tesseract-data-kan = {
 version = "4.1.0-r2";
 filename = "tesseract-data-kan-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-kan-any" ];
-sha256 = "c4da6e20205d7565bc33a9c3a3e6b9b0364d9572220ecc2ebe93c364b7d689fc";
+sha256 = "6b5e58455e58c9f9495d3352c2c548517b160f18a0e9437ff42adfe6d93ca926";
 };
 tesseract-data-kat = {
 version = "4.1.0-r2";
 filename = "tesseract-data-kat-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-kat-any" ];
-sha256 = "0612f7e57783a5b358430621f094cd1cb70e82a86670df5d0454c701e74f825f";
+sha256 = "310f139a871674e21bb2da1d8008fcd356fa1c92c4821dd8126f735d3a0feb7d";
 };
 tesseract-data-kat_old = {
 version = "4.1.0-r2";
 filename = "tesseract-data-kat_old-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-kat_old-any" ];
-sha256 = "372e25cd50e8f96e5dcf5e3776a9b7a07e6fc45b1e9a3c9ee774d01992f84423";
+sha256 = "b77a17d0251aaa0677c1c2a0b5df7d01cada3484ed108cabaf3c2695dd45be59";
 };
 tesseract-data-kaz = {
 version = "4.1.0-r2";
 filename = "tesseract-data-kaz-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-kaz-any" ];
-sha256 = "fbe006cd61643b88b2f3bd70b6c8d7e3bde39e5ec160970aa7b6bce3843e793d";
+sha256 = "ab177f1577e345edbd3c3808f7cfb64988de4e3a4e07d72bb31bfcbe88dd3d95";
 };
 tesseract-data-khm = {
 version = "4.1.0-r2";
 filename = "tesseract-data-khm-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-khm-any" ];
-sha256 = "c832b35e624b53df9eba8f581301fc3aa8500b6a4e83b28a80cbb5e97ddcfce6";
+sha256 = "d3583925611302ebc56e54e94aae520361ea1129cbbca08894705774c9fa0c9e";
 };
 tesseract-data-kir = {
 version = "4.1.0-r2";
 filename = "tesseract-data-kir-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-kir-any" ];
-sha256 = "f255726da1aa3a3b649b46426a01bfc19a408d35b87641add76de80581f238b9";
+sha256 = "59310f1557e1ecb9ecc1614aa4d49253b137c997db75a151eb6527dbde5a657d";
 };
 tesseract-data-kmr = {
 version = "4.1.0-r2";
 filename = "tesseract-data-kmr-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-kmr-any" ];
-sha256 = "cfc60e29af6d615b3e0a4b83ec2c84f2dcd940df4d6dc0278a33058b1c64d396";
+sha256 = "228dc7e1db118dc4c54547aa293797aa0bca52b2f267b789c88f8c9108a53ca4";
 };
 tesseract-data-kor = {
 version = "4.1.0-r2";
 filename = "tesseract-data-kor-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-kor-any" ];
-sha256 = "220274cc54405bffb3c7dd838aa4b1c26aca06b5863318e3cb5a8f35b924d3f4";
+sha256 = "0c461fc5b36941fe4370c57ddc4c81dd9c644ba9accc952539f704c26df161ed";
 };
 tesseract-data-kor_vert = {
 version = "4.1.0-r2";
 filename = "tesseract-data-kor_vert-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-kor_vert-any" ];
-sha256 = "db9b6830bd75129e2d1f1efefafc58db4a3e8c3b972545d39e72437e73dd57d8";
+sha256 = "cc59c0699e390482df1bed2641a71a55e1057d7b1179657a5a0e669d775f326a";
 };
 tesseract-data-lao = {
 version = "4.1.0-r2";
 filename = "tesseract-data-lao-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-lao-any" ];
-sha256 = "4107adba1b2c8c3c6dd3c429afbbaab298610fb5c2b62219296d049536de84d0";
+sha256 = "4a8a5026d674aa84f40bac18df25302695c49fcf4170bd31e53316b9b9656c76";
 };
 tesseract-data-lat = {
 version = "4.1.0-r2";
 filename = "tesseract-data-lat-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-lat-any" ];
-sha256 = "03c4c6732e4c38bbac7e1a9e1ffe069b11f0fc647ff71f946c82cdd2861b218f";
+sha256 = "be00c810b72af93af00ac5c61ac4a5f6e1e7c7f46df4ff85d151ffc0cc40c17f";
 };
 tesseract-data-lav = {
 version = "4.1.0-r2";
 filename = "tesseract-data-lav-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-lav-any" ];
-sha256 = "0db481ce6c66c581a28fb74dd2aa7fa1327879ad334b314ef5aa8979b0049f86";
+sha256 = "14bd664ae913363d23fb543834ab26fd5cc50a7dbf545e860e29a4e6af6b1746";
 };
 tesseract-data-lit = {
 version = "4.1.0-r2";
 filename = "tesseract-data-lit-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-lit-any" ];
-sha256 = "e5e8176ecf1a9ba008b41f62f7df4eb4c05c43f3222e71b5fd1b1b1ebb81ef80";
+sha256 = "08d1fd1b0769582872a7456ae3d87ce2dbf893b1acdf17978d7efb19011f4af1";
 };
 tesseract-data-ltz = {
 version = "4.1.0-r2";
 filename = "tesseract-data-ltz-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-ltz-any" ];
-sha256 = "4c04185123de6bc684eec04971d6e5acd33a9afb3e0820ac9db64a388a199f6e";
+sha256 = "318871558ef2099b6e965accc30a0b633fc968d78b7aebc56ab6e6771fabb830";
 };
 tesseract-data-mal = {
 version = "4.1.0-r2";
 filename = "tesseract-data-mal-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-mal-any" ];
-sha256 = "3050c0f5e02aaaeb755e98617174d0d10aa42fcda06ca749c5a8bccb08973b80";
+sha256 = "a3937538b175557d30027710f9153ddff7102b2db9261b4adcdf533642b80485";
 };
 tesseract-data-mar = {
 version = "4.1.0-r2";
 filename = "tesseract-data-mar-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-mar-any" ];
-sha256 = "6e0f42aee94f3e9ce4f2199ef6422a3695e43eae8e34aa750845df8aa62edf42";
+sha256 = "0c4c9e716046e444f8c228d0cc67c33a90d75ccabd01883f16f29dba2b95949d";
 };
 tesseract-data-mkd = {
 version = "4.1.0-r2";
 filename = "tesseract-data-mkd-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-mkd-any" ];
-sha256 = "306fc72d95ff60f103570ddcbef3013b9bdae18918fec3ab6b9eae03f1a34b6b";
+sha256 = "e7a2cae29ca94beb949e98fcd7b1dbd0d43b178538091ef4a93d2585452afc13";
 };
 tesseract-data-mlt = {
 version = "4.1.0-r2";
 filename = "tesseract-data-mlt-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-mlt-any" ];
-sha256 = "5d9b573e3b1396e856890a5a79c4d5fe81d2a8eca0fba531b5ef588a0498825a";
+sha256 = "a1118fe3052c062288847dcb9a6182ac9e9042dff6191c68a7f8e812457eaa30";
 };
 tesseract-data-mon = {
 version = "4.1.0-r2";
 filename = "tesseract-data-mon-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-mon-any" ];
-sha256 = "314cf19288871b07cb94050916f72e0c04626bf8038158733651e4608a8cee8a";
+sha256 = "3aa7064a1b23abf7de9889cb207ef9062da71083ae23f61a95962e719c8e9961";
 };
 tesseract-data-mri = {
 version = "4.1.0-r2";
 filename = "tesseract-data-mri-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-mri-any" ];
-sha256 = "bd7bbc849cc68ec65dc74275e0464c8dab419c90ed8de2fed019de1cdf4f4d32";
+sha256 = "b37bff775af89ba3d042691a23af5f86858dd29b061a826520e1cbc5880f8742";
 };
 tesseract-data-msa = {
 version = "4.1.0-r2";
 filename = "tesseract-data-msa-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-msa-any" ];
-sha256 = "b049a73a0bb50ff5e2bb7de9c0e39ac34ccf7eea29abc6aeaf117f993aa39bb0";
+sha256 = "757ebc4470890752e43c8beab7b4854d8fcb9bbf1c4b72afc7c17d04c7012da8";
 };
 tesseract-data-mya = {
 version = "4.1.0-r2";
 filename = "tesseract-data-mya-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-mya-any" ];
-sha256 = "1c25864a355dc5fc3b3bb0778c757cbe42d35b54d13c7275d6552daa7714b917";
+sha256 = "0f910a380ddb9331a64e5836e3a38d86fe501926ff99af8d9611caa874c240ef";
 };
 tesseract-data-nep = {
 version = "4.1.0-r2";
 filename = "tesseract-data-nep-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-nep-any" ];
-sha256 = "c838d369ab3369af7eec7ba0d4cc161459338bf3db34d9971432991edc88502e";
+sha256 = "dd1411201c66281848e82079f63dca7e39df8881de11c07b919b531ebf2c2ce9";
 };
 tesseract-data-nld = {
 version = "4.1.0-r2";
 filename = "tesseract-data-nld-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-nld-any" ];
-sha256 = "d7d9ffcbb0c6ab6e3a395b8765ad6fe8a900b3f58fca61351aef14bb3c66dc93";
+sha256 = "e2aa783fd012fb86afd5612c745485c38dd5a00547480a2ae53e7bdfd6eb61d5";
 };
 tesseract-data-nor = {
 version = "4.1.0-r2";
 filename = "tesseract-data-nor-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-nor-any" ];
-sha256 = "9d9a7c42d756aaa64c812d98ad65eb328d17f1b1d70a0a0d896f20563500e7c9";
+sha256 = "296dee99defb8ccba90f2eb6e0a846d7a81aac63b1c3f06df65ba2bc6e5d5c9b";
 };
 tesseract-data-oci = {
 version = "4.1.0-r2";
 filename = "tesseract-data-oci-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-oci-any" ];
-sha256 = "7c31bcc8e70afcb1b074e2aacfcac9f8a9821a82079ee14375ec727ed4f56f76";
+sha256 = "a9173763f2497bc073b183f252456ce8737fa5049ae694acf31c24119f26388f";
 };
 tesseract-data-ori = {
 version = "4.1.0-r2";
 filename = "tesseract-data-ori-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-ori-any" ];
-sha256 = "ce0c2c5ebf857db33ae09f3034fc690926fa6487fbf312c4da087dabbc1f5952";
+sha256 = "99727c278c0c9590c5c0e5de2d55904b8a621242894e2d9ecba7fa7912c135e3";
 };
 tesseract-data-osd = {
 version = "4.1.0-r2";
 filename = "tesseract-data-osd-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-osd-any" ];
-sha256 = "e79408b693f658ffeb04f7c5b192b8ac400f9f534c6e539fd2175f86c30938c1";
+sha256 = "32615a118ab80d1ae861a3d1f0b1801d3607ac1106ab294d822ab4c17bd25fdd";
 };
 tesseract-data-pan = {
 version = "4.1.0-r2";
 filename = "tesseract-data-pan-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-pan-any" ];
-sha256 = "8bf36ddfc54f66c67f2bd0e5ba1fea03ecb1ee6dd576b82685d1296cf339d38e";
+sha256 = "e1cbb78eea04aa5616a3aac11196ee64c6440d9d033ad14baa8e709f3dd01ca4";
 };
 tesseract-data-pol = {
 version = "4.1.0-r2";
 filename = "tesseract-data-pol-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-pol-any" ];
-sha256 = "db76aeb0d91aaeb58ca0ee1ee6a56238dad7aa3f7b1eb23a5608234f7c6ba042";
+sha256 = "92865911a2377adfe8ca6ddfba7935d2204caa492fb0ff64e66f8a7e750fb5f9";
 };
 tesseract-data-por = {
 version = "4.1.0-r2";
 filename = "tesseract-data-por-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-por-any" ];
-sha256 = "e6f6a7ad645765ae447707175d1e8b1332ad61fecbf123a06f3dfb7d2f04b34e";
+sha256 = "f9f73474b3c8b14629a31dc02dc2cf6ea7ccb11537fcbec044c3649a0f4ebf3b";
 };
 tesseract-data-pus = {
 version = "4.1.0-r2";
 filename = "tesseract-data-pus-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-pus-any" ];
-sha256 = "bdeebb3c103730bf233bec1fd041f04c129bfefc89d25b4e53dc9366b4ce2928";
+sha256 = "2e0e70a56c4a24ceb0298934ac254663551625c8bcce9b96f71836349a82b7fe";
 };
 tesseract-data-que = {
 version = "4.1.0-r2";
 filename = "tesseract-data-que-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-que-any" ];
-sha256 = "22fdeb7e581616f3adbf4463d90de5053305207caba56e3742c4e02cdfe82968";
+sha256 = "3b249970541945c6d210df474c8bf5b1037b80154e58e4b9c4888542994b2cac";
 };
 tesseract-data-ron = {
 version = "4.1.0-r2";
 filename = "tesseract-data-ron-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-ron-any" ];
-sha256 = "d0510ddbdcf31179885cd172c8971fb81f1197cce7b0ea517014c2a42149d58e";
+sha256 = "7860f600eb1d74f6553530f1c57a7b8e9887c722503cae73517092510632bca5";
 };
 tesseract-data-rus = {
 version = "4.1.0-r2";
 filename = "tesseract-data-rus-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-rus-any" ];
-sha256 = "4962e0ce2742488446af393dbaf003a816e279940980403736f29ef09e1e1cdc";
+sha256 = "48b2fcbcf125171767ce44f17f68716bb1df8bf254357e631dd23a24637543da";
 };
 tesseract-data-san = {
 version = "4.1.0-r2";
 filename = "tesseract-data-san-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-san-any" ];
-sha256 = "ac29e7c599ecac7ac169269efd40bd67929345fc16622eaf5a63a71f4d7db1c9";
+sha256 = "c85a30c0788bfff619bee091a920ec8123856933910d71e0da2a49f44b90bcee";
 };
 tesseract-data-sin = {
 version = "4.1.0-r2";
 filename = "tesseract-data-sin-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-sin-any" ];
-sha256 = "9903316ad6282d8ac460513dd6215a29a6a032f8ca73a55370bb5182fc55fd23";
+sha256 = "463646014588332c977d66c5fef3d646ed8bad38cf652c54ad9b032c1f3c4045";
 };
 tesseract-data-slk = {
 version = "4.1.0-r2";
 filename = "tesseract-data-slk-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-slk-any" ];
-sha256 = "a54c1c9eea0712d89bbdfc49275397935ec6dc34e4185fb7db82457a509529e7";
+sha256 = "03bdeef560a6e2387681d0d277be5aa04813fc40d96d2b73ef2dd09fcb38efd5";
 };
 tesseract-data-slk_frak = {
 version = "4.1.0-r2";
 filename = "tesseract-data-slk_frak-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-slk_frak-any" ];
-sha256 = "9520a476010c52b61aaf1504a573f21b42a370dd64c9bedfaaf7a5a288794789";
+sha256 = "32dc594ab08c8a22b3fec3444c9b839c878564f6ce31ddab6ba29a939bed4173";
 };
 tesseract-data-slv = {
 version = "4.1.0-r2";
 filename = "tesseract-data-slv-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-slv-any" ];
-sha256 = "58eff1371dd68208cc0734f482d3753db0e9a01bdaf2a1bbb5d403cd17043e15";
+sha256 = "17bcd8a9611804b98f6da45085b7dd2306d97cbc7f13669da4e9c4f358a73471";
 };
 tesseract-data-snd = {
 version = "4.1.0-r2";
 filename = "tesseract-data-snd-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-snd-any" ];
-sha256 = "57b105214c38473e9511236f1850a2c036bf7159d25ec9a31aafb21d2342b601";
+sha256 = "0b5dfb481f404bbe2fd0ff54cc625a77bb7a5501f908035ea40efea18f9a3313";
 };
 tesseract-data-spa = {
 version = "4.1.0-r2";
 filename = "tesseract-data-spa-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-spa-any" ];
-sha256 = "3b499fd5e5d8833a9733b2161dfa8bd7bcd5c81960e96c01dc33a35594678f44";
+sha256 = "492767b7df568607772f014189bee5fed530ebe8aa3da40796415252094ed7bd";
 };
 tesseract-data-spa_old = {
 version = "4.1.0-r2";
 filename = "tesseract-data-spa_old-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-spa_old-any" ];
-sha256 = "14f9b41fde6586caeffb27e5a472d4fff3221980d948417293db2be947b1c1c8";
+sha256 = "fea4a5500aae4f074539ee14714d11659cca849505fa37cf56d9ee18f7da78e7";
 };
 tesseract-data-sqi = {
 version = "4.1.0-r2";
 filename = "tesseract-data-sqi-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-sqi-any" ];
-sha256 = "ca4ae08dd0856f6e0764410f552ce39db59e7dc4cdf1a2e2d085c417e61c16ce";
+sha256 = "f182bc038b97737fd7cf6029f5d512eda23c8add3052a503d339616f8c137449";
 };
 tesseract-data-srp = {
 version = "4.1.0-r2";
 filename = "tesseract-data-srp-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-srp-any" ];
-sha256 = "399af53a8a81d9408eae4aa9e3a742ef4c298962f2351fb9a4fbed303443efba";
+sha256 = "335d0d0ff95f00c92cfdfea5e3f6c91171a2f35597639de975406fa2b0aefe1c";
 };
 tesseract-data-srp_latn = {
 version = "4.1.0-r2";
 filename = "tesseract-data-srp_latn-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-srp_latn-any" ];
-sha256 = "28960913bd24ed4b83f54bfcd59f27729b66b669fcccc071878856e4cd7f3169";
+sha256 = "9fe9f866047480b771dc543e753484d9ecde691fb474fab6f5ededa89d330ba7";
 };
 tesseract-data-sun = {
 version = "4.1.0-r2";
 filename = "tesseract-data-sun-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-sun-any" ];
-sha256 = "ec04d669d0908dc591962fb69c8e2009e8f8623013bd37a4d14323a5a2c4a517";
+sha256 = "9d404cfc5c2f0c147ffd554110f7de5913e7a47df0a9e7cac18d0cf671cb09f9";
 };
 tesseract-data-swa = {
 version = "4.1.0-r2";
 filename = "tesseract-data-swa-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-swa-any" ];
-sha256 = "30429486a567e9f1f30efa098f186c7cd2646c82bde4eaba9076d778522b99ba";
+sha256 = "d4b8a2edea6b601ae7d3b443ffb24dd31f96c9c7bb6cedf061838eb4a41db8a0";
 };
 tesseract-data-swe = {
 version = "4.1.0-r2";
 filename = "tesseract-data-swe-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-swe-any" ];
-sha256 = "71cb7f55cd70a9ff73fdcdfc1ffd199e4012c179ad72a0f8cf8b23eddac5ea67";
+sha256 = "afa5bb2f4614c5d6aa19c6ed203c2ba324ab948618f09746db824012bd74be11";
 };
 tesseract-data-syr = {
 version = "4.1.0-r2";
 filename = "tesseract-data-syr-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-syr-any" ];
-sha256 = "40c112ab94d90885b505906898bbe952e27f79766b9c30150337f14bc21a4700";
+sha256 = "baaeb991893650f88d70f105e212f3a2eacbf7fb6f1d529588bea0e85ba7c7e0";
 };
 tesseract-data-tam = {
 version = "4.1.0-r2";
 filename = "tesseract-data-tam-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-tam-any" ];
-sha256 = "2b1252a12534afc0c898f97de619cea8c3adc81283172efa71f26dd9e592ffce";
+sha256 = "e08cdf4e24ac2e13f02ce6d40b5c3eef4ebe230d09fdc7b86bbd1caf4aa47945";
 };
 tesseract-data-tat = {
 version = "4.1.0-r2";
 filename = "tesseract-data-tat-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-tat-any" ];
-sha256 = "2ee323dc3667c57044b61d4b0460d0f4e649f50e57c7c5147100d1458a018179";
+sha256 = "d52fa226890a943a3f523c15e91d44837ce15bafa23a7d9f727b932553350316";
 };
 tesseract-data-tel = {
 version = "4.1.0-r2";
 filename = "tesseract-data-tel-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-tel-any" ];
-sha256 = "d8ceae177568719c8786c818ad0daae553bf419cc6d70c928f190a09db22e6df";
+sha256 = "ec118a718e37b0bb08bc3b1f6b8f253caa7d66af24c05855cd8b1d31c9584c7f";
 };
 tesseract-data-tgk = {
 version = "4.1.0-r2";
 filename = "tesseract-data-tgk-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-tgk-any" ];
-sha256 = "0c07df50ad6b0335dccb0c561e57619094782fd0daa9b308bc335eab6c012d42";
+sha256 = "3352aadfe22b8e5dc1e1209c23a9f09b85cdd7960f24a24418c7bc079a14e1fd";
 };
 tesseract-data-tgl = {
 version = "4.1.0-r2";
 filename = "tesseract-data-tgl-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-tgl-any" ];
-sha256 = "ed3848dee03a2b8bb2cf49e272770d2e0feadf78fac8cf6ca6448ab83d4384d7";
+sha256 = "c6ccb55929471145e2dece1bad01c49625333f9bdf70eedd454ea03e69657eb4";
 };
 tesseract-data-tha = {
 version = "4.1.0-r2";
 filename = "tesseract-data-tha-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-tha-any" ];
-sha256 = "0f4955e2dc57280bed56e7d1bc6647607cdcfa4dd6759c54219e7bd50c661ac8";
+sha256 = "258d3fee6bacfb28c76854824c5b51626e3a762c8fc3b4745f28234659500d3f";
 };
 tesseract-data-tir = {
 version = "4.1.0-r2";
 filename = "tesseract-data-tir-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-tir-any" ];
-sha256 = "e6ac48ca717d1f6676309c79494c3ba586af77b356cda5098de2d633c018554e";
+sha256 = "34335f1dd4dfab22b3ae5b38d1db7b54ca5d6dc2c652351fd921d2bf8372978e";
 };
 tesseract-data-ton = {
 version = "4.1.0-r2";
 filename = "tesseract-data-ton-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-ton-any" ];
-sha256 = "b6fe8160ec6f2adc3c17f432bd669d30d476ad7f85be0da508484d2a18037895";
+sha256 = "1163cf5c9b4061e9b9ca48b699d9aa2843b3e788c181cd4998bd466c9ad24c1a";
 };
 tesseract-data-tur = {
 version = "4.1.0-r2";
 filename = "tesseract-data-tur-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-tur-any" ];
-sha256 = "1660821a447ca9da408fe4faca306c54cae383f18eaf898c57b904228b707303";
+sha256 = "30a29d5ee0b373b32cccbe40bebbc042cda4dac563a753b9a97d6b16bbc76e07";
 };
 tesseract-data-uig = {
 version = "4.1.0-r2";
 filename = "tesseract-data-uig-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-uig-any" ];
-sha256 = "b9c6581eb286c56c1219822afa8a4bc766c67df10ce0687d526f113fecb7e29c";
+sha256 = "75dc2795449a15791e5e5c5a31d0c185944870b817f87f9407aa7523fca6a4ff";
 };
 tesseract-data-ukr = {
 version = "4.1.0-r2";
 filename = "tesseract-data-ukr-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-ukr-any" ];
-sha256 = "51bee2dc526b7739737fcb943154ad6828588c116e5d2ee9f97f560cbf6e66d0";
+sha256 = "8ef96eab4a84f2773dada119dfaa3d0ae7454b8f34421c6642c101b56415c478";
 };
 tesseract-data-urd = {
 version = "4.1.0-r2";
 filename = "tesseract-data-urd-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-urd-any" ];
-sha256 = "f65464f4c6d0294a90dec206732da0f9bd103975c74ba691c6689412f7626b18";
+sha256 = "675a50bf35a9137ce744b62dc353cdddb3874af198caf72b2e61594d6f5c94ba";
 };
 tesseract-data-uzb = {
 version = "4.1.0-r2";
 filename = "tesseract-data-uzb-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-uzb-any" ];
-sha256 = "f902fa6cc8e807f3c9e65c2f5412e03926154ac29c4b68c2a292d4a2beaaa223";
+sha256 = "e94bd0b04991002cd1d064002cb4a4a91890c16a974092673ed4c14cab34857c";
 };
 tesseract-data-uzb_cyrl = {
 version = "4.1.0-r2";
 filename = "tesseract-data-uzb_cyrl-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-uzb_cyrl-any" ];
-sha256 = "bad51f81980be31dd71222203ad9279184e32a41de493a92cad248a64c4d7d3d";
+sha256 = "4da0b6a86fc027f97522ca29e9c8ede5730d69160bb1618f4373f4d95abb37f8";
 };
 tesseract-data-vie = {
 version = "4.1.0-r2";
 filename = "tesseract-data-vie-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-vie-any" ];
-sha256 = "4d7d789aa07030e7687d3ee036a394867b6005e5dba731c2dedd5bf8c50579fd";
+sha256 = "6633008cc62f3cb4d8fe4439409f901c16b9e5234905b8d69a7b3b290ce00498";
 };
 tesseract-data-yid = {
 version = "4.1.0-r2";
 filename = "tesseract-data-yid-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-yid-any" ];
-sha256 = "89bafec31a80ed1e448c275f5373e5b31607096cf4ffbbc9973b9e61d9be8742";
+sha256 = "f9a586837c6c104559ce84aec8b558fa85bfed03b012562743be21a687a47c78";
 };
 tesseract-data-yor = {
 version = "4.1.0-r2";
 filename = "tesseract-data-yor-4.1.0-r2.apk";
 depends = [ "libc" "tesseract" ];
 provides = [ "tesseract-data-yor-any" ];
-sha256 = "186f97b6d52eac81fd578e7c3041e618dc8515ef52db3aa662c2e9bc8a6c0bf2";
+sha256 = "5a3e6f4d678a58cd1b5bcf81f922b555decc15976725081b8d115d6a49e3de18";
 };
 tgt = {
 version = "1.0.97-r1";
@@ -29824,7 +29789,7 @@ version = "1.1_pre18-r4";
 filename = "tinc-1.1_pre18-r4.apk";
 depends = [ "kmod-tun" "libc" "liblzo2" "libopenssl3" "librt" "zlib" ];
 provides = [ "tinc-any" ];
-sha256 = "1f6272cc58fe91553c335e8bcc28af2829568b217f94c03edf3fdfd76593caba";
+sha256 = "11c9e45808781778f93f005c8435316962673d6509988f65dc3d9605f157d141";
 };
 tini = {
 version = "0.19.0-r4";
@@ -29859,7 +29824,7 @@ version = "3.9-r1";
 filename = "tio-3.9-r1.apk";
 depends = [ "glib2" "libc" "lua" ];
 provides = [ "tio-any" ];
-sha256 = "682821454f826d36a99320981e4ac4d9849fa5b828c145bc318a1badb6457bde";
+sha256 = "14c1caba52f453e8565a62bede3cbd6f69a99c5f00bc2e419e8519357e861076";
 };
 tmate = {
 version = "2.4.0-r3";
@@ -29915,7 +29880,7 @@ version = "0.1.0-r1";
 filename = "tor-hs-0.1.0-r1.apk";
 depends = [ "libc" "rpcd" "tor" ];
 provides = [ "tor-hs-any" ];
-sha256 = "bc525056c1cd37265676d0e72725555ed1b8168e75334aef7d2466e2877c98d5";
+sha256 = "f3d5d82868e48df8e2aaf2314e17d5c526bce26a1f7622ff252068deee93a785";
 };
 tor-resolve = {
 version = "0.4.9.13-r1";
@@ -29950,7 +29915,7 @@ version = "1.0.0-r3";
 filename = "trafficshaper-1.0.0-r3.apk";
 depends = [ "ip6tables" "iptables" "iptables-mod-conntrack-extra" "kmod-ifb" "kmod-sched-cake" "kmod-sched-connmark" "kmod-sched-core" "libc" "tc" ];
 provides = [ "trafficshaper-any" ];
-sha256 = "56c0cec5ae726cd4ea3e4ee44725d6f46593e4cefcdd1c465a13340c475cb513";
+sha256 = "147722201aa179c4fcf18f92df9d0f00498564a2e4bcc00a68f1347d86279d90";
 };
 transmission-cli = {
 version = "4.1.3-r1";
@@ -29981,11 +29946,11 @@ provides = [ "transmission-web-any" ];
 sha256 = "3217a92a9177b0e41403e35b00ff1b893012084d731c4e202d13b21e151e0a39";
 };
 travelmate = {
-version = "2.4.9-r5";
-filename = "travelmate-2.4.9-r5.apk";
+version = "2.4.9-r6";
+filename = "travelmate-2.4.9-r6.apk";
 depends = [ "ca-bundle" "curl" "iwinfo" "jshn" "jsonfilter" "libc" "rpcd" "rpcd-mod-rpcsys" ];
 provides = [ "travelmate-any" ];
-sha256 = "42e0d6901eacfeab84f40321fba3c938623ec610507964967a88308747bdd711";
+sha256 = "dd560404278445aca850a8d3c9f3b573efb261f0c2f061053cbef123439069ca";
 };
 tree = {
 version = "2.2.1-r2";
@@ -30034,7 +29999,7 @@ version = "2026.09.24~547f8bfa-r1";
 filename = "tvheadend-2026.09.24~547f8bfa-r1.apk";
 depends = [ "libc" "libffi" "libiconv-full2" "libopenssl3" "libpcre2" "librt" "zlib" ];
 provides = [ "tvheadend-any" ];
-sha256 = "4d480a1aba6850e47db1c8507a5c7227f926e29266a17742354e1a95f907d1ce";
+sha256 = "39323863e8671939367bbd51c28ef1ebbd0f2581fe17251e614d1d85e171ad74";
 };
 u2pnpd = {
 version = "0.5-r3";
@@ -30097,14 +30062,14 @@ version = "1-r2";
 filename = "ubnt-manager-1-r2.apk";
 depends = [ "dropbear" "libc" ];
 provides = [ "ubnt-manager-any" ];
-sha256 = "c6cced375ca729bae378877fe607e98c83066811ce957cf968cce68be62dce07";
+sha256 = "2243aaaeb01b0129ac3ddd83e873be9e630398c3f1563e96e315880eaaf7f8fa";
 };
 udhcpsnoop = {
 version = "1";
 filename = "udhcpsnoop-1.apk";
 depends = [ "kmod-ifb" "libc" "libubox20260213" "libubus20251202" "tc" ];
 provides = [ "udhcpsnoop-any" ];
-sha256 = "94bf96c144397b93bb70afe1b10f46a0f0aff823e23f15ef196798fc8bd53127";
+sha256 = "3df7c1ccb6fea29882d94d07634539f193f3fbd305386ff7eb1b1bcceb95ddda";
 };
 udns-dnsget = {
 version = "0.4-r1";
@@ -30160,7 +30125,7 @@ version = "2025.09.23~7d9f3bee-r1";
 filename = "ufp-neigh-2025.09.23~7d9f3bee-r1.apk";
 depends = [ "libc" "ufp" ];
 provides = [ "ufp-neigh-any" ];
-sha256 = "d90fb824282a93f3e82fc0bda7df78869821afef9bbb554d03bb6d2524df3470";
+sha256 = "a670a355d6eab1ce69b28e0734ae5c03ea9b26a627190b9b1028171928eb806d";
 };
 uhubctl = {
 version = "2.6.0-r1";
@@ -30321,7 +30286,7 @@ version = "1-r1";
 filename = "uneighbord-1-r1.apk";
 depends = [ "libc" "ucode" "ucode-mod-log" "ucode-mod-socket" "ucode-mod-ubus" "ucode-mod-uci" "ucode-mod-uloop" ];
 provides = [ "uneighbord-any" ];
-sha256 = "cddfdcf1d383ef43445d435c1d33db2e608b068c5357367fb147decc136e2fe7";
+sha256 = "c8b6b77264774588ac6005db1f4f0705461845be52d1cfde11ab86bfe461d734";
 };
 unix2dos = {
 version = "7.5.5-r1";
@@ -30384,21 +30349,21 @@ version = "2.0-r15";
 filename = "usbip-2.0-r15.apk";
 depends = [ "kmod-usbip" "libc" "libudev" "libwrap" "usbids" ];
 provides = [ "usbip-any" ];
-sha256 = "d6e1467a1f8cbc747bb7a5fb248527415adae2409a2b095ffaea4ab3f41ed4e9";
+sha256 = "6852be9620bc13c7ae64b5d1acee53e8ae8699b176115fac9e9006ccc633489e";
 };
 usbip-client = {
 version = "2.0-r15";
 filename = "usbip-client-2.0-r15.apk";
 depends = [ "kmod-usbip-client" "libc" "usbip" ];
 provides = [ "usbip-client-any" ];
-sha256 = "05a9aaadf962535f564f009c404f8e734128790a8e6c8e80e0a6b09fc2f32b13";
+sha256 = "a003bfb278d41ec0fe15ce3dbe4ea8d2d72606181bbdb36b204939ddbf442389";
 };
 usbip-server = {
 version = "2.0-r15";
 filename = "usbip-server-2.0-r15.apk";
 depends = [ "kmod-usbip-server" "libc" "usbip" ];
 provides = [ "usbip-server-any" ];
-sha256 = "9a37f7cc8bfb646e75953271455be443d6809022f27c90f185a6c0f76ddc7a1a";
+sha256 = "7b4aad9fcc30aa7ad05deab56aab1a09f4b75cf15806c1b62e05dd5201f63ef6";
 };
 usbmuxd = {
 version = "2025.02.01~523f7004-r1";
@@ -30468,14 +30433,14 @@ version = "1.0-r1";
 filename = "uvol-1.0-r1.apk";
 depends = [ "blockd" "libc" "ucode" "ucode-mod-fs" "ucode-mod-math" "ucode-mod-uci" ];
 provides = [ "uvol-any" ];
-sha256 = "9f1f6651f9031e6470ab85b7b6513e7fd169b18fc7df813c3219ebb03f6059ea";
+sha256 = "e2953988d4528b80d21bb33ade0a01f03f5c58f30689d28755691de41425dd09";
 };
 uwsgi = {
 version = "2.0.30-r1";
 filename = "uwsgi-2.0.30-r1.apk";
 depends = [ "libc" "libcap" "libpcre2" "libuuid1" ];
 provides = [ "uwsgi-any" ];
-sha256 = "49a6e82f6efdee8400021e91760feaf393359d24549d5349d65fd2bbe00f5773";
+sha256 = "b9227a5ea329ee375d11cf91ec2558dcfdf6f5954fa1ea03b5995c8553031cb6";
 };
 uwsgi-cgi-plugin = {
 version = "2.0.30-r1";
@@ -30517,7 +30482,7 @@ version = "5.53.0-r1";
 filename = "v2ray-core-5.53.0-r1.apk";
 depends = [ "ca-bundle" "libc" ];
 provides = [ "v2ray-core-any" ];
-sha256 = "d3ac41716db99697f1837a50b634b35f9dcca004e6629149eb47c8ed0aba82f6";
+sha256 = "43f8ba03306d14f34628726d76e07fa795430cf1aca909900118b1d4246ef8af";
 };
 v2ray-example = {
 version = "5.53.0-r1";
@@ -30538,28 +30503,28 @@ version = "202610050438-r1";
 filename = "v2ray-geoip-202610050438-r1.apk";
 depends = [ "libc" ];
 provides = [ "v2ray-geodata" "v2ray-geoip-any" "xray-geodata" "xray-geoip" ];
-sha256 = "d46274bca66328eb5ef6238ac1145681282d3aef029501d4e232103aaac88d69";
+sha256 = "541db4f6a600f58de58d6c0b54b7845ee4c69b04bffd6835f37a52a8a11c1930";
 };
 v2ray-geosite = {
 version = "20261009101206-r1";
 filename = "v2ray-geosite-20261009101206-r1.apk";
 depends = [ "libc" ];
 provides = [ "v2ray-geodata" "v2ray-geosite-any" "xray-geodata" "xray-geosite" ];
-sha256 = "e1526eaf1ce4882fe0a4bc16bf20b4961b88c99c32701f3786e8c756f3fddbe1";
+sha256 = "7a205e76ba8fc8db399af2aa59bc34cf480ea951e67caaafab0b6a0ca76583c6";
 };
 v2ray-geosite-ir = {
 version = "202610050227-r1";
 filename = "v2ray-geosite-ir-202610050227-r1.apk";
 depends = [ "libc" ];
 provides = [ "v2ray-geosite-ir-any" "xray-geosite-ir" ];
-sha256 = "ba101396c712c9316e9ab8ae844631a67280a024cc032e936e5a2f463b2081fe";
+sha256 = "8d10c14eab5ebaba3731c449b8242b1a183c50aeb60d5e4b5ee31ccf3ce0e649";
 };
 v2raya = {
 version = "2.2.7.5-r2";
 filename = "v2raya-2.2.7.5-r2.apk";
 depends = [ "ca-bundle" "kmod-nft-tproxy" "libc" "xray-core" ];
 provides = [ "v2raya-any" ];
-sha256 = "e3f8558f596a315027df90f8d349d41306886055e2dd87ec8997718085a65ee8";
+sha256 = "09cc6fe7326289725508115610778c0509a793e5f2c2f38131816b869b8dd6e8";
 };
 v4l-utils = {
 version = "1.30.1-r1";
@@ -30573,7 +30538,7 @@ version = "0.3.2-r1";
 filename = "v4l2camera-0.3.2-r1.apk";
 depends = [ "alsa-lib" "libc" "libstdcpp6" ];
 provides = [ "v4l2camera-any" ];
-sha256 = "da312add51a6d21dabe6466ac065ebd37e1576463532babf73a4b2bed4f00b68";
+sha256 = "f33d852a6df2b3734fe06b7931ceb6be5c9ae62df82d5bcee7b975bdca0baf65";
 };
 v4l2rtspserver = {
 version = "0.3.12-r1";
@@ -30622,21 +30587,21 @@ version = "9.2.1014-r1";
 filename = "vim-9.2.1014-r1.apk";
 depends = [ "libc" "libncurses6" ];
 provides = [ "vim-any" ];
-sha256 = "b3a7b172d5380382d5cf291a52cfb0efbee36265eb3ee332c64eedbf12209485";
+sha256 = "108c3cf3f04e46f2cfc1d1e131ed9a71ab59a59443578f8f7649a1920c165dca";
 };
 vim-full = {
 version = "9.2.1014-r1";
 filename = "vim-full-9.2.1014-r1.apk";
 depends = [ "libc" "vim-runtime" ];
 provides = [ "vim" "vim-full-any" ];
-sha256 = "b31245ab4264454425153bcaebc1032426b9d701781e2d19c9af955104b73ccc";
+sha256 = "6d986df182341814110813343a97adb86c533f4b7c618eb4fc7d9f1afbaa741d";
 };
 vim-fuller = {
 version = "9.2.1014-r1";
 filename = "vim-fuller-9.2.1014-r1.apk";
 depends = [ "libc" "vim-runtime" ];
 provides = [ "vim" "vim-full" "vim-fuller-any" ];
-sha256 = "0e1868d776c186eb6e9274f661ced311464098d19cecc2647523fdf6151244f9";
+sha256 = "7036a1a7a50ff13a912df33988e25c0219233e25a34650981a8861f98a82c5a3";
 };
 vim-help = {
 version = "9.2.1014-r1";
@@ -30699,7 +30664,7 @@ version = "20151220-r3";
 filename = "vpnc-scripts-20151220-r3.apk";
 depends = [ "libc" ];
 provides = [ "vpnc-scripts-any" ];
-sha256 = "450601147efc490808bab3ccf47c0febc4ded8b45745dc02f1f0e55f9308f7ca";
+sha256 = "6cfb3008dcd588f26dce67bb2e54ff249817bac19c09c291acd7e6410a50c74b";
 };
 vsftpd = {
 version = "3.0.5-r6";
@@ -30727,7 +30692,7 @@ version = "1-r25";
 filename = "watchcat-1-r25.apk";
 depends = [ "libc" ];
 provides = [ "watchcat-any" ];
-sha256 = "644d0b7adc6644713563821118e2c297f7e714b3ab3ceb8b6312b6e73fa7d9fe";
+sha256 = "f54030810fbda48e3c6ef3d4cf87129894e49922d98199a09c934ae6c950c92b";
 };
 wavemon = {
 version = "0.9.5-r1";
@@ -30737,18 +30702,18 @@ provides = [ "wavemon-any" ];
 sha256 = "669cc8c21454bf7dd6efdf3d50da1834fb73d1ced116577833b19a5d8a0bdc3f";
 };
 weechat-full = {
-version = "4.10.1-r1";
-filename = "weechat-full-4.10.1-r1.apk";
+version = "4.10.1-r2";
+filename = "weechat-full-4.10.1-r2.apk";
 depends = [ "ca-bundle" "libc" "libcurl4" "libgcrypt" "libgnutls" "libncurses6" "libzstd" "zlib" ];
 provides = [ "weechat" "weechat-full-any" ];
-sha256 = "d4490ead0d9656c37232360ae42a416233e9feb06bf09906eddb19be027b2a4a";
+sha256 = "93a0a3731bb5db75f68c19625f4822428180ff8da55d04a7d8103c2957c180dc";
 };
 weechat-minimal = {
-version = "4.10.1-r1";
-filename = "weechat-minimal-4.10.1-r1.apk";
+version = "4.10.1-r2";
+filename = "weechat-minimal-4.10.1-r2.apk";
 depends = [ "ca-bundle" "libc" "libcurl4" "libgcrypt" "libgnutls" "libzstd" "zlib" ];
 provides = [ "weechat" "weechat-minimal-any" ];
-sha256 = "fa6e4a9b3d102e343c3f1e66fa601c01ca646a0c5e07c6dbd4265d445c783286";
+sha256 = "e1cd2dc58ae93e209216ccc05112ddf6948ac9fc0174e5a84f24e09d8592ede1";
 };
 wfb-ng = {
 version = "25.01-r1";
@@ -30769,28 +30734,28 @@ version = "28";
 filename = "wg-installer-client-28.apk";
 depends = [ "curl" "kmod-wireguard" "libc" "owipcalc" "wireguard-tools" ];
 provides = [ "wg-installer-client-any" ];
-sha256 = "6f27af0eaa25c04e0d84cd3678064f54e1659dd2a560bd700195313e533f6f84";
+sha256 = "8cc5e4bf58d620cc1a3a38255369f71a91141b4c480fef61b40c17ed8902dfaf";
 };
 wg-installer-server = {
 version = "28";
 filename = "wg-installer-server-28.apk";
 depends = [ "coreutils-dirname" "kmod-wireguard" "libc" "owipcalc" "rpcd" "uhttpd" "uhttpd-mod-ubus" "wireguard-tools" ];
 provides = [ "wg-installer-server-any" ];
-sha256 = "1847b4834c567354dd80bb61cae71b6bdcd0ce25c5a2279da5e23a18b7dae6c7";
+sha256 = "6b203b129b3341bdc6aedc0b805765a28a0e8d8dc0fcd7440a2d1e5fc8721662";
 };
 wg-installer-server-hotplug-babeld = {
 version = "28";
 filename = "wg-installer-server-hotplug-babeld-28.apk";
 depends = [ "libc" "wg-installer-server" ];
 provides = [ "wg-installer-server-hotplug-babeld-any" ];
-sha256 = "bd2b736342ae492ffe76e3cf5875f5cb620f9d2e8dc734117c9cc6a003715ff8";
+sha256 = "903dadea8018f9f002cb42d8076c023db4ca1d31bbb2e2af50858b69c989c6fb";
 };
 wg-installer-server-hotplug-olsrd = {
 version = "28";
 filename = "wg-installer-server-hotplug-olsrd-28.apk";
 depends = [ "libc" "wg-installer-server" ];
 provides = [ "wg-installer-server-hotplug-olsrd-any" ];
-sha256 = "bb5e3c1960a73e93f9227a6c33d2a49196955b395e3d57af726273c1d5617b5a";
+sha256 = "37918c035c4cb9bfc081955f3cf08652d00453aa63efb264a842dbe0ad8b68d5";
 };
 wget-nossl = {
 version = "1.25.0-r3";
@@ -30811,14 +30776,14 @@ version = "0.3.6-r1";
 filename = "wgsd-client-0.3.6-r1.apk";
 depends = [ "kmod-wireguard" "libc" ];
 provides = [ "wgsd-client-any" ];
-sha256 = "6b1e9ca19dd885152d40a765083a0bdf8eff16d562bbc4496e8029c3c09c590a";
+sha256 = "5844e8417f761132aa318cf17b55e246ea33c1a6c65d90ab3da5cb9c8ba462bc";
 };
 wgsd-coredns = {
 version = "0.3.6-r1";
 filename = "wgsd-coredns-0.3.6-r1.apk";
 depends = [ "kmod-wireguard" "libc" ];
 provides = [ "wgsd-coredns-any" ];
-sha256 = "15541001297d07646199aa6259500f2ce3b74a394f914a130564323ad912642c";
+sha256 = "11715f2ee293944511789cf5cda3b4e43dc79427bdd50342dc902437ba22287e";
 };
 which = {
 version = "2.23-r1";
@@ -30846,7 +30811,7 @@ version = "0.3.0-r2";
 filename = "wifi-presence-0.3.0-r2.apk";
 depends = [ "libc" ];
 provides = [ "wifi-presence-any" ];
-sha256 = "85fd88050bfe8a9c50d0d21b8395d6585b586d37e7e467e91d3fe6643ac147e6";
+sha256 = "1ac40cae19adecd5399bb66678105911637d5676e890e11793c15712d86c073a";
 };
 wifidog = {
 version = "1.3.0-r9";
@@ -30867,14 +30832,14 @@ version = "1.1.0-r0";
 filename = "wifischedule-1.1.0-r0.apk";
 depends = [ "libc" ];
 provides = [ "wifischedule-any" ];
-sha256 = "91a05151348e4831076e49c4e559c823041da3f79eb552f8786c3c692c78a2dd";
+sha256 = "bcec94acb19a26074723b0d635a41603f1ecaa4f025660fe8ecfd3521f05581d";
 };
 wifitoggle = {
 version = "1-r6";
 filename = "wifitoggle-1-r6.apk";
 depends = [ "libc" ];
 provides = [ "wifitoggle-any" ];
-sha256 = "d5273b3c4f1f703edda4b8aa16919e380058ad64030a617dbca4daa8a242f5d0";
+sha256 = "af2acef7727acc98a86ededa5addd2622d83059fb271e36b9cf85ab96b7c61ec";
 };
 wipe = {
 version = "0.24-r1";
@@ -30958,7 +30923,7 @@ version = "1.60.05-r2";
 filename = "xmlrpc-c-client-1.60.05-r2.apk";
 depends = [ "libc" "libcurl4" "xmlrpc-c" ];
 provides = [ "xmlrpc-c-client-any" ];
-sha256 = "11654cd5217efd40bf55904f706e47d6a251aa05a4e19e374c2faade7a370fcb";
+sha256 = "b12e39a9b171d60f2a173e665bf53236e62c98039b9b988ffdba6b3f035acdbb";
 };
 xmlrpc-c-common = {
 version = "1.60.05-r2";
@@ -30993,7 +30958,7 @@ version = "26.3.27-r1";
 filename = "xray-core-26.3.27-r1.apk";
 depends = [ "ca-bundle" "libc" ];
 provides = [ "xray-core-any" ];
-sha256 = "19aa09bcd3b2eb66f80a4f0ceba22a2f2b74d5e3c5b5b5be15b2355803818e78";
+sha256 = "4f811294e27f0ac28ae80dbc99c69ddc6d2cab77bcb77a6dec98b838e023d480";
 };
 xray-example = {
 version = "26.3.27-r1";
@@ -31105,7 +31070,7 @@ version = "0.5.12-r1";
 filename = "yggdrasil-0.5.12-r1.apk";
 depends = [ "kmod-tun" "libc" ];
 provides = [ "yggdrasil-any" ];
-sha256 = "45e180bc1b6067206229a156f5e9dc0692c731a344a72385322fd6cc72d58009";
+sha256 = "b911114fcdd709097707ae4560455081057e9e7e92c18f76947e81cf0960b99e";
 };
 yggdrasil-jumper = {
 version = "0.3.1-r1";
@@ -31119,7 +31084,7 @@ version = "4.53.6-r1";
 filename = "yq-4.53.6-r1.apk";
 depends = [ "libc" ];
 provides = [ "yq-any" ];
-sha256 = "996377c178a5f49b219bbd133eaf6b06179d21cb1ada24775c454e1024cf397d";
+sha256 = "00ecb7557f608851f4f424b83fbfd0ea0da3b455d86f3f135a841d1f6fd05055";
 };
 yt-dlp = {
 version = "2026.7.4-r1";
@@ -31224,7 +31189,7 @@ version = "2.3.24-r6";
 filename = "zile-2.3.24-r6.apk";
 depends = [ "libc" "libncursesw6" ];
 provides = [ "zile-any" ];
-sha256 = "1eb3cdeb5e11e312ea296a4749171b3c8f663fa95ea97618e4fb6621387090b5";
+sha256 = "892659659bde2c6dfa7c6b7a691b20865890efd92a91682301c19515f7bed6df";
 };
 zipcmp = {
 version = "1.11.4-r1";
@@ -31252,7 +31217,7 @@ version = "1.2.17-r3";
 filename = "zlog-1.2.17-r3.apk";
 depends = [ "libc" ];
 provides = [ "zlog-any" ];
-sha256 = "437658b6988e25dbd2b1a1506ca62775b9a51931d3f2bb406acc3fb1469bb28e";
+sha256 = "584c8e64581a9fe00ee8f4424c2ae07cb823d25f786a4596279a4f7d1bcd9139";
 };
 znc = {
 version = "1.10.1-r2";
@@ -31644,84 +31609,84 @@ version = "2026d-r1";
 filename = "zoneinfo-africa-2026d-r1.apk";
 depends = [ "libc" "zoneinfo-core" ];
 provides = [ "zoneinfo-africa-any" ];
-sha256 = "dbdeb435943cf9fdd21499186c345143267106addb8a3523761c783683ba6614";
+sha256 = "dffdf5866fe8607c70bf86161b0b792b597763b7348572798b3ec5364eafdd21";
 };
 zoneinfo-all = {
 version = "2026d-r1";
 filename = "zoneinfo-all-2026d-r1.apk";
 depends = [ "libc" "zoneinfo-africa" "zoneinfo-america" "zoneinfo-asia" "zoneinfo-atlantic" "zoneinfo-australia-nz" "zoneinfo-core" "zoneinfo-europe" "zoneinfo-indian" "zoneinfo-pacific" "zoneinfo-poles" ];
 provides = [ "zoneinfo-all-any" ];
-sha256 = "c441a52777ce7443a723cb330095d38219d404d2e3ca75c323777806f9055272";
+sha256 = "d615cb55f5d4e65478cb3f8b0dac12532f187164f1c246d0df3f61f5b587970b";
 };
 zoneinfo-america = {
 version = "2026d-r1";
 filename = "zoneinfo-america-2026d-r1.apk";
 depends = [ "libc" "zoneinfo-core" ];
 provides = [ "zoneinfo-america-any" "zoneinfo-northamerica" "zoneinfo-southamerica" ];
-sha256 = "6e8e8438240750e78e50aacec7ebd6d0c2a04747ed1bf314e0ed19fc3fc92af1";
+sha256 = "6701998a4441b7fa336d80d8d247d4df551915727fc4b62467a02a34e71b631c";
 };
 zoneinfo-asia = {
 version = "2026d-r1";
 filename = "zoneinfo-asia-2026d-r1.apk";
 depends = [ "libc" "zoneinfo-core" ];
 provides = [ "zoneinfo-asia-any" ];
-sha256 = "b2060e335ed614b41e81bb3597f3b57876af6a40d4e06a399ff6e8551bee49fd";
+sha256 = "ee6a843ca1b1046d135a1f8c2f584b669323fa431cb23ba3a93d8ea72fa16948";
 };
 zoneinfo-atlantic = {
 version = "2026d-r1";
 filename = "zoneinfo-atlantic-2026d-r1.apk";
 depends = [ "libc" "zoneinfo-core" ];
 provides = [ "zoneinfo-atlantic-any" ];
-sha256 = "4d993f3119e226a65bf983c1228a6789128c2dcb078b31c83e3b922341561381";
+sha256 = "05aa7fe1a2370dfd5fd2bd4803bf80a09161d7bf713404d41aed51c3b48ad7c2";
 };
 zoneinfo-australia-nz = {
 version = "2026d-r1";
 filename = "zoneinfo-australia-nz-2026d-r1.apk";
 depends = [ "libc" "zoneinfo-core" ];
 provides = [ "zoneinfo-australia-nz-any" ];
-sha256 = "d66110a8cc1f08ea842b82cc82f5549ce17ffb2e74127cd15ddad7770562a308";
+sha256 = "3ee5b391f3153332e561b03a4ddf6576b64dab1058d3e729abffdbb005189d87";
 };
 zoneinfo-core = {
 version = "2026d-r1";
 filename = "zoneinfo-core-2026d-r1.apk";
 depends = [ "libc" ];
 provides = [ "zoneinfo-core-any" ];
-sha256 = "e3a7867dcba9b64b33be2488f60f819ea97d6b7a3128d7bcfdbf4d8ae9fc066d";
+sha256 = "55f254c501ea0f522f4ce0e86e79fa3ca8a4a24ecbcd4d3fad54f9a139644750";
 };
 zoneinfo-europe = {
 version = "2026d-r1";
 filename = "zoneinfo-europe-2026d-r1.apk";
 depends = [ "libc" "zoneinfo-core" ];
 provides = [ "zoneinfo-europe-any" ];
-sha256 = "0df79c9a4f974faebb56256c1b4c790ab82a507b6434dc6e2b2860bcb60d02fd";
+sha256 = "ef260d98c11c4ac83def5d67d43162b3641b973a5fe0716239a4088b3aa5c02c";
 };
 zoneinfo-indian = {
 version = "2026d-r1";
 filename = "zoneinfo-indian-2026d-r1.apk";
 depends = [ "libc" "zoneinfo-core" ];
 provides = [ "zoneinfo-india" "zoneinfo-indian-any" ];
-sha256 = "67280f9685bef995f3414034f110d41365c098d7d70f862431955115e83a9cca";
+sha256 = "2cc310d307ce84ec568444222f091972f7d75746daffd1668aca542789f0f42b";
 };
 zoneinfo-pacific = {
 version = "2026d-r1";
 filename = "zoneinfo-pacific-2026d-r1.apk";
 depends = [ "libc" "zoneinfo-core" ];
 provides = [ "zoneinfo-pacific-any" ];
-sha256 = "985ea3fe4c0bb356a70c61728357732cbc3556378a5ed4911c36747956098458";
+sha256 = "f7d078a080721b114cc76516356b285e1d1d30803f7e8170df6d9f0c9f11d53c";
 };
 zoneinfo-poles = {
 version = "2026d-r1";
 filename = "zoneinfo-poles-2026d-r1.apk";
 depends = [ "libc" "zoneinfo-core" ];
 provides = [ "zoneinfo-poles-any" ];
-sha256 = "d693e6a2a4ec0626abcc83d1f1b923c17e057998bd5e2037f6d13f3f926e254c";
+sha256 = "1f6e73887ed4f94efe3e381a109e40a0a79de8d1917a3a489e21a900876bc2d9";
 };
 zoneinfo-simple = {
 version = "2026d-r1";
 filename = "zoneinfo-simple-2026d-r1.apk";
 depends = [ "libc" "zoneinfo-core" ];
 provides = [ "zoneinfo-simple-any" ];
-sha256 = "374d2b6f1aed640d9968a97e56035f3debb877462742280f20d90ef9d5afa46f";
+sha256 = "6a43a2f01467be231b3a574ec175c61ea6f127ffbf0850bc42adf8e60c261d7f";
 };
 zsh = {
 version = "5.9.2-r1";
@@ -31742,7 +31707,7 @@ version = "0.0.2-r1";
 filename = "ztdns-0.0.2-r1.apk";
 depends = [ "libc" ];
 provides = [ "ztdns-any" ];
-sha256 = "8f520135d8a21748dfde806c5c0bc310bf0e1dd4ba196b140f64b408e7ba6f10";
+sha256 = "65c9ad5c70d59f282240ce44547594cd23ad578a46c1927633b28e5033f096ba";
 };
 zyxel-reset = {
 version = "2022.12.23~e1def7b5-r1";
