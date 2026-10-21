@@ -7,7 +7,8 @@ shopt -s extglob
 # Config and command-line options
 
 FEEDS=(base luci packages routing telephony)
-UPSTREAM_URL=https://downloads.openwrt.org
+# UPSTREAM_URL=https://downloads.openwrt.org
+UPSTREAM_URL=https://openwrt.tehnotraher.myaddr.tools
 QUICK=false
 DESTDIR=""
 
