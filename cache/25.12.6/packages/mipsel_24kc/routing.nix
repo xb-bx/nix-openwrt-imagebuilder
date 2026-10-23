@@ -165,7 +165,7 @@ version = "21.1-r7";
 filename = "cjdns-tests-21.1-r7.apk";
 depends = [ "libc" "libpthread" "librt" ];
 provides = [ "cjdns-tests-any" ];
-sha256 = "8c05b68922fb4327c026ab2635a2a4b2a6d2e26485cee404e9e6dac5ab50cc1d";
+sha256 = "9cf5bf2ffcd1c9a76bd193baef323f4a86dc25acc36ed08a718621efa668950a";
 };
 luci-app-cjdns = {
 version = "1.3-r9";
