@@ -4,7 +4,7 @@ version = "23.1.0-r1";
 filename = "asterisk-23.1.0-r1.apk";
 depends = [ "jansson4" "libc" "libcap" "libedit" "libopenssl3" "libsqlite3-0" "libstdcpp6" "libuuid1" "libxml2-16" "zlib" ];
 provides = [ "asterisk-any" ];
-sha256 = "95e11fc0b991ff9a41d035eeff4c6738cb64bf0230d7e8e9721c6471c97733c6";
+sha256 = "6185fd7961d405fefa8d4f227d86afec2fb0c3a3285b7139814af3eb1195b402";
 };
 asterisk-app-adsiprog = {
 version = "23.1.0-r1";
@@ -1215,7 +1215,7 @@ version = "23.1.0-r1";
 filename = "asterisk-func-version-23.1.0-r1.apk";
 depends = [ "asterisk" "libc" ];
 provides = [ "asterisk-func-version-any" ];
-sha256 = "fde892437394a24cbdff9f54811fc88dfeb5900e6518886bbf5f959cd5c09c62";
+sha256 = "9a985c66eff61eca698c6260b223e86abb3ac37474c8d2dc41ccdbdd7746b72c";
 };
 asterisk-func-vmcount = {
 version = "23.1.0-r1";
@@ -5359,21 +5359,21 @@ version = "2025.11.04~4909e7b7-r1";
 filename = "rtpproxy-2025.11.04~4909e7b7-r1.apk";
 depends = [ "libatomic1" "libc" "libpthread" "librt" "libsrtp2-1" ];
 provides = [ "rtpproxy-any" ];
-sha256 = "35b2d03a16643209cebe59040bad6798d228db7da0eb0170f534c8c68468e580";
+sha256 = "1ecb8f45860732f6c0aa7940c47885914081ed64c3a4e7b6ddc0500a1b1703fc";
 };
 rtpproxy-mod-acct-csv = {
 version = "2025.11.04~4909e7b7-r1";
 filename = "rtpproxy-mod-acct-csv-2025.11.04~4909e7b7-r1.apk";
 depends = [ "libc" "rtpproxy" ];
 provides = [ "rtpproxy-mod-acct-csv-any" ];
-sha256 = "192b55977f711b2bde95b68a106afafe6d4f8c39013af0d0b2feafd63ab02d84";
+sha256 = "f6487857f159d83386172eb05b176c815aebe6538fb4ea04b597db087965a857";
 };
 rtpproxy-mod-acct-rtcp-hep = {
 version = "2025.11.04~4909e7b7-r1";
 filename = "rtpproxy-mod-acct-rtcp-hep-2025.11.04~4909e7b7-r1.apk";
 depends = [ "libc" "rtpproxy" ];
 provides = [ "rtpproxy-mod-acct-rtcp-hep-any" ];
-sha256 = "4bcbcb3716721e13a436ea7f4679b91d6518f3c3e4958ec73c0d0c4f8dce2724";
+sha256 = "033345e0aba3da96c832926ba4b13c6f04a0c4f915f15f2e1ec0a8ed9cf8e582";
 };
 rtpproxy-util-extractaudio = {
 version = "2025.11.04~4909e7b7-r1";
@@ -5415,7 +5415,7 @@ version = "2025.07.24~0bb5dd4a-r1";
 filename = "siproxd-2025.07.24~0bb5dd4a-r1.apk";
 depends = [ "libc" "libltdl7" "libosip2-15" "libpthread" ];
 provides = [ "siproxd-any" ];
-sha256 = "40defb371f87c9ab64b9e1a7f71bfffc0308c5b7dce05b7e737fa10d7ff71e41";
+sha256 = "000058a6fc9cee9dfd46f3ec9a23791c1b8506d8bbc175d4059f0e44b79c866c";
 };
 siproxd-mod-blacklist = {
 version = "2025.07.24~0bb5dd4a-r1";
