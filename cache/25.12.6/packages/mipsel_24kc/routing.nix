@@ -165,7 +165,7 @@ version = "21.1-r7";
 filename = "cjdns-tests-21.1-r7.apk";
 depends = [ "libc" "libpthread" "librt" ];
 provides = [ "cjdns-tests-any" ];
-sha256 = "c3fc883f596e9733be4595e17bad1fd61d037fd949c86dcb00aff89733c6894c";
+sha256 = "bcf8568bd5e3f7d9fc9560d2b5dbf6e02d742211f9c85ecfb45ea07ee9eb7e3e";
 };
 luci-app-cjdns = {
 version = "1.3-r9";
@@ -214,7 +214,7 @@ version = "2024.06.09~d72be9ad-r3";
 filename = "olsrd-2024.06.09~d72be9ad-r3.apk";
 depends = [ "ip6tables" "iptables" "libc" "libpthread" "libubus20251202" ];
 provides = [ "olsrd-any" ];
-sha256 = "7bc3b6f6565b59e26841100263a91576c6c537e570977e5f1d763c694088b844";
+sha256 = "0dde28dbbd84f05d3544f2e446c586609d65e53df4cb75d488b69a9ae0d1ddf3";
 };
 olsrd-mod-arprefresh = {
 version = "2024.06.09~d72be9ad-r3";
