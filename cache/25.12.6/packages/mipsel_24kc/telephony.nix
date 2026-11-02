@@ -5359,21 +5359,21 @@ version = "2025.11.04~4909e7b7-r1";
 filename = "rtpproxy-2025.11.04~4909e7b7-r1.apk";
 depends = [ "libatomic1" "libc" "libpthread" "librt" "libsrtp2-1" ];
 provides = [ "rtpproxy-any" ];
-sha256 = "b75fbdbe767ab42d658c30e0edb3e8c5cfabb02736bd9a16d1bc371771d6498e";
+sha256 = "301a6251fe471aef76a0fb204d16c60efac49f4f87cf198f80c26fdc018dfe13";
 };
 rtpproxy-mod-acct-csv = {
 version = "2025.11.04~4909e7b7-r1";
 filename = "rtpproxy-mod-acct-csv-2025.11.04~4909e7b7-r1.apk";
 depends = [ "libc" "rtpproxy" ];
 provides = [ "rtpproxy-mod-acct-csv-any" ];
-sha256 = "20eefff7c42cdb0be6842c931f44f0c0b66e2fc9d263621a04056c6ed4f04f87";
+sha256 = "01148b9e5f88760238b4b003809d61e40151667cc1d82aee37f9a1f6fd1b44c2";
 };
 rtpproxy-mod-acct-rtcp-hep = {
 version = "2025.11.04~4909e7b7-r1";
 filename = "rtpproxy-mod-acct-rtcp-hep-2025.11.04~4909e7b7-r1.apk";
 depends = [ "libc" "rtpproxy" ];
 provides = [ "rtpproxy-mod-acct-rtcp-hep-any" ];
-sha256 = "92a8ba3b95d9a8b7dc5e51b1e454a6b6b003af8f67e8113bb6844f99e19caa45";
+sha256 = "010b8713c4fcf19a17e9d2528f3d5c8b09f89a56bf844a8467ae13639b6ed4e0";
 };
 rtpproxy-util-extractaudio = {
 version = "2025.11.04~4909e7b7-r1";
@@ -5402,6 +5402,13 @@ filename = "sipgrep-2.2.0-r2.apk";
 depends = [ "libc" "libpcap1" "libpcre2" ];
 provides = [ "sipgrep-any" ];
 sha256 = "67fb104d52bfd75b55d4ad0c6f129aa62da3c79fa6fc591a1d9f33e48c95d075";
+};
+sipp = {
+version = "3.7.5-r1";
+filename = "sipp-3.7.5-r1.apk";
+depends = [ "libc" "libncurses6" "libpcap1" "libpthread" "libstdcpp6" ];
+provides = [ "sipp-any" ];
+sha256 = "3b6a506c2e905f3b75b8aadeb5db79c6e16040c54759624542243407beb24187";
 };
 siproxd = {
 version = "2025.07.24~0bb5dd4a-r1";

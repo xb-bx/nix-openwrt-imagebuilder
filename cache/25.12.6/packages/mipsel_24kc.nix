@@ -1,14 +1,14 @@
 # 25.12.6 package feeds for mipsel_24kc
 {
   sha256sums = {
-hash = "sha256-9GDQY8A4WdIYd1IISGjHjotp+F+mkTI13tOV2MZzaDs=";
+hash = "sha256-DAT1mVp3Pdlg3yMrJ0nkPOdQIdnqBzfVUzx7q6WYhb4=";
 name = "mipsel_24kc-sha256sums";
 url = "https://openwrt.tehnotraher.myaddr.tools/releases/25.12.6/packages/mipsel_24kc/sha256sums";
 };
   feeds."base" = {
     baseUrl = "https://openwrt.tehnotraher.myaddr.tools/releases/25.12.6/packages/mipsel_24kc/base/";
     sourceInfo = {
-hash = "sha256-W+NW8CDQwrEyxDep+OCVNuOHzF3E0a+pZeVytKVxZ20=";
+hash = "sha256-/euaFJ5KehGOJD9l/+71Z4ZuBoe+mnMX0FQ+nLe3iro=";
 name = "mipsel_24kc-base-packages.adb";
 url = "https://openwrt.tehnotraher.myaddr.tools/releases/25.12.6/packages/mipsel_24kc/base/packages.adb";
 };
@@ -17,7 +17,7 @@ url = "https://openwrt.tehnotraher.myaddr.tools/releases/25.12.6/packages/mipsel
   feeds."luci" = {
     baseUrl = "https://openwrt.tehnotraher.myaddr.tools/releases/25.12.6/packages/mipsel_24kc/luci/";
     sourceInfo = {
-hash = "sha256-a5MBV7sxHrZx89qrqq8Ajg/2Ycd/glKnUNlZg0sLOoM=";
+hash = "sha256-g7xKzzKIXLf4Q438OS+RGV8/JXPbVm15n0tJ063vj2k=";
 name = "mipsel_24kc-luci-packages.adb";
 url = "https://openwrt.tehnotraher.myaddr.tools/releases/25.12.6/packages/mipsel_24kc/luci/packages.adb";
 };
@@ -26,7 +26,7 @@ url = "https://openwrt.tehnotraher.myaddr.tools/releases/25.12.6/packages/mipsel
   feeds."packages" = {
     baseUrl = "https://openwrt.tehnotraher.myaddr.tools/releases/25.12.6/packages/mipsel_24kc/packages/";
     sourceInfo = {
-hash = "sha256-pvWuBPBDewyq/NqXUCWP0rbiRKQauMnCNq23R+i+D9E=";
+hash = "sha256-a5SfZBuCZTTeUuMuVPvfvgUEfy9vUzVKRWSoO+y8s2Q=";
 name = "mipsel_24kc-packages-packages.adb";
 url = "https://openwrt.tehnotraher.myaddr.tools/releases/25.12.6/packages/mipsel_24kc/packages/packages.adb";
 };
@@ -35,7 +35,7 @@ url = "https://openwrt.tehnotraher.myaddr.tools/releases/25.12.6/packages/mipsel
   feeds."routing" = {
     baseUrl = "https://openwrt.tehnotraher.myaddr.tools/releases/25.12.6/packages/mipsel_24kc/routing/";
     sourceInfo = {
-hash = "sha256-HYmsTXbrvB7RuZXdedOicD7cyPUu7KzGbM25ckmeRoA=";
+hash = "sha256-Bvo6kcmYcBeS5lGARqWaqGXdBf42xJczTxjVtCQtAO4=";
 name = "mipsel_24kc-routing-packages.adb";
 url = "https://openwrt.tehnotraher.myaddr.tools/releases/25.12.6/packages/mipsel_24kc/routing/packages.adb";
 };
@@ -44,7 +44,7 @@ url = "https://openwrt.tehnotraher.myaddr.tools/releases/25.12.6/packages/mipsel
   feeds."telephony" = {
     baseUrl = "https://openwrt.tehnotraher.myaddr.tools/releases/25.12.6/packages/mipsel_24kc/telephony/";
     sourceInfo = {
-hash = "sha256-Ft1cCAgvI1sjYKOJn3jocBM/uqtyjxcdENpy5txJOzA=";
+hash = "sha256-cfJLMdw9IoJ62zvBmll+y5t5Y7g3PK7lX1WrZXJUn+Y=";
 name = "mipsel_24kc-telephony-packages.adb";
 url = "https://openwrt.tehnotraher.myaddr.tools/releases/25.12.6/packages/mipsel_24kc/telephony/packages.adb";
 };
