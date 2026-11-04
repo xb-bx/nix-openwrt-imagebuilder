@@ -473,7 +473,7 @@ version = "2.45.1-r1";
 filename = "binutils-2.45.1-r1.apk";
 depends = [ "ar" "libc" "objdump" ];
 provides = [ "binutils-any" ];
-sha256 = "81883544fd8432a8db7b2600a00b43613ec04c28c18b5feb3c3f7d5ba6774775";
+sha256 = "202fccf8eacfaf650fb8bcf63ef7931bc9cf6fa514d16cdb1df84be8836613a3";
 };
 blkdiscard = {
 version = "2.41.5-r1";
@@ -2741,7 +2741,7 @@ version = "1.6.3-r2";
 filename = "libxdp163-1.6.3-r2.apk";
 depends = [ "libbpf1" "libc" ];
 provides = [ "libxdp" "libxdp-any" ];
-sha256 = "4b91e46948a9b4488667dc1639e0910713c132e3e1dac1e1b578ede8e27977a7";
+sha256 = "cfa2c1f5b8df9e0a3061f30f2637e27bc7b2f947efa1cd1fe76d075a67528f12";
 };
 libxml2-16 = {
 version = "2.15.1-r1";
