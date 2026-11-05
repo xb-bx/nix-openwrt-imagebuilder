@@ -4,7 +4,7 @@ version = "23.1.0-r1";
 filename = "asterisk-23.1.0-r1.apk";
 depends = [ "jansson4" "libc" "libcap" "libedit" "libopenssl3" "libsqlite3-0" "libstdcpp6" "libuuid1" "libxml2-16" "zlib" ];
 provides = [ "asterisk-any" ];
-sha256 = "d2ff48692de47af93062ba702fbe07fa7ba095e995fa7ed3d587f872bb648e6b";
+sha256 = "0de1d7986557fb8f71bb71417ab8d9a6981976a9e14abc1857fb96a8cf4b2da8";
 };
 asterisk-app-adsiprog = {
 version = "23.1.0-r1";
@@ -1215,7 +1215,7 @@ version = "23.1.0-r1";
 filename = "asterisk-func-version-23.1.0-r1.apk";
 depends = [ "asterisk" "libc" ];
 provides = [ "asterisk-func-version-any" ];
-sha256 = "947f2fcf6de4db4dc6ba897980829ee42fd992918529780d04b08aba8a12df26";
+sha256 = "64958bf374b4603f2753fdebe1b28ae6f2ce663b8831d1a16d189f654571e176";
 };
 asterisk-func-vmcount = {
 version = "23.1.0-r1";
@@ -3665,7 +3665,7 @@ version = "1.10.20140304-r6";
 filename = "gsm-utils-1.10.20140304-r6.apk";
 depends = [ "gsmlib" "libc" ];
 provides = [ "gsm-utils-any" ];
-sha256 = "981f80fd5bbd03a0c5f79b1576c8068fd2bd8d9cb0097d62e1f0df93d6c2611d";
+sha256 = "88aea4ab361b1c4b0c999859d9c5cf3e79c8111bfbdce6882103cb1d9dae0e5c";
 };
 gsmlib = {
 version = "1.10.20140304-r6";
@@ -5359,21 +5359,21 @@ version = "2025.11.04~4909e7b7-r1";
 filename = "rtpproxy-2025.11.04~4909e7b7-r1.apk";
 depends = [ "libatomic1" "libc" "libpthread" "librt" "libsrtp2-1" ];
 provides = [ "rtpproxy-any" ];
-sha256 = "e9ea920317aa8deb4726911dec17bc2c234baae92ceadf0ad2fa9ae7accbb6f5";
+sha256 = "b54de6b3c9990a9f1cee46a6779bf7358290b4bbe324e3605b5873da70f89cc0";
 };
 rtpproxy-mod-acct-csv = {
 version = "2025.11.04~4909e7b7-r1";
 filename = "rtpproxy-mod-acct-csv-2025.11.04~4909e7b7-r1.apk";
 depends = [ "libc" "rtpproxy" ];
 provides = [ "rtpproxy-mod-acct-csv-any" ];
-sha256 = "0dd1ff12c6412540a0ecc3b2667a8dd4f400a919e3d4e76a172ba245da18d1d1";
+sha256 = "6725746a359a1c9ecb4b2488213361935eec9631b026288982d58a580606e445";
 };
 rtpproxy-mod-acct-rtcp-hep = {
 version = "2025.11.04~4909e7b7-r1";
 filename = "rtpproxy-mod-acct-rtcp-hep-2025.11.04~4909e7b7-r1.apk";
 depends = [ "libc" "rtpproxy" ];
 provides = [ "rtpproxy-mod-acct-rtcp-hep-any" ];
-sha256 = "79693810ade19d961d9b1efd6191107887410325eb83ce9fda3f7e0ff0523f20";
+sha256 = "07206a8e7ed707bab3fdadb0a4701367d239c4cb667fd66f8b84908af944688a";
 };
 rtpproxy-util-extractaudio = {
 version = "2025.11.04~4909e7b7-r1";
@@ -5415,7 +5415,7 @@ version = "2025.07.24~0bb5dd4a-r1";
 filename = "siproxd-2025.07.24~0bb5dd4a-r1.apk";
 depends = [ "libc" "libltdl7" "libosip2-15" "libpthread" ];
 provides = [ "siproxd-any" ];
-sha256 = "17cd5c761382f7823aa99ea7d970111bf9113b245d1814dc9ddd0cecdec62158";
+sha256 = "582ed5ed8eb2c583b45d8ebddb9694546398f5eee483dfb94b8ea998f9775393";
 };
 siproxd-mod-blacklist = {
 version = "2025.07.24~0bb5dd4a-r1";
