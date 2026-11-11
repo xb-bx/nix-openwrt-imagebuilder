@@ -158,21 +158,21 @@ version = "21.1-r7";
 filename = "cjdns-21.1-r7.apk";
 depends = [ "dkjson" "kmod-tun" "libc" "libnl-tiny1" "libpthread" "librt" "libuci-lua" "lua-bencode" "lua-sha2" "luasocket" ];
 provides = [ "cjdns-any" ];
-sha256 = "5131b0ca2b424997be37d3afc6cebfbe85dce953b9085ee6d48a3e125713737a";
+sha256 = "66052dc7ed62786d14b038f0597427fc1e05e0f35c2b3b4c4dd63c5299feca5a";
 };
 cjdns-tests = {
 version = "21.1-r7";
 filename = "cjdns-tests-21.1-r7.apk";
 depends = [ "libc" "libpthread" "librt" ];
 provides = [ "cjdns-tests-any" ];
-sha256 = "1e17fef185f60ad3547b8d09dd295f6667e617a7dfc534d9cf064de1ff86f2d5";
+sha256 = "ea4cc1556fa2bc1ff3476e37f46969cd24f69b48373115bca43416d31d27181f";
 };
 luci-app-cjdns = {
 version = "1.3-r9";
 filename = "luci-app-cjdns-1.3-r9.apk";
 depends = [ "cjdns" "libc" "luci-base" "luci-compat" ];
 provides = [ "luci-app-cjdns-any" ];
-sha256 = "61f2bf531c22b504b349bfa93c77ef2f6babb7784c586a05d364aaa5c055d697";
+sha256 = "6fdf70282a0bc135155d8908c2f4b342ac8f3b9561bf1088e39ac22a0b5e91ce";
 };
 mesh11sd = {
 version = "7.3.1-r1";
@@ -186,7 +186,7 @@ version = "1-r8";
 filename = "naywatch-1-r8.apk";
 depends = [ "libc" "owipcalc" ];
 provides = [ "naywatch-any" ];
-sha256 = "2d3be23503873a679dbf1c9125a50ab056eac5ec38bbd0452c554144b76479f4";
+sha256 = "63102762c5bbb614aab93c0f553e6142d24ee32445330d4257dad7260e2c3729";
 };
 ndppd = {
 version = "0.2.6-r1";
