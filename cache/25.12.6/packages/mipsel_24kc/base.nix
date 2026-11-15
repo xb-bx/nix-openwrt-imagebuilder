@@ -473,7 +473,7 @@ version = "2.45.1-r1";
 filename = "binutils-2.45.1-r1.apk";
 depends = [ "ar" "libc" "objdump" ];
 provides = [ "binutils-any" ];
-sha256 = "202fccf8eacfaf650fb8bcf63ef7931bc9cf6fa514d16cdb1df84be8836613a3";
+sha256 = "81883544fd8432a8db7b2600a00b43613ec04c28c18b5feb3c3f7d5ba6774775";
 };
 blkdiscard = {
 version = "2.41.5-r1";

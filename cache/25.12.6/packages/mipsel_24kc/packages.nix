@@ -165,7 +165,7 @@ version = "2.25-r5";
 filename = "alpine-2.25-r5.apk";
 depends = [ "libc" "libncurses6" "libopenssl3" "libpam" "libpthread" ];
 provides = [ "alpine-any" ];
-sha256 = "7c41edb6c4b16cfa2a0a460742e5431d5f8f64174bb6e6bcb900eff18581fc0d";
+sha256 = "1bec8549250b011bc37807baaf22f9cf4a0c60b45ed8aca66bd2111e55f8d39c";
 };
 alsa-lib = {
 version = "1.2.11-r1";
@@ -1698,14 +1698,14 @@ version = "7.6.0-r1";
 filename = "cligen-7.6.0-r1.apk";
 depends = [ "libc" "libxml2-16" ];
 provides = [ "cligen-any" ];
-sha256 = "fc9123ec61bf0a838751279deda3d03462290d0cbb8d16b58565980e516e9817";
+sha256 = "25085d14faac30c8b40c5fe9ef025644838cbf579a9c09b59f09550e36126487";
 };
 clixon = {
 version = "7.6.0-r1";
 filename = "clixon-7.6.0-r1.apk";
 depends = [ "cligen" "libc" "libcurl4" "libnghttp2-14" "libopenssl3" ];
 provides = [ "clixon-any" ];
-sha256 = "6aaf369b7ac0ea0f80c3e2d58bca4af180e39d063058285db9351124bb5ddb2b";
+sha256 = "664e1b695c0e7d7281c58dd1bf942d5dbe253f8ba82212d10b5659fe96c0834f";
 };
 clocate = {
 version = "2023.01.20~510cc944-r1";
@@ -3154,14 +3154,14 @@ version = "1.6.2-r1";
 filename = "crowdsec-1.6.2-r1.apk";
 depends = [ "libc" ];
 provides = [ "crowdsec-any" ];
-sha256 = "54d07571dd302459fc29cca24585a93a250ff87178028f20cff1f1bed305821a";
+sha256 = "a582b1495105a51b3efb2b0957b599b3a6d8ce48e52c28f1c601c18e73f87aed";
 };
 crowdsec-firewall-bouncer = {
 version = "0.0.34-r1";
 filename = "crowdsec-firewall-bouncer-0.0.34-r1.apk";
 depends = [ "libc" ];
 provides = [ "crowdsec-firewall-bouncer-any" ];
-sha256 = "b313f6d5190dee49c3f043fe0d0f4004668b799c45e8b7db3acab563d2021e35";
+sha256 = "fdc88ac97891a0c720dab1291a27e790fffa08402bef4fb7248ab45569af017c";
 };
 crun = {
 version = "1.17-r3";
@@ -4316,7 +4316,7 @@ version = "1.1.0-r2";
 filename = "fail2ban-1.1.0-r2.apk";
 depends = [ "libc" "nftables" "python3-ctypes" "python3-email" "python3-light" "python3-logging" "python3-pkg-resources" "python3-sqlite3" "python3-urllib" ];
 provides = [ "fail2ban-any" ];
-sha256 = "2130773071b4ee31d3b19d91e053282bf9d99ca041e4a3f29d4e4c59d2dcaeba";
+sha256 = "deadc115c838544c8894354806477ab370009e4408df33a3e00aac7ba8d2b7e0";
 };
 fail2ban-src = {
 version = "1.1.0-r2";
@@ -4330,7 +4330,7 @@ version = "2.6-r2";
 filename = "fakeidentd-2.6-r2.apk";
 depends = [ "libc" ];
 provides = [ "fakeidentd-any" ];
-sha256 = "97a060105977a939a25f792c050961c5b4de841fe07e4ccb04dee79727b5e878";
+sha256 = "3af2d0ed124d38fd22009aed5659e512d63b94b6182635556d159d61e67a3965";
 };
 fakepop = {
 version = "11-r2";
@@ -4561,7 +4561,7 @@ version = "3.2.10-r2";
 filename = "freeradius3-democerts-3.2.10-r2.apk";
 depends = [ "freeradius3" "libc" ];
 provides = [ "freeradius3-democerts-any" ];
-sha256 = "3e736ffa3d73b971fa556b9d964e01e799d56d3df94a1cf98447c93178de9c59";
+sha256 = "8a7f90eb141906a72bc680cded2b1d7424bb86a7557a248bdd19496ef252b172";
 };
 freeradius3-mod-always = {
 version = "3.2.10-r2";
@@ -10546,7 +10546,7 @@ version = "1.3.6-r2";
 filename = "libopen62541-1.3.6-r2.apk";
 depends = [ "libatomic1" "libc" "libpthread" "librt" "libstdcpp6" "zlib" ];
 provides = [ "libopen62541-any" ];
-sha256 = "a5a6d768a88b1f68fc1be3e052e12818fc0a62bbbf12221a64ef7469d274a8c8";
+sha256 = "3402f9682e611e55ad09a782168d2acd91190179df68d6ca88cac8727ec0faef";
 };
 libopendkim = {
 version = "2.10.3-r7";
@@ -17539,7 +17539,7 @@ version = "4.36-r1";
 filename = "nspr-4.36-r1.apk";
 depends = [ "libc" "libpthread" ];
 provides = [ "nspr-any" ];
-sha256 = "6e70ac79f11f51eddb546588c061f60afb247f9f686e6b3cbd308a713ba95bfe";
+sha256 = "610f26737e8a415ae89701762ff32953d18fb6c0aafc9413680b91fc25b164de";
 };
 nss-utils = {
 version = "3.112-r1";
@@ -21942,7 +21942,7 @@ version = "13.0.6-r2";
 filename = "prosody-13.0.6-r2.apk";
 depends = [ "libc" "libidn" "liblua5.4-5.4" "libopenssl3" "lua5.4" "luaexpat5.4" "luafilesystem5.4" "luasec5.4" "luasocket5.4" ];
 provides = [ "prosody-any" ];
-sha256 = "bd7189f5847d2504af1de96847956e3c0080e18dbe90d04a9d97857e49df1239";
+sha256 = "f6494f6bf1acd38c7d3e411e54699603658af08675decb7534ebf5afcd395b19";
 };
 proto-bonding = {
 version = "2021.04.09-r1";
@@ -22607,7 +22607,7 @@ version = "46.0.6-r1";
 filename = "python3-cryptography-46.0.6-r1.apk";
 depends = [ "libc" "libopenssl-legacy" "libopenssl3" "python3-cffi" "python3-email" "python3-light" "python3-urllib" ];
 provides = [ "python3-cryptography-any" ];
-sha256 = "f3ab2bef26e538a67b576a8cb6f0c8dddfc0de1a3f08ce901091571ad6c3e0aa";
+sha256 = "40bb62e3bf215c0780188060cf32f615dbe61553864826d710547300e89b15f9";
 };
 python3-cryptography-src = {
 version = "46.0.6-r1";
@@ -23111,7 +23111,7 @@ version = "1.8.0-r1";
 filename = "python3-frozenlist-1.8.0-r1.apk";
 depends = [ "libc" "libstdcpp6" "python3-light" ];
 provides = [ "python3-frozenlist-any" ];
-sha256 = "b273325893d68e47aa7a4e991bde5b792f30ff74f1173efa264286c23a817c4b";
+sha256 = "e4fd77d88472c8445ab6d1647bf110f2c4b34d065080e86ccd59c398dbb3772d";
 };
 python3-frozenlist-src = {
 version = "1.8.0-r1";
@@ -23685,7 +23685,7 @@ version = "3.10.12-r1";
 filename = "python3-orjson-3.10.12-r1.apk";
 depends = [ "libc" "python3-light" ];
 provides = [ "python3-orjson-any" ];
-sha256 = "44f8003fc311abe36f29fad368578a9eca486a1925ecf77d8568570ec6fb6358";
+sha256 = "1383691f35630261094e7dea1f410577831e867bc718763256ddaf0a640b1cae";
 };
 python3-orjson-src = {
 version = "3.10.12-r1";
@@ -25232,7 +25232,7 @@ version = "5130-r6";
 filename = "ripe-atlas-common-5130-r6.apk";
 depends = [ "libc" "libopenssl3" "openssh-client" "openssh-keygen" ];
 provides = [ "ripe-atlas-common-any" ];
-sha256 = "b5fbe11bcb38376336f53be84e1215448985cb9452a5a59e45cd0cf366cf3d9c";
+sha256 = "1f95974506566ad93a5dfea8014191e046679b0a86a201825a10cffde2e7859f";
 };
 ripe-atlas-probe = {
 version = "5130-r6";
@@ -25267,14 +25267,14 @@ version = "4.0-r2";
 filename = "rp-pppoe-common-4.0-r2.apk";
 depends = [ "libc" "ppp" ];
 provides = [ "rp-pppoe-common-any" ];
-sha256 = "0e1adc5715952367fab59d60844d4c2ba85605d8418de7ed2be59006cb2bcd27";
+sha256 = "1d337bdf9485b9e2ee446a97d59d0951bfb90302af3ab8b2b6c5c589a43b5126";
 };
 rp-pppoe-server = {
 version = "4.0-r2";
 filename = "rp-pppoe-server-4.0-r2.apk";
 depends = [ "libc" "ppp-mod-pppoe" "rp-pppoe-common" ];
 provides = [ "rp-pppoe-server-any" ];
-sha256 = "11194ad8236994e87859aade2b86dce1120581de19684177d40613126d589b1a";
+sha256 = "302ae10e772590db9b527a1da20e9ece5b1b65dc95a8bc634addfcb3de799fa1";
 };
 rpcbind = {
 version = "1.2.6-r2";
@@ -28655,7 +28655,7 @@ version = "1.9.17_p2-r1";
 filename = "sudo-1.9.17_p2-r1.apk";
 depends = [ "libc" ];
 provides = [ "sudo-any" ];
-sha256 = "c0ec75ec10d695b69925ca798ff71fd21fba5f2786c791a185531694274b2529";
+sha256 = "ed9b333836169cc09313808c3c35973a17a4be4b44e6c4e699c0ca79ef96634a";
 };
 sumo = {
 version = "1.23.1-r2";
@@ -28788,7 +28788,7 @@ version = "1.35-r1";
 filename = "tar-1.35-r1.apk";
 depends = [ "bzip2" "libacl" "libattr" "libc" "libzstd" "xz" ];
 provides = [ "tar-any" ];
-sha256 = "29bc93fcea8a2bb7b92602b65d3c4e78d7741b21fcf4f7042da0967cc0343dde";
+sha256 = "3a4eaca0160223a9124dee0da9ceaaf61c5a13a57b6cfdd19b2658e71e35ef8a";
 };
 taskwarrior = {
 version = "2.6.2-r1";
@@ -30069,7 +30069,7 @@ version = "2026.09.24~547f8bfa-r1";
 filename = "tvheadend-2026.09.24~547f8bfa-r1.apk";
 depends = [ "libc" "libffi" "libiconv-full2" "libopenssl3" "libpcre2" "librt" "zlib" ];
 provides = [ "tvheadend-any" ];
-sha256 = "d68babe7551c5844f386ebef5bbd3c26a0ecb26b0d9124327a19b8210d42d79a";
+sha256 = "283e644388b562973bf315ad14b8b4f692544597ee6c516ae458bdd1aee49e3d";
 };
 u2pnpd = {
 version = "0.5-r3";
@@ -30195,7 +30195,7 @@ version = "2025.09.23~7d9f3bee-r1";
 filename = "ufp-neigh-2025.09.23~7d9f3bee-r1.apk";
 depends = [ "libc" "ufp" ];
 provides = [ "ufp-neigh-any" ];
-sha256 = "0b2504e55c2d8d4884ee52fa052be0acc63cd76cb0999229615ff8b964613b8b";
+sha256 = "2e0b9d9af7dcdf9684473a19c8a73350b85fe2bae4802aff1b284e276532b978";
 };
 uhubctl = {
 version = "2.6.0-r1";
@@ -30860,7 +30860,7 @@ version = "2.23-r1";
 filename = "which-2.23-r1.apk";
 depends = [ "libc" ];
 provides = [ "which-any" ];
-sha256 = "3ceca6d574030582a44bf1acb7e713d8b51446bc825812d860c3096a6905699e";
+sha256 = "2d542dd05e185ac37e7f32801da866df3e6036b5a423128d8455923ff14b2959";
 };
 whiptail = {
 version = "0.52.24-r1";
@@ -31259,7 +31259,7 @@ version = "2.3.24-r6";
 filename = "zile-2.3.24-r6.apk";
 depends = [ "libc" "libncursesw6" ];
 provides = [ "zile-any" ];
-sha256 = "9251da4cdfa393afd1dc8c372b1d5e42f3cea0ab5df7c2ae434e0d3094af2fc3";
+sha256 = "84de738cce2bd48abc70454a38fe91088c855cc47f9bb5f6b6bd1c0899ec72dd";
 };
 zipcmp = {
 version = "1.11.4-r1";
