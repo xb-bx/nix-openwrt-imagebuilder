@@ -2741,7 +2741,7 @@ version = "1.6.3-r2";
 filename = "libxdp163-1.6.3-r2.apk";
 depends = [ "libbpf1" "libc" ];
 provides = [ "libxdp" "libxdp-any" ];
-sha256 = "cfa2c1f5b8df9e0a3061f30f2637e27bc7b2f947efa1cd1fe76d075a67528f12";
+sha256 = "4b91e46948a9b4488667dc1639e0910713c132e3e1dac1e1b578ede8e27977a7";
 };
 libxml2-16 = {
 version = "2.15.1-r1";
