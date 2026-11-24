@@ -56,46 +56,46 @@ provides = [ "batmand-any" ];
 sha256 = "4cde7c9e2a062027fc424784b0a1e60963e57329a295b15dfa2b94d903160d9d";
 };
 bird2 = {
-version = "2.19.2-r1";
-filename = "bird2-2.19.2-r1.apk";
+version = "2.19.3-r1";
+filename = "bird2-2.19.3-r1.apk";
 depends = [ "libc" "libpthread" ];
 provides = [ "bird2-any" ];
-sha256 = "d32a860f59edd55c1d2bd52a2ba26334a60cbcbdd006b105c05bc29121c312ff";
+sha256 = "3de2c3958c053f4b44977477d38c71486701eb10c292737d95b7d5db53170f64";
 };
 bird2c = {
-version = "2.19.2-r1";
-filename = "bird2c-2.19.2-r1.apk";
+version = "2.19.3-r1";
+filename = "bird2c-2.19.3-r1.apk";
 depends = [ "bird2" "libc" "libncurses6" "libreadline8" ];
 provides = [ "bird2c-any" ];
-sha256 = "742dd9a3d6b35a44c02d8eafe4f6ff7ac3bc6c169cf32e4c7225db0bd00a02c4";
+sha256 = "415aa9b6b048d9d247060b299221aa82fa3916700cd58450a34550e05af3fa98";
 };
 bird2cl = {
-version = "2.19.2-r1";
-filename = "bird2cl-2.19.2-r1.apk";
+version = "2.19.3-r1";
+filename = "bird2cl-2.19.3-r1.apk";
 depends = [ "bird2" "libc" ];
 provides = [ "bird2cl-any" ];
-sha256 = "231acd3fa90c2e9569d295fe12c7a8a21bd7113ec2c67e47b1bb6921731b6583";
+sha256 = "f20b9722031782ec7d5dc70a0a9f57dde04c5e1c5eb4881a1dddc4870ea6e534";
 };
 bird3 = {
-version = "3.3.2-r1";
-filename = "bird3-3.3.2-r1.apk";
+version = "3.3.3-r1";
+filename = "bird3-3.3.3-r1.apk";
 depends = [ "libatomic1" "libc" "libpthread" ];
 provides = [ "bird3-any" ];
-sha256 = "7adb59af8728d62691f1e6ad1cac0492550231c423f6ca6e41a3b9f84e13cf60";
+sha256 = "72cc4409c6013c711c52b5611b1f53595ee661a38016524a404fed3e142ecaa3";
 };
 bird3c = {
-version = "3.3.2-r1";
-filename = "bird3c-3.3.2-r1.apk";
+version = "3.3.3-r1";
+filename = "bird3c-3.3.3-r1.apk";
 depends = [ "bird3" "libc" "libncurses6" "libreadline8" ];
 provides = [ "bird3c-any" ];
-sha256 = "c7277e92415eb4fe1798defab27b2086bc24dc5cee2be9cd46e9134b0c2c236f";
+sha256 = "0f52385b668addc844a33b2e7390f15500364440896c13eea48144b8df74e732";
 };
 bird3cl = {
-version = "3.3.2-r1";
-filename = "bird3cl-3.3.2-r1.apk";
+version = "3.3.3-r1";
+filename = "bird3cl-3.3.3-r1.apk";
 depends = [ "bird3" "libc" ];
 provides = [ "bird3cl-any" ];
-sha256 = "045e79b29e121c893f4b6d3b4178f0693b3eee3a1ada1fccb35bc12835242dd2";
+sha256 = "9441a1bdd1194bf9edb515ff2d130aa619c9c77ed4ca65caccc78cfc010b0400";
 };
 bmx7 = {
 version = "2024.06.11-r2";
@@ -158,21 +158,21 @@ version = "21.1-r7";
 filename = "cjdns-21.1-r7.apk";
 depends = [ "dkjson" "kmod-tun" "libc" "libnl-tiny1" "libpthread" "librt" "libuci-lua" "lua-bencode" "lua-sha2" "luasocket" ];
 provides = [ "cjdns-any" ];
-sha256 = "0f45a810fcc6718531aa50076c7ac65be0d722d4ead4cdc3b32976b595b5ffc7";
+sha256 = "4691e49e9ad2008865623350f40da9f3c0aeabe08c09e9e46c2b2aa91df83079";
 };
 cjdns-tests = {
 version = "21.1-r7";
 filename = "cjdns-tests-21.1-r7.apk";
 depends = [ "libc" "libpthread" "librt" ];
 provides = [ "cjdns-tests-any" ];
-sha256 = "2d870df3cc9d64b002e5c68d9f9146f8a57038c59acb58c9c781e7768cdc28e2";
+sha256 = "ed5a281f67648901c7af7c93be33be7535ceb966724487db83dc280bc1554e67";
 };
 luci-app-cjdns = {
 version = "1.3-r9";
 filename = "luci-app-cjdns-1.3-r9.apk";
 depends = [ "cjdns" "libc" "luci-base" "luci-compat" ];
 provides = [ "luci-app-cjdns-any" ];
-sha256 = "97d815199b7633db5ed9f180fb6c82c72b1dfb1a373b768debaa475a85646578";
+sha256 = "4c7508fef976b296c2623c4e51ad299e482415e92e7f0620d8ec8c5ebb59cd91";
 };
 mesh11sd = {
 version = "7.3.1-r1";
@@ -186,7 +186,7 @@ version = "1-r8";
 filename = "naywatch-1-r8.apk";
 depends = [ "libc" "owipcalc" ];
 provides = [ "naywatch-any" ];
-sha256 = "962b7be3c5600e6d4d186dde1db59181cc05611bb80cd59cfa3af56dc5257859";
+sha256 = "e351f4b7229f7fd293df1df1a974b7fb31ad2618160e930fdfb492bea6e0afb7";
 };
 ndppd = {
 version = "0.2.6-r1";
@@ -214,7 +214,7 @@ version = "2024.06.09~d72be9ad-r3";
 filename = "olsrd-2024.06.09~d72be9ad-r3.apk";
 depends = [ "ip6tables" "iptables" "libc" "libpthread" "libubus20251202" ];
 provides = [ "olsrd-any" ];
-sha256 = "9b33cbeb1e85d8c8046ac7b8a680394592e78f16e0a9fcea79a627f6029a6dd7";
+sha256 = "7bc3b6f6565b59e26841100263a91576c6c537e570977e5f1d763c694088b844";
 };
 olsrd-mod-arprefresh = {
 version = "2024.06.09~d72be9ad-r3";

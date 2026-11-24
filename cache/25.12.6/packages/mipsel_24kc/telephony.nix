@@ -4,7 +4,7 @@ version = "23.1.0-r1";
 filename = "asterisk-23.1.0-r1.apk";
 depends = [ "jansson4" "libc" "libcap" "libedit" "libopenssl3" "libsqlite3-0" "libstdcpp6" "libuuid1" "libxml2-16" "zlib" ];
 provides = [ "asterisk-any" ];
-sha256 = "a12ca73da7ef1a629a89d1a9d5cf78a5f571366f2ace5a4331631ab718a55c89";
+sha256 = "4f480d37918e7e50ac44ca1d880e64ff256756083cd4f43f5f1543bfa38cce68";
 };
 asterisk-app-adsiprog = {
 version = "23.1.0-r1";
@@ -1215,7 +1215,7 @@ version = "23.1.0-r1";
 filename = "asterisk-func-version-23.1.0-r1.apk";
 depends = [ "asterisk" "libc" ];
 provides = [ "asterisk-func-version-any" ];
-sha256 = "aa6d11866678adddddbfe7fa0b68c8f038ceab2345f2c3a3db51587a23544dc2";
+sha256 = "14d5764490c70a8015d125a621566c59f87fc49cdaca656609cbea59c91a8ff3";
 };
 asterisk-func-vmcount = {
 version = "23.1.0-r1";
@@ -3665,7 +3665,7 @@ version = "1.10.20140304-r6";
 filename = "gsm-utils-1.10.20140304-r6.apk";
 depends = [ "gsmlib" "libc" ];
 provides = [ "gsm-utils-any" ];
-sha256 = "ee96dde45eb87d6f56b26fed9173034b09771a549f129ce7b82f974c514fd419";
+sha256 = "7feb2afb2108e34d49da7c82d41cb0bed9f6f62fd0d5891b5f5712e411adc8e1";
 };
 gsmlib = {
 version = "1.10.20140304-r6";
@@ -5338,42 +5338,42 @@ version = "11.5.1.49-r1";
 filename = "rtpengine-11.5.1.49-r1.apk";
 depends = [ "bcg729" "glib2" "json-glib0" "libc" "libevent2-7" "libevent2-pthreads7" "libffmpeg-full" "libhiredis" "libip4tc2" "libip6tc2" "libmariadb3" "libmosquitto" "libopenssl3" "libopus" "libpcap1" "libpcre2" "libspandsp3-3" "libwebsockets-openssl" "xmlrpc-c" "xmlrpc-c-client" "zlib" ];
 provides = [ "rtpengine-any" ];
-sha256 = "0f2dcc39448a5de4504d77e54b2987ebc41b3730b6cd5ee95cec95d7e1510dfe";
+sha256 = "30a21dc9469704b9a4835742050652df1ebcb59134d6d95b074b218e8472b3f6";
 };
 rtpengine-no-transcode = {
 version = "11.5.1.49-r1";
 filename = "rtpengine-no-transcode-11.5.1.49-r1.apk";
 depends = [ "glib2" "json-glib0" "libc" "libevent2-7" "libevent2-pthreads7" "libhiredis" "libip4tc2" "libip6tc2" "libmosquitto" "libopenssl3" "libopus" "libpcap1" "libpcre2" "libwebsockets-openssl" "xmlrpc-c" "xmlrpc-c-client" "zlib" ];
 provides = [ "rtpengine-no-transcode-any" ];
-sha256 = "d6f3b0831a38b32d4eb9fad88b63786f798cda01bbf5fb11d7c623b865381ce6";
+sha256 = "499f64bd91cd76bb17dd7e482021d319a27306b547e03c5058403751c3cf0b49";
 };
 rtpengine-recording = {
 version = "11.5.1.49-r1";
 filename = "rtpengine-recording-11.5.1.49-r1.apk";
 depends = [ "bcg729" "glib2" "libc" "libcurl4" "libffmpeg-full" "libmariadb3" "libopenssl3" ];
 provides = [ "rtpengine-recording-any" ];
-sha256 = "f87a5de8e9d1750063c6faf26a37d590bf962a4e0ca9b6318e630d20270faa7a";
+sha256 = "30a62d63edad76d2ceea4cc8fb5e24575497b7e77948d027271e211406672f99";
 };
 rtpproxy = {
 version = "2025.11.04~4909e7b7-r1";
 filename = "rtpproxy-2025.11.04~4909e7b7-r1.apk";
 depends = [ "libatomic1" "libc" "libpthread" "librt" "libsrtp2-1" ];
 provides = [ "rtpproxy-any" ];
-sha256 = "af8e42498113524f454bc67c0603ef0462a8177cb6b6269a3562c5defafbbb3e";
+sha256 = "f30a645bb404f9cc190a6800d38a176d607bcc8929bcc43965620614b9821793";
 };
 rtpproxy-mod-acct-csv = {
 version = "2025.11.04~4909e7b7-r1";
 filename = "rtpproxy-mod-acct-csv-2025.11.04~4909e7b7-r1.apk";
 depends = [ "libc" "rtpproxy" ];
 provides = [ "rtpproxy-mod-acct-csv-any" ];
-sha256 = "5ae9469037300930160499cb872cf21e9531475cf2d9b5dad8b6d75f03156cd1";
+sha256 = "2db989783d65e5e4d585f139d2c505d07360cc585f5451f70102c92944b4d596";
 };
 rtpproxy-mod-acct-rtcp-hep = {
 version = "2025.11.04~4909e7b7-r1";
 filename = "rtpproxy-mod-acct-rtcp-hep-2025.11.04~4909e7b7-r1.apk";
 depends = [ "libc" "rtpproxy" ];
 provides = [ "rtpproxy-mod-acct-rtcp-hep-any" ];
-sha256 = "6fd7e1979d8dee0b5caceaa253f09f4bc21eebb45bf20ebf8512d4c3af83da38";
+sha256 = "c45c5d301436e0dc72a298e68aa69350d361381d70dd7004c57ed61f1e69dce0";
 };
 rtpproxy-util-extractaudio = {
 version = "2025.11.04~4909e7b7-r1";
@@ -5415,7 +5415,7 @@ version = "2025.07.24~0bb5dd4a-r1";
 filename = "siproxd-2025.07.24~0bb5dd4a-r1.apk";
 depends = [ "libc" "libltdl7" "libosip2-15" "libpthread" ];
 provides = [ "siproxd-any" ];
-sha256 = "7991e242427fb88b02fbfa1e69cb7498752ace54f830fd4b40233a86a5edd597";
+sha256 = "001e3f3fe490d73084378dfc262afefc55e0be23a03abce3fe942e77ff5f430d";
 };
 siproxd-mod-blacklist = {
 version = "2025.07.24~0bb5dd4a-r1";
